@@ -1,0 +1,167 @@
+#show_version=6
+##! show: attract_loop_show
+
+    - time: "+1"
+      slides:
+          show_final_scores:
+              widgets:
+              - type: Text
+                text: FINAL SCORES
+                font_size: 80
+                bold: true
+                anchor_x: center
+                anchor_y: center
+                x: center
+                y: top-100
+              - type: Text
+                text: PLAYER 1
+                style: attract_mode_final_score_display_player_number
+                y: top-250
+              - type: Text
+                text: PLAYER 2
+                style: attract_mode_final_score_display_player_number
+                y: top-320
+              - type: Text
+                text: PLAYER 3
+                style: attract_mode_final_score_display_player_number
+                y: top-390
+              - type: Text
+                text: PLAYER 4
+                style: attract_mode_final_score_display_player_number
+                y: top-460
+              - type: Text
+                text: (machine|player1_score)
+                style: attract_mode_final_score_display_score
+                y: top-250
+              - type: Text
+                text: (machine|player2_score)
+                style: attract_mode_final_score_display_score
+                y: top-320
+              - type: Text
+                text: (machine|player3_score)
+                style: attract_mode_final_score_display_score
+                y: top-390
+              - type: Text
+                text: (machine|player4_score)
+                style: attract_mode_final_score_display_score
+                y: top-460
+    - time: "+10"
+      slides:
+          show_high_scores:
+              widgets:
+              - type: Text
+                text: HIGH SCORES
+                font_size: 80
+                bold: true
+                anchor_x: center
+                anchor_y: center
+                x: center
+                y: top-100
+              - type: Text
+                text: (machine|score1_label)
+                style: attract_mode_high_score_display_label
+                y: top-250
+              - type: Text
+                text: (machine|score1_name)
+                style: attract_mode_high_score_display_name
+                y: top-250
+              - type: Text
+                text: (machine|score1_value)
+                style: attract_mode_high_score_display_score
+                y: top-250
+              - type: Text
+                text: (machine|score2_label)
+                style: attract_mode_high_score_display_label
+                y: top-330
+              - type: Text
+                text: (machine|score2_name)
+                style: attract_mode_high_score_display_name
+                y: top-330
+              - type: Text
+                text: (machine|score2_value)
+                style: attract_mode_high_score_display_score
+                y: top-330
+              - type: Text
+                text: (machine|score3_label)
+                style: attract_mode_high_score_display_label
+                y: top-380
+              - type: Text
+                text: (machine|score3_name)
+                style: attract_mode_high_score_display_name
+                y: top-380
+              - type: Text
+                text: (machine|score3_value)
+                style: attract_mode_high_score_display_score
+                y: top-380
+              - type: Text
+                text: (machine|score4_label)
+                style: attract_mode_high_score_display_label
+                y: top-430
+              - type: Text
+                text: (machine|score4_name)
+                style: attract_mode_high_score_display_name
+                y: top-430
+              - type: Text
+                text: (machine|score4_value)
+                style: attract_mode_high_score_display_score
+                y: top-430
+              - type: Text
+                text: (machine|score5_label)
+                style: attract_mode_high_score_display_label
+                y: top-480
+              - type: Text
+                text: (machine|score5_name)
+                style: attract_mode_high_score_display_name
+                y: top-480
+              - type: Text
+                text: (machine|score5_value)
+                style: attract_mode_high_score_display_score
+                y: top-480
+              - type: Text
+                text: (machine|score6_label)
+                style: attract_mode_high_score_display_label
+                y: top-530
+              - type: Text
+                text: (machine|score6_name)
+                style: attract_mode_high_score_display_name
+                y: top-530
+              - type: Text
+                text: (machine|score6_value)
+                style: attract_mode_high_score_display_score
+                y: top-530
+              - type: Text
+                text: (machine|score7_label)
+                style: attract_mode_high_score_display_label
+                y: top-580
+              - type: Text
+                text: (machine|score7_name)
+                style: attract_mode_high_score_display_name
+                y: top-580
+              - type: Text
+                text: (machine|score7_value)
+                style: attract_mode_high_score_display_score
+                y: top-580
+              - type: Text
+                text: (machine|score8_label)
+                style: attract_mode_high_score_display_label
+                y: top-630
+              - type: Text
+                text: (machine|score8_name)
+                style: attract_mode_high_score_display_name
+                y: top-630
+              - type: Text
+                text: (machine|score8_value)
+                style: attract_mode_high_score_display_score
+                y: top-630
+              - type: Text
+                text: (machine|score9_label)
+                style: attract_mode_high_score_display_label
+                y: top-680
+              - type: Text
+                text: (machine|score9_name)
+                style: attract_mode_high_score_display_name
+                y: top-680
+              - type: Text
+                text: (machine|score9_value)
+                style: attract_mode_high_score_display_score
+                y: top-680

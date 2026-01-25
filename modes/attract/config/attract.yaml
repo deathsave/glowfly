@@ -1,0 +1,10 @@
+#config_version=6
+
+show_player:
+    mode_attract_started:
+        attract_loop_show:
+            priority: 300
+            loops: -1
+    mode_attract_stopping:
+        attract_loop_show:
+            action: stop 
