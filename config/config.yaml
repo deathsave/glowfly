@@ -9,89 +9,276 @@ keyboard:
     s:
         event: #start game
 
+hardware:
+    platform: fast
+
+fast:
+  net:
+    controller: neuron
+    io_loop:
+      cabinet_board:
+        model: FP-I/O-0024
+        order: 1
+      1616:
+        model: FP-I/O-1616
+        order: 2
+    port: auto
+    baud: 921600
+    debug: false
+    watchdog: 1s
+    default_quick_debounce_open: 2ms
+    default_quick_debounce_close: 2ms
+    default_normal_debounce_open: 4ms
+    default_normal_debounce_close: 4ms
+  exp:
+    boards:
+      neuron:
+        model: FP-EXP-2000
+  #    playfield:
+  #      model: FP-EXP-0081
+
 light_settings:
     default_fade_ms: 40
 
 lights:
   #CHANGE THIS
-    shoot_again:
-        number: 1-0-1-2
-        platform_settings:
-            polarity: false
-        tags: lamps, gi
-
+#    l_left_lane1:
+#        number: playfield-2-5
+#        tags: lamps, gi, lanes
+#    l_left_lane2:
+#        number: playfield-2-6
+#        tags: lamps, gi, lanes
+#    l_left_lane_block1:
+#        number: playfield-2-7
+#        tags: lamps, blocks, lanes
+#    l_left_sling1:
+#        number:
+#        tags: lamps, gi, slings
+#    l_left_sling2:
+#        number:
+#        tags: lamps, gi, slings
+#    l_right_lane1:
+#        number:
+#        tags: lamps, gi, lanes
+#    l_right_lane2:
+#        number:
+#        tags: lamps, gi, lanes
+#    l_right_lane_block1:
+#        number:
+#        tags: lamps, blocks, lanes
+#    l_right_sling1:
+#        number:
+#        tags: lamps, gi, slings
+#    l_right_sling2:
+#        number:
+#        tags: lamps, gi, slings
+#    l_apron1:
+#        number:
+#        tags: lamps, apron
+#    l_center_block1:
+#        number:
+#        tags: lamps, blocks, center_block
+#    l_upper_left_block1:
+#        number:
+#        tags: lamps, blocks, upper_left_block
+#    l_upper_right_block1:
+#        number:
+#        tags: lamps, blocks, upper_right_block
+    l_l_cab1:
+        number: neuron-1-1
+        tags: l_cab, cabinet
+    l_l_cab2:
+        number: neuron-1-2
+        tags: l_cab, cabinet
+    l_l_cab3:
+        number: neuron-1-3
+        tags: l_cab, cabinet
+    l_l_cab4:
+        number: neuron-1-4
+        tags: l_cab, cabinet
+    l_l_cab5:
+        number: neuron-1-5
+        tags: l_cab, cabinet
+    l_l_cab6:
+        number: neuron-1-6
+        tags: l_cab, cabinet
+    l_l_cab7:
+        number: neuron-1-7
+        tags: l_cab, cabinet
+    l_l_cab8:
+        number: neuron-1-8
+        tags: l_cab, cabinet
+    l_l_cab9:
+        number: neuron-1-9
+        tags: l_cab, cabinet
+    l_l_cab10:
+        number: neuron-1-10
+        tags: l_cab, cabinet
+    l_l_cab11:
+        number: neuron-1-11
+        tags: l_cab, cabinet
+    l_l_cab12:
+        number: neuron-1-12
+        tags: l_cab, cabinet
+    l_l_cab13:
+        number: neuron-1-13
+        tags: l_cab, cabinet
+    l_l_cab14:
+        number: neuron-1-14
+        tags: l_cab, cabinet
+    l_l_cab15:
+        number: neuron-1-15
+        tags: l_cab, cabinet
+    l_l_cab16:
+        number: neuron-1-16
+        tags: l_cab, cabinet
+    l_l_cab17:
+        number: neuron-1-17
+        tags: l_cab, cabinet
+    l_l_cab18:
+        number: neuron-1-18
+        tags: l_cab, cabinet
+    l_l_cab19:
+        number: neuron-1-19
+        tags: l_cab, cabinet
+    l_l_cab20:
+        number: neuron-1-20
+        tags: l_cab, cabinet
+    l_r_cab1:
+        number: neuron-2-1
+        tags: r_cab, cabinet
+    l_r_cab2:
+        number: neuron-2-2
+        tags: r_cab, cabinet
+    l_r_cab3:
+        number: neuron-2-3
+        tags: r_cab, cabinet
+    l_r_cab4:
+        number: neuron-2-4
+        tags: r_cab, cabinet
+    l_r_cab5:
+        number: neuron-2-5
+        tags: r_cab, cabinet
+    l_r_cab6:
+        number: neuron-2-6
+        tags: r_cab, cabinet
+    l_r_cab7:
+        number: neuron-2-7
+        tags: r_cab, cabinet
+    l_r_cab8:
+        number: neuron-2-8
+        tags: r_cab, cabinet
+    l_r_cab9:
+        number: neuron-2-9
+        tags: r_cab, cabinet
+    l_r_cab10:
+        number: neuron-2-10
+        tags: r_cab, cabinet
+    l_r_cab11:
+        number: neuron-2-11
+        tags: r_cab, cabinet
+    l_r_cab12:
+        number: neuron-2-12
+        tags: r_cab, cabinet
+    l_r_cab13:
+        number: neuron-2-13
+        tags: r_cab, cabinet
+    l_r_cab14:
+        number: neuron-2-14
+        tags: r_cab, cabinet
+    l_r_cab15:
+        number: neuron-2-15
+        tags: r_cab, cabinet
+    l_r_cab16:
+        number: neuron-2-16
+        tags: r_cab, cabinet
+    l_r_cab17:
+        number: neuron-2-17
+        tags: r_cab, cabinet
+    l_r_cab18:
+        number: neuron-2-18
+        tags: r_cab, cabinet
+    l_r_cab19:
+        number: neuron-2-19
+        tags: r_cab, cabinet
+    l_r_cab20:
+        number: neuron-2-20
+        tags: r_cab, cabinet
 
 switches:
     s_left_flipper:
-        number: A2-B0-6
+        number: cabinet_board-15
         tags: left_flipper
     s_right_flipper:
-        number: A2-B0-5
+        number: cabinet_board-14
         tags: right_flipper
     s_trough_jam:
-        number: A1-B1-7
+        number: cabinet_board-1
         type: NC
     s_trough1:
-        number: A1-B1-6
+        number: cabinet_board-2
         type: NC
     s_trough2:
-        number: A0-B0-2
+        number: cabinet_board-3
         type: NC
     s_trough3:
-        number: A0-B0-0
+        number: cabinet_board-4
         type: NC
     s_shooter_lane:
-        number: A0-B0-1
+        number: cabinet_board-5
     s_start:
-        number: A2-B0-7
+        number: cabinet_board-23
         tags: start
     s_r_outlane:
-        number: A0-B0-4
+        number: 1616-1
         tags: playfield_active
     s_left_outlane:
-        number: A0-B1-0
+        number: 1616-2
         tags: playfield_active
     s_left_inlane:
-        number: A0-B1-1
+        number: 1616-3
         tags: playfield_active
     s_right_inlane:
-        number: A0-B1-5
+        number: 1616-4
         tags: playfield_active
-    s_pop_bumper:
-        number: A0-B0-6
     s_left_sling:
-        number: A0-B1-2
+        number: 1616-5
     s_right_sling:
-        number: A0-B1-3
+        number: 1616-6
+    s_left_lock:
+        number: 1616-7 #ADD_ME
 
 coils:
     c_flipper_left_main:
-        number: A0-B0-6
-        default_pulse_ms: 22
+        number: 1616-0
+        default_pulse_ms: 20
     c_flipper_left_hold:
-        number: A0-B0-7
+        number: 1616-1
         allow_enable: true
     c_flipper_right_main:
-        number: A0-B1-6
-        default_pulse_ms: 22
+        number: 1616-2
+        default_pulse_ms: 20
     c_flipper_right_hold:
-        number: A0-B1-7
+        number: 1616-3
         allow_enable: true
     c_plunger:
-        number: A1-B0-7
+        number: 1616-7
         default_pulse_ms: 18
     c_trough_eject:
-        number: A1-B0-6
+        number: 1616-6
         default_pulse_ms: 12
     c_sling_left:
-        number: A1-B0-3
+        number: 1616-4
         default_pulse_ms: 8
     c_sling_right:
-        number: A1-B0-4
+        number: 1616-5
         default_pulse_ms: 8
-    c_pop_bumper:
-        number: A1-B0-2
-        default_pulse_ms: 20
+    c_gate:
+        number: 1616-8
+        default_pulse_ms: 8
+    c_lock_launcher:
+        number: 1616-9
+        default_pulse_ms: 25
 
 ball_devices:
     bd_trough:
@@ -108,7 +295,21 @@ ball_devices:
         eject_coil: c_plunger
         mechanical_eject: true
         eject_timeouts: 3s
+    bd_left_lock:
+        ball_switches: s_left_lock
+        eject_coil: c_lock_launcher
+        eject_timeouts: 3s
+        tags: lock, launcher
 
+diverters:
+    left_lock_gate:
+        activation_coil: c_gate
+        type: hold
+        activation_time: 3s
+        enable_events: ball_started, s_left_lock_inactive
+        disable_events: ball_ended, s_left_lock_active
+        targets_when_active: bd_left_lock
+        targets_when_inactive: playfield
 autofire_coils:
     ac_slingshot_left:
         coil: c_sling_left
@@ -116,9 +317,6 @@ autofire_coils:
     ac_slingshot_right:
         coil: c_sling_right
         switch: s_right_sling
-    ac_pop_bumper:
-        coil: c_pop_bumper
-        switch: s_pop_bumper
 
 playfields:
     playfield:
