@@ -34,56 +34,130 @@ fast:
     boards:
       neuron:
         model: FP-EXP-2000
-  #    playfield:
-  #      model: FP-EXP-0081
+      playfield:
+        model: FP-EXP-0081
 
 light_settings:
     default_fade_ms: 40
 
 lights:
-  #CHANGE THIS
-#    l_left_lane1:
-#        number: playfield-2-5
-#        tags: lamps, gi, lanes
-#    l_left_lane2:
-#        number: playfield-2-6
-#        tags: lamps, gi, lanes
-#    l_left_lane_block1:
-#        number: playfield-2-7
-#        tags: lamps, blocks, lanes
-#    l_left_sling1:
-#        number:
-#        tags: lamps, gi, slings
-#    l_left_sling2:
-#        number:
-#        tags: lamps, gi, slings
-#    l_right_lane1:
-#        number:
-#        tags: lamps, gi, lanes
-#    l_right_lane2:
-#        number:
-#        tags: lamps, gi, lanes
-#    l_right_lane_block1:
-#        number:
-#        tags: lamps, blocks, lanes
-#    l_right_sling1:
-#        number:
-#        tags: lamps, gi, slings
-#    l_right_sling2:
-#        number:
-#        tags: lamps, gi, slings
-#    l_apron1:
-#        number:
-#        tags: lamps, apron
-#    l_center_block1:
-#        number:
-#        tags: lamps, blocks, center_block
-#    l_upper_left_block1:
-#        number:
-#        tags: lamps, blocks, upper_left_block
-#    l_upper_right_block1:
-#        number:
-#        tags: lamps, blocks, upper_right_block
+    l_left_sling1:
+        number: playfield-2-1
+        tags: lamps, gi, slings
+    l_left_sling2:
+        number: playfield-2-2
+        tags: lamps, gi, slings
+    l_left_lane1:
+        number: playfield-2-3
+        tags: lamps, gi, lanes
+    l_left_lane2:
+        number: playfield-2-4
+        tags: lamps, gi, lanes
+    l_left_lane_block1:
+        number: playfield-2-5
+        tags: lamps, blocks, lanes
+    l_left_lane_block2:
+        number: playfield-2-6
+        tags: lamps, blocks, lanes
+    l_left_lane_block3:
+        number: playfield-2-7
+        tags: lamps, blocks, lanes
+    l_left_lane_block4:
+        number: playfield-2-8
+        tags: lamps, blocks, lanes
+    l_left_lane_block5:
+        number: playfield-2-9
+        tags: lamps, blocks, lanes
+    l_left_lane_block6:
+        number: playfield-2-10
+        tags: lamps, blocks, lanes
+    l_left_lane_block7:
+        number: playfield-2-11
+        tags: lamps, blocks, lanes
+    l_left_lane_block8:
+        number: playfield-2-12
+        tags: lamps, blocks, lanes
+    l_left_lane_block9:
+        number: playfield-2-13
+        tags: lamps, blocks, lanes
+    l_left_lane_block10:
+        number: playfield-2-14
+        tags: lamps, blocks, lanes
+    l_left_lane_block11:
+        number: playfield-2-15
+        tags: lamps, blocks, lanes
+    l_left_lane_block12:
+        number: playfield-2-16
+        tags: lamps, blocks, lanes
+#right lower
+    l_right_sling1:
+        number: playfield-3-1
+        tags: lamps, gi, slings
+    l_right_sling2:
+        number: playfield-3-2
+        tags: lamps, gi, slings
+    l_right_lane1:
+        number: playfield-3-3
+        tags: lamps, gi, lanes
+    l_right_lane2:
+        number: playfield-3-4
+        tags: lamps, gi, lanes
+    l_right_lane_block1:
+        number: playfield-3-5
+        tags: lamps, blocks, lanes
+    l_right_lane_block2:
+        number: playfield-3-6
+        tags: lamps, blocks, lanes
+    l_right_lane_block3:
+        number: playfield-3-7
+        tags: lamps, blocks, lanes
+    l_right_lane_block4:
+        number: playfield-3-8
+        tags: lamps, blocks, lanes
+    l_right_lane_block5:
+        number: playfield-3-9
+        tags: lamps, blocks, lanes
+    l_right_lane_block6:
+        number: playfield-3-10
+        tags: lamps, blocks, lanes
+    l_right_lane_block7:
+        number: playfield-3-11
+        tags: lamps, blocks, lanes
+    l_right_lane_block8:
+        number: playfield-3-12
+        tags: lamps, blocks, lanes
+    l_right_lane_block9:
+        number: playfield-3-13
+        tags: lamps, blocks, lanes
+    l_right_lane_block10:
+        number: playfield-3-14
+        tags: lamps, blocks, lanes
+    l_right_lane_block11:
+        number: playfield-3-15
+        tags: lamps, blocks, lanes
+    l_right_lane_block12:
+        number: playfield-3-16
+        tags: lamps, blocks, lanes
+#apron lights
+    l_apron1:
+        number: playfield-1-1
+        tags: lamps, apron
+    l_apron2:
+        number: playfield-1-2
+        tags: lamps, apron
+#other light blocks 
+    l_upper_center_block1:
+        number: playfield-6-1
+        tags: lamps, blocks, upper_center_block
+    l_upper_left_block1:
+        number: playfield-5-1
+        tags: lamps, blocks, upper_left_block
+    l_upper_right_block1:
+        number: playfield-7-1
+        tags: lamps, blocks, upper_right_block
+    l_loop_core1:
+        number: playfield-8-1
+        tags: lamps, blocks, loop_core
     l_l_cab1:
         number: neuron-1-1
         tags: l_cab, cabinet
