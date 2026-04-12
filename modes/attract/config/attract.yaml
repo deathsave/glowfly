@@ -2,9 +2,18 @@
 
 show_player:
     mode_attract_started:
+        glass_wave_reveal_show:
+            priority: 200
+            loops: -1
         attract_loop_show:
             priority: 300
             loops: -1
     mode_attract_stopping:
         attract_loop_show:
-            action: stop 
+            action: stop
+
+slides:
+    dspc_logo_slide:
+        widgets:
+            type: video
+            video: dspc_animation

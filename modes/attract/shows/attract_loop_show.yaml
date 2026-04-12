@@ -1,7 +1,11 @@
 #show_version=6
 ##! show: attract_loop_show
 
-    - time: "+1"
+    - time: "+10"
+      slides:
+          dspc_logo_slide:
+              target: window
+    - time: "+10"
       slides:
           show_final_scores:
               widgets:

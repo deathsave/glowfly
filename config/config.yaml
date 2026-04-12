@@ -145,7 +145,7 @@ lights:
     l_apron2:
         number: playfield-1-2
         tags: lamps, apron
-#other light blocks 
+#other light blocks
     l_upper_center_block1:
         number: playfield-6-1
         tags: lamps, blocks, upper_center_block
@@ -158,6 +158,7 @@ lights:
     l_loop_core1:
         number: playfield-8-1
         tags: lamps, blocks, loop_core
+#cabinet side lights 
     l_l_cab1:
         number: neuron-1-1
         tags: l_cab, cabinet
@@ -320,7 +321,7 @@ switches:
     s_right_sling:
         number: 1616-6
     s_left_lock:
-        number: 1616-7 #ADD_ME
+        number: 1616-7
 
 coils:
     c_flipper_left_main:
@@ -350,6 +351,7 @@ coils:
     c_gate:
         number: 1616-8
         default_pulse_ms: 8
+        default_hold_power: .625
     c_lock_launcher:
         number: 1616-9
         default_pulse_ms: 25
