@@ -22,6 +22,9 @@ fast:
       1616:
         model: FP-I/O-1616
         order: 2
+      0824:
+        mode: FP-I/O-3208
+        order: 3
     port: auto
     baud: 921600
     debug: false
@@ -34,13 +37,16 @@ fast:
     boards:
       neuron:
         model: FP-EXP-2000
+        led_fade_time: 96ms
       playfield:
         model: FP-EXP-0081
-
-light_settings:
-    default_fade_ms: 40
+        led_fade_time: 96ms
+    port: auto
+    baud: 921600
+    debug: False
 
 lights:
+#left lower
     l_left_sling1:
         number: playfield-2-1
         tags: lamps, gi, slings
@@ -145,20 +151,134 @@ lights:
     l_apron2:
         number: playfield-1-2
         tags: lamps, apron
-#other light blocks
-    l_upper_center_block1:
+#upper curve
+    l_upper_curve_core1:
         number: playfield-6-1
-        tags: lamps, blocks, upper_center_block
-    l_upper_left_block1:
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve_core2:
+        number: playfield-6-2
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve_core3:
+        number: playfield-6-3
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve_core4:
+        number: playfield-6-4
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve_core5:
+        number: playfield-6-5
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve1:
+        number: playfield-6-6
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve2:
+        number: playfield-6-7
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve3:
+        number: playfield-6-8
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve4:
+        number: playfield-6-9
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve5:
+        number: playfield-6-10
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve6:
+        number: playfield-6-11
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve7:
+        number: playfield-6-12
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve8:
+        number: playfield-6-13
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve9:
+        number: playfield-6-14
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve10:
+        number: playfield-6-15
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve11:
+        number: playfield-6-16
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve12:
+        number: playfield-6-17
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve13:
+        number: playfield-6-18
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve14:
+        number: playfield-6-19
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve15:
+        number: playfield-6-20
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve16:
+        number: playfield-6-21
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve17:
+        number: playfield-6-22
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve18:
+        number: playfield-6-23
+        tags: lamps, blocks, upper_curve_block
+    l_upper_curve19:
+        number: playfield-6-24
+        tags: lamps, blocks, upper_curve_block
+#upper left wedge
+    l_upper_left_wedge1:
         number: playfield-5-1
         tags: lamps, blocks, upper_left_block
-    l_upper_right_block1:
+    l_upper_left_wedge2:
+        number: playfield-5-2
+        tags: lamps, blocks, upper_left_block
+    l_upper_left_wedge3:
+        number: playfield-5-3
+        tags: lamps, blocks, upper_left_block
+    l_upper_left_wedge4:
+        number: playfield-5-4
+        tags: lamps, blocks, upper_left_block
+    l_upper_left_wedge5:
+        number: playfield-5-5
+        tags: lamps, blocks, upper_left_block
+#upper right wedge
+    l_upper_right_wedge1:
         number: playfield-7-1
         tags: lamps, blocks, upper_right_block
+    l_upper_right_wedge2:
+        number: playfield-7-2
+        tags: lamps, blocks, upper_right_block
+#loop core
     l_loop_core1:
         number: playfield-8-1
         tags: lamps, blocks, loop_core
-#cabinet side lights 
+    l_loop_core2:
+        number: playfield-8-2
+        tags: lamps, blocks, loop_core
+    l_loop_core3:
+        number: playfield-8-3
+        tags: lamps, blocks, loop_core
+    l_loop_core4:
+        number: playfield-8-4
+        tags: lamps, blocks, loop_core
+    l_loop_core5:
+        number: playfield-8-5
+        tags: lamps, blocks, loop_core
+    l_loop_core6:
+        number: playfield-8-6
+        tags: lamps, blocks, loop_core
+    l_loop_core7:
+        number: playfield-8-7
+        tags: lamps, blocks, loop_core
+    l_loop_core8:
+        number: playfield-8-8
+        tags: lamps, blocks, loop_core
+    l_loop_core9:
+        number: playfield-8-9
+        tags: lamps, blocks, loop_core
+    l_loop_core10:
+        number: playfield-8-10
+        tags: lamps, blocks, loop_core   
+#cabinet side lights
     l_l_cab1:
         number: neuron-1-1
         tags: l_cab, cabinet
@@ -288,40 +408,90 @@ switches:
         number: cabinet_board-14
         tags: right_flipper
     s_trough_jam:
-        number: cabinet_board-1
+        number: 1616-1
         type: NC
     s_trough1:
-        number: cabinet_board-2
+        number: 1616-2
         type: NC
     s_trough2:
-        number: cabinet_board-3
+        number: 1616-3
         type: NC
     s_trough3:
-        number: cabinet_board-4
+        number: 1616-4
         type: NC
     s_shooter_lane:
-        number: cabinet_board-5
+        number: 1616-6
     s_start:
         number: cabinet_board-23
         tags: start
-    s_r_outlane:
-        number: 1616-1
-        tags: playfield_active
     s_left_outlane:
-        number: 1616-2
+        number: 1616-9
         tags: playfield_active
     s_left_inlane:
-        number: 1616-3
-        tags: playfield_active
-    s_right_inlane:
-        number: 1616-4
+        number: 1616-10
         tags: playfield_active
     s_left_sling:
-        number: 1616-5
+        number: 1616-11
     s_right_sling:
-        number: 1616-6
+        number: 1616-13
+    s_right_inlane:
+        number: 1616-15
+        tags: playfield_active
+    s_r_outlane:
+        number: 1616-16
+        tags: playfield_active
+    s_curve_left:
+        number: 3208-1
     s_left_lock:
-        number: 1616-7
+        number: 3208-2
+    s_left_approach:
+        number: 3208-3
+        type: NC
+    s_target_g:
+        number: 3208-4
+        tags: playfield_active
+    s_target_l:
+        number: 3208-5
+        tags: playfield_active
+    s_target_o:
+        number: 3208-6
+        tags: playfield_active
+    s_target_w:
+        number: 3208-7
+        tags: playfield_active
+    s_core_left:
+        number: 3208-8
+    s_core_right:
+        number: 3208-9
+    s_right_approach:
+        number: 3208-10
+        type: NC
+#not added yet
+#    s_path_spinner:
+#        number: 3208-11
+    s_uramp_left:
+        number: 3208-12
+        type: NC
+#not added yet
+#    s_uramp_spinner:
+#        number: 3208-1
+    s_uramp_right:
+        number: 3208-14
+        type: NC
+    s_curve_right:
+        number: 3208-15
+    s_qp_left:
+        number: 3208-17
+        type: NC
+    s_lane_f:
+        number: 3208-18
+    s_lane_l:
+        number: 3208-19
+    s_lane_y:
+        number: 3208-20
+    s_qp_right:
+        number: 3208-21
+        type: NC
 
 coils:
     c_flipper_left_main:
@@ -355,6 +525,24 @@ coils:
     c_lock_launcher:
         number: 1616-9
         default_pulse_ms: 25
+    c_glow_lower:
+        number: 3208-0
+        allow_enable: true
+    c_glow_right:
+        number: 3208-1
+        allow_enable: true
+    c_glow_left:
+        number: 3208-2
+        allow_enable: true
+    c_glow_center:
+        number: 3208-3
+        allow_enable: true
+#    c_glow_qp_left:
+#        number: 3208-4
+#        allow_enable: true
+#    c_glow_qp_right:
+#        number: 3208-5
+#        allow_enable: true
 
 ball_devices:
     bd_trough:
