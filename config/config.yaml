@@ -43,37 +43,37 @@ switches:
         number: cabinet_board-23
         tags: right_flipper
     s_trough_jam:
-        number: 1616-1
+        number: 1616-0
         type: NC
     s_trough1:
-        number: 1616-2
+        number: 1616-1
         type: NC
     s_trough2:
-        number: 1616-3
+        number: 1616-2
         type: NC
     s_trough3:
-        number: 1616-4
+        number: 1616-3
         type: NC
     s_shooter_lane:
-        number: 1616-6
+        number: 1616-5
     s_start:
         number: cabinet_board-14
         tags: start
     s_left_outlane:
-        number: 1616-9
+        number: 1616-8
         tags: playfield_active
     s_left_inlane:
-        number: 1616-10
+        number: 1616-9
         tags: playfield_active
     s_left_sling:
-        number: 1616-11
+        number: 1616-10
     s_right_sling:
-        number: 1616-13
+        number: 1616-12
     s_right_inlane:
-        number: 1616-15
+        number: 1616-14
         tags: playfield_active
     s_r_outlane:
-        number: 1616-16
+        number: 1616-15
         tags: playfield_active
     s_curve_left:
         number: 3208-1
