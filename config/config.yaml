@@ -13,37 +13,37 @@ hardware:
     platform: fast
 
 fast:
-  net:
-    controller: neuron
-    io_loop:
-      cabinet_board:
-        model: FP-I/O-0024
-        order: 1
-      1616:
-        model: FP-I/O-1616
-        order: 2
-      0824:
-        mode: FP-I/O-3208
-        order: 3
-    port: auto
-    baud: 921600
-    debug: false
-    watchdog: 1s
-    default_quick_debounce_open: 2ms
-    default_quick_debounce_close: 2ms
-    default_normal_debounce_open: 4ms
-    default_normal_debounce_close: 4ms
-  exp:
-    boards:
-      neuron:
-        model: FP-EXP-2000
-        led_fade_time: 96ms
-      playfield:
-        model: FP-EXP-0081
-        led_fade_time: 96ms
-    port: auto
-    baud: 921600
-    debug: False
+    net:
+        controller: neuron
+        io_loop:
+            cabinet_board:
+                model: FP-I/O-0024
+                order: 1
+            1616:
+                model: FP-I/O-1616
+                order: 2
+            3208:
+                mode: FP-I/O-3208
+                order: 3
+        port: auto
+        baud: 921600
+        debug: false
+        watchdog: 1s
+        default_quick_debounce_open: 2ms
+        default_quick_debounce_close: 2ms
+        default_normal_debounce_open: 4ms
+        default_normal_debounce_close: 4ms
+    exp:
+        boards:
+            neuron:
+                model: FP-EXP-2000
+                led_fade_time: 96ms
+            playfield:
+                model: FP-EXP-0081
+                led_fade_time: 96ms
+        port: auto
+        baud: 921600
+        debug: False
 
 lights:
 #left lower
@@ -277,7 +277,7 @@ lights:
         tags: lamps, blocks, loop_core
     l_loop_core10:
         number: playfield-8-10
-        tags: lamps, blocks, loop_core   
+        tags: lamps, blocks, loop_core
 #cabinet side lights
     l_l_cab1:
         number: neuron-1-1
