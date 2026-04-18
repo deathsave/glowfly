@@ -33,14 +33,14 @@ fast:
         default_quick_debounce_close: 2ms
         default_normal_debounce_open: 4ms
         default_normal_debounce_close: 4ms
-      
+
 
 switches:
     s_left_flipper:
         number: cabinet_board-15
         tags: left_flipper
     s_right_flipper:
-        number: cabinet_board-14
+        number: cabinet_board-23
         tags: right_flipper
     s_trough_jam:
         number: 1616-1
@@ -57,7 +57,7 @@ switches:
     s_shooter_lane:
         number: 1616-6
     s_start:
-        number: cabinet_board-23
+        number: cabinet_board-14
         tags: start
     s_left_outlane:
         number: 1616-9
