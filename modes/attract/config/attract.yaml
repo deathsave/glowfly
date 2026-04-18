@@ -2,9 +2,9 @@
 
 show_player:
     mode_attract_started:
-#        glass_wave_reveal_show:
-#            priority: 200
-#            loops: -1
+        glass_wave_reveal_show:
+            priority: 200
+            loops: -1
         attract_loop_show:
             priority: 300
             loops: -1
