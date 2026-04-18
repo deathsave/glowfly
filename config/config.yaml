@@ -41,7 +41,7 @@ fast:
             playfield:
                 model: FP-EXP-0081
                 led_fade_time: 96ms
-        port: auto
+        port: /dev/ttyACM1
         baud: 921600
         debug: False
 
