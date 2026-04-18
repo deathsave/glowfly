@@ -23,7 +23,7 @@ fast:
                 model: FP-I/O-1616
                 order: 2
             3208:
-                mode: FP-I/O-3208
+                model: FP-I/O-3208
                 order: 3
         port: auto
         baud: 921600
