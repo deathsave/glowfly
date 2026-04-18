@@ -33,7 +33,7 @@ fast:
         default_quick_debounce_close: 2ms
         default_normal_debounce_open: 4ms
         default_normal_debounce_close: 4ms
-        tags: r_cab, cabinet
+      
 
 switches:
     s_left_flipper:
