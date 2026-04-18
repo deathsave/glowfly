@@ -399,7 +399,7 @@ lights:
     l_r_cab20:
         number: neuron-2-20
         tags: r_cab, cabinet
-        
+
 switches:
     s_left_flipper:
         number: cabinet_board-15
@@ -441,30 +441,30 @@ switches:
         number: 1616-15
         tags: playfield_active
     s_curve_left:
-        number: 3208-1
+        number: 3208-0
     s_left_lock:
-        number: 3208-2
+        number: 3208-1
     s_left_approach:
-        number: 3208-3
+        number: 3208-2
         type: NC
     s_target_g:
-        number: 3208-4
+        number: 3208-3
         tags: playfield_active
     s_target_l:
-        number: 3208-5
+        number: 3208-4
         tags: playfield_active
     s_target_o:
-        number: 3208-6
+        number: 3208-5
         tags: playfield_active
     s_target_w:
-        number: 3208-7
+        number: 3208-6
         tags: playfield_active
     s_core_left:
-        number: 3208-8
+        number: 3208-7
     s_core_right:
-        number: 3208-9
+        number: 3208-8
     s_right_approach:
-        number: 3208-10
+        number: 3208-9
         type: NC
 #not added yet
 #    s_path_spinner:
