@@ -13,6 +13,14 @@ ball_saves:
 
 light_player:
     s_right_flipper_active:
-        lamps: ffffff
+        cabinet: ffffff
     s_left_flipper_active:
-        lamps: "000000"
+        cabinet: "000000"
+    s_shooter_lane_inactive:
+        blocks: red
+        lanes: yellow
+        slings: orange
+    s_shooter_lane_active:
+        blocks: "000000"
+        lanes: "000000"
+        slings: "000000"

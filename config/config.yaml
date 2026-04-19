@@ -511,7 +511,7 @@ coils:
         default_pulse_ms: 18
     c_trough_eject:
         number: 1616-6
-        default_pulse_ms: 12
+        default_pulse_ms: 17
     c_sling_left:
         number: 1616-5
         default_pulse_ms: 8
