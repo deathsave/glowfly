@@ -10,3 +10,9 @@ ball_saves:
         timer_start_events: s_shooter_lane_inactive
         auto_launch: true
         balls_to_save: 1
+
+light_player:
+    s_right_flipper_active:
+        lamps: ffffff
+    s_left_flipper_active:
+        lamps: "000000"
