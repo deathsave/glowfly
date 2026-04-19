@@ -432,8 +432,16 @@ switches:
         tags: playfield_active
     s_left_sling:
         number: 1616-10
+        debounce: quick
+    s_left_super_sling:
+        number: 1616-11
+        debounce: quick
     s_right_sling:
         number: 1616-12
+        debounce: quick
+    s_right_super_sling:
+        number: 1616-13
+        debounce: quick 
     s_right_inlane:
         number: 1616-14
         tags: playfield_active
@@ -514,10 +522,14 @@ coils:
         default_pulse_ms: 20
     c_sling_left:
         number: 1616-5
-        default_pulse_ms: 8
+        default_pulse_ms: 10
+        platform_settings:
+            recycle_ms: 100
     c_sling_right:
         number: 1616-4
-        default_pulse_ms: 8
+        default_pulse_ms: 10
+        platform_settings:
+            recycle_ms: 100
     c_gate:
         number: 1616-8
         default_pulse_ms: 8
@@ -574,13 +586,32 @@ diverters:
         disable_events: ball_ended, s_left_lock_active
         targets_when_active: bd_left_lock
         targets_when_inactive: playfield
+
 autofire_coils:
     ac_slingshot_left:
         coil: c_sling_left
         switch: s_left_sling
+        disable_events: s_left_super_sling_active
+        enable_events: s_left_super_sling_inactive
+    ac_super_slingshot_left:
+        coil: c_sling_left
+        switch: s_left_super_sling
+        coil_overwrite:
+            pulse_ms: 15ms
+        disable_events: s_left_sling_active
+        enable_events: s_left_sling_inactive
     ac_slingshot_right:
         coil: c_sling_right
         switch: s_right_sling
+        disable_events: s_right_super_sling_active
+        enable_events: s_right_super_sling_inactive
+    ac_super_slingshot_right:
+        coil: c_sling_right
+        switch: s_right_super_sling
+        coil_overwrite:
+            pulse_ms: 15ms
+        disable_events: s_right_sling_active
+        enable_events: s_right_sling_inactive
 
 playfields:
     playfield:

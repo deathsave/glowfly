@@ -1,0 +1,134 @@
+#show_version=6
+##! show: cabinet_mini_rainbow_show
+
+    - time: "+.25"
+      lights:
+          r_cab: "330000"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "330000"
+    - time: "+.25"
+      lights:
+          r_cab: "660000"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "660000"
+    - time: "+.25"
+      lights:
+          r_cab: "990000"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "990000"
+    - time: "+.25"
+      lights:
+          r_cab: "ff0000"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "ff0000"
+    - time: "+.25"
+      lights:
+          r_cab: "efbe93"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "efbe93"
+    - time: "+.25"
+      lights:
+          r_cab: "e89c5a"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "e89c5a"
+    - time: "+.25"
+      lights:
+          r_cab: "e68937"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "e68937"
+    - time: "+.25"
+      lights:
+          r_cab: "fd7906"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "fd7906"
+    - time: "+.25"
+      lights:
+          r_cab: "686634"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "686634"
+    - time: "+.25"
+      lights:
+          r_cab: "8e8b34"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "8e8b34"
+    - time: "+.25"
+      lights:
+          r_cab: "bcb61c"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "bcb61c"
+    - time: "+.25"
+      lights:
+          r_cab: "fff806"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "fff806"
+    - time: "+.25"
+      lights:
+          r_cab: "525f91"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "525f91"
+    - time: "+.25"
+      lights:
+          r_cab: "465aa9"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "465aa9"
+    - time: "+.25"
+      lights:
+          r_cab: "2a4cd7"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "2a4cd7"
+    - time: "+.25"
+      lights:
+          r_cab: "0436ff"
+          l_cab: "000000"
+    - time: "+.25"
+      lights:
+          r_cab: "000000"
+          l_cab: "0436ff"
+    - time: "+.25"
+      lights:
+          l_cab: "000000"
