@@ -151,6 +151,26 @@ lights:
     l_apron2:
         number: playfield-1-2
         tags: lamps, apron
+#ball guide
+    l_shooter_guide1:
+        number: playfield-4-1
+        tags: lamps, blocks, lanes
+    l_shooter_guide2:
+        number: playfield-4-2
+        tags: lamps, blocks, lanes
+    l_shooter_guide3:
+        number: playfield-4-3
+        tags: lamps, blocks, lanes
+    l_shooter_guide4:
+        number: playfield-4-4
+        tags: lamps, blocks, lanes
+    l_shooter_guide5:
+        number: playfield-4-5
+        tags: lamps, blocks, lanes
+    l_shooter_guide6:
+        number: playfield-4-6
+        tags: lamps, blocks, lanes
+
 #upper curve
     l_upper_curve_core1:
         number: playfield-6-1
@@ -441,7 +461,7 @@ switches:
         debounce: quick
     s_right_super_sling:
         number: 1616-13
-        debounce: quick 
+        debounce: quick
     s_right_inlane:
         number: 1616-14
         tags: playfield_active

@@ -5,6 +5,7 @@ show_player:
         glass_wave_reveal_show:
             priority: 200
             loops: 3
+            speed: 2
             events_when_completed: start_rainbow_show
         attract_loop_show:
             priority: 300
@@ -24,7 +25,8 @@ show_player:
         glass_wave_reveal_show:
             loops: 3
             events_when_completed: start_rainbow_show
-
+            speed: 2
+            
 slides:
     dspc_logo_slide:
         widgets:
