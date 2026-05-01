@@ -1,14 +1,13 @@
 #config_version=6
 
+
 show_player:
-    mode_attract_started:
+    start_attract_shows:
         glass_wave_reveal_show:
-            priority: 200
             loops: 3
             speed: 2
             events_when_completed: start_rainbow_show
         attract_loop_show:
-            priority: 300
             loops: -1
     mode_attract_stopping:
         attract_loop_show:
@@ -26,9 +25,28 @@ show_player:
             loops: 3
             events_when_completed: start_rainbow_show
             speed: 2
-            
+
 slides:
     dspc_logo_slide:
         widgets:
-            type: video
-            video: dspc_animation
+            - type: video
+              video: dspc_animation
+              width: 782
+              height: 440
+              x: left+241
+            - type: text
+              text: Deathsave Pinball Cult
+              x: middle+300
+              y: center+70
+              color: white
+              font_size: 90
+            - type: text
+              text: Presents
+              x: middle+300
+              y: center-70
+              color: white
+              font_size: 90
+    glowfly_title_slide:
+        widgets:
+            type: image
+            image: glowfly_title

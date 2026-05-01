@@ -7,48 +7,60 @@
               target: window
     - time: "+10"
       slides:
+          glowfly_title_slide:
+              target: window
+    - time: "+10"
+      slides:
           show_final_scores:
               widgets:
-              - type: Text
-                text: FINAL SCORES
-                font_size: 80
-                bold: true
-                anchor_x: center
-                anchor_y: center
-                x: center
-                y: top-100
+#              - type: Text
+#                text: FINAL SCORES
+#                font_size: 80
+#                bold: true
+#                anchor_x: center
+#                anchor_y: center
+#                x: center
+#                y: top-100
               - type: Text
                 text: PLAYER 1
                 style: attract_mode_final_score_display_player_number
-                y: top-250
+                y: top-50
+                x: left+50
               - type: Text
                 text: PLAYER 2
                 style: attract_mode_final_score_display_player_number
-                y: top-320
+                y: top-50
+                x: right-250
               - type: Text
                 text: PLAYER 3
                 style: attract_mode_final_score_display_player_number
-                y: top-390
+                y: bottom+50
+                x: left+50
               - type: Text
                 text: PLAYER 4
                 style: attract_mode_final_score_display_player_number
-                y: top-460
+                y: bottom+50
+                x: right-250
               - type: Text
                 text: (machine|player1_score)
                 style: attract_mode_final_score_display_score
-                y: top-250
+                y: top-50
+                x: left+100
               - type: Text
                 text: (machine|player2_score)
                 style: attract_mode_final_score_display_score
-                y: top-320
+                y: top-50
+                x: right-200
               - type: Text
                 text: (machine|player3_score)
                 style: attract_mode_final_score_display_score
-                y: top-390
+                y: bottom+50
+                x: left+100
               - type: Text
                 text: (machine|player4_score)
                 style: attract_mode_final_score_display_score
-                y: top-460
+                y: bottom+50
+                x: right-200
     - time: "+10"
       slides:
           show_high_scores:

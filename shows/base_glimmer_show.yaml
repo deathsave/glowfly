@@ -1,0 +1,387 @@
+#show_version=6
+##! show: base_glimmer_show
+
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)
+    - time: "+.33"
+      lights:
+          a: (color1)
+          b: (color2)
+    - time: "+.34"
+      lights:
+          a: (color2)
+          b: (color1)

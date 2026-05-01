@@ -1,16 +1,21 @@
 #show_version=6
 ##! show: glass_wave_reveal_show
 
+    - time: "+0"
+      lights:
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab1: "333333"
           l_r_cab1: "333333"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab1: "999999"
           l_r_cab1: "999999"
           l_l_cab2: "333333"
           l_r_cab2: "333333"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab1: "ffffff"
@@ -19,6 +24,7 @@
           l_r_cab2: "999999"
           l_l_cab3: "333333"
           l_r_cab3: "333333"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab1: "999999"
@@ -29,6 +35,7 @@
           l_r_cab3: "999999"
           l_l_cab4: "333333"
           l_r_cab4: "333333"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab1: "333333"
@@ -41,6 +48,7 @@
           l_r_cab4: "999999"
           l_l_cab5: "333333"
           l_r_cab5: "333333"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab1: "000000"
@@ -55,6 +63,7 @@
           l_r_cab5: "999999"
           l_l_cab6: "333333"
           l_r_cab6: "333333"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab2: "000000"
@@ -69,6 +78,7 @@
           l_r_cab6: "999999"
           l_l_cab7: "333333"
           l_r_cab7: "333333"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab3: "000000"
@@ -83,6 +93,7 @@
           l_r_cab7: "999999"
           l_l_cab8: "333333"
           l_r_cab8: "333333"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab4: "000000"
@@ -97,6 +108,7 @@
           l_r_cab8: "999999"
           l_l_cab9: "333333"
           l_r_cab9: "333333"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab5: "000000"
@@ -111,6 +123,7 @@
           l_r_cab9: "999999"
           l_l_cab10: "333333"
           l_r_cab10: "333333"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab6: "000000"
@@ -125,6 +138,7 @@
           l_r_cab10: "999999"
           l_l_cab11: "333333"
           l_r_cab11: "333333"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab7: "000000"
@@ -139,6 +153,7 @@
           l_r_cab11: "999999"
           l_l_cab12: "333333"
           l_r_cab12: "333333"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab8: "000000"
@@ -153,6 +168,7 @@
           l_r_cab12: "999999"
           l_l_cab13: "333333"
           l_r_cab13: "333333"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab9: "000000"
@@ -167,6 +183,7 @@
           l_r_cab13: "999999"
           l_l_cab14: "333333"
           l_r_cab14: "333333"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab10: "000000"
@@ -181,6 +198,7 @@
           l_r_cab14: "999999"
           l_l_cab15: "333333"
           l_r_cab15: "333333"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab11: "000000"
@@ -195,6 +213,7 @@
           l_r_cab15: "999999"
           l_l_cab16: "333333"
           l_r_cab16: "333333"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab12: "000000"
@@ -209,6 +228,7 @@
           l_r_cab16: "999999"
           l_l_cab17: "333333"
           l_r_cab17: "333333"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab13: "000000"
@@ -223,6 +243,7 @@
           l_r_cab17: "999999"
           l_l_cab18: "333333"
           l_r_cab18: "333333"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab14: "000000"
@@ -237,6 +258,7 @@
           l_r_cab18: "999999"
           l_l_cab19: "333333"
           l_r_cab19: "333333"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab15: "000000"
@@ -251,6 +273,7 @@
           l_r_cab19: "999999"
           l_l_cab20: "333333"
           l_r_cab20: "333333"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab16: "000000"
@@ -263,6 +286,7 @@
           l_r_cab19: "ffffff"
           l_l_cab20: "999999"
           l_r_cab20: "999999"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab17: "000000"
@@ -273,6 +297,7 @@
           l_r_cab19: "999999"
           l_l_cab20: "ffffff"
           l_r_cab20: "ffffff"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab18: "000000"
@@ -281,13 +306,16 @@
           l_r_cab19: "333333"
           l_l_cab20: "999999"
           l_r_cab20: "999999"
+          lamps: "ffffff"
     - time: "+.25"
       lights:
           l_l_cab19: "000000"
           l_r_cab19: "000000"
           l_l_cab20: "333333"
           l_r_cab20: "333333"
+          lamps: "000000"
     - time: "+.25"
       lights:
           l_l_cab20: "000000"
           l_r_cab20: "000000"
+          lamps: "ffffff"

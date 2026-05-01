@@ -12,13 +12,44 @@ ball_saves:
         balls_to_save: 1
 
 light_player:
-    s_shooter_lane_inactive:
-        blocks: red
-        lanes: yellow
-        slings: orange
-        cabinet: "ffffff"
     s_shooter_lane_active:
-        blocks: "000000"
-        lanes: "000000"
-        slings: "000000"
-        cabinet: "000000"
+        lamps: off
+        cabinet: off
+
+show_player:
+    s_shooter_lane_active:
+        base_glimmer_show:
+            action: stop
+    s_shooter_lane_inactive:
+        base_glimmer_show:
+            loops: -1
+            show_tokens:
+                color1: "ff0000"
+                color2: "110000"
+
+
+coil_player:
+    timer_all_glow_timer_started:
+        glow_coil: on
+    timer_all_glow_timer_stopped:
+        glow_coil: off
+    s_shooter_lane_active:
+        c_glow_shooter_lane: on
+    s_shooter_lane_inactive:
+        c_glow_shooter_lane: off
+
+
+timers:
+    all_glow_timer:
+        start_value: 4
+        end_value: 0
+        direction: down
+        tick_interval: 1s
+        control_events:
+            - action: start
+              event: playfield_active
+            - action: add
+              event: playfield_active
+              value: 4
+            - action: stop
+              event: glow_off

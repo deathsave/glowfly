@@ -1,0 +1,5 @@
+#show_version=6
+##! show: attract_mode_delay_show
+
+    - time: "3s"
+      events: start_attract_shows
