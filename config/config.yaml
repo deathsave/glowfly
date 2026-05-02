@@ -45,6 +45,27 @@ fast:
         baud: 921600
         debug: False
 
+kivy_config:
+    kivy:
+        desktop: 1
+        exit_on_escape: true
+        pause_on_minimize: 0
+    graphics:
+        borderless: true
+        window_state: visible # visible, hidden, maximized, minimized
+        fbo: software # hardware, software, force-hardware
+        fullscreen: false
+        left: 0
+        top: 0
+        width: 1920  # width of display1 + display2
+        height: 440  # common height (or the maximum of both)
+        maxfps: 30
+        multisamples: 2
+        position: custom # auto, custom
+        show_cursor: true
+        resizable: false
+        rotation: 0
+
 lights:
 #left lower
     l_left_sling1:

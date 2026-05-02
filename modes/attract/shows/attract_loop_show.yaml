@@ -13,14 +13,9 @@
       slides:
           show_final_scores:
               widgets:
-#              - type: Text
-#                text: FINAL SCORES
-#                font_size: 80
-#                bold: true
-#                anchor_x: center
-#                anchor_y: center
-#                x: center
-#                y: top-100
+              - type: Text
+                text: FINAL SCORES
+                font_size: 80                
               - type: Text
                 text: PLAYER 1
                 style: attract_mode_final_score_display_player_number
@@ -30,7 +25,7 @@
                 text: PLAYER 2
                 style: attract_mode_final_score_display_player_number
                 y: top-50
-                x: right-250
+                x: right-500
               - type: Text
                 text: PLAYER 3
                 style: attract_mode_final_score_display_player_number
@@ -40,27 +35,27 @@
                 text: PLAYER 4
                 style: attract_mode_final_score_display_player_number
                 y: bottom+50
-                x: right-250
+                x: right-500
               - type: Text
                 text: (machine|player1_score)
                 style: attract_mode_final_score_display_score
                 y: top-50
-                x: left+100
+                x: left+300
               - type: Text
                 text: (machine|player2_score)
                 style: attract_mode_final_score_display_score
                 y: top-50
-                x: right-200
+                x: right-250
               - type: Text
                 text: (machine|player3_score)
                 style: attract_mode_final_score_display_score
                 y: bottom+50
-                x: left+100
+                x: left+300
               - type: Text
                 text: (machine|player4_score)
                 style: attract_mode_final_score_display_score
                 y: bottom+50
-                x: right-200
+                x: right-250
     - time: "+10"
       slides:
           show_high_scores:
