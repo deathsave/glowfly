@@ -15,6 +15,9 @@ light_player:
     s_shooter_lane_active:
         lamps: off
         cabinet: off
+    test_glow_coil:
+        lamps: off
+        cabinet: off 
 
 show_player:
     s_shooter_lane_active:
@@ -26,6 +29,9 @@ show_player:
             show_tokens:
                 color1: "ff0000"
                 color2: "110000"
+    test_glow_coil:
+        base_glimmer_show:
+            action: stop
 
 
 coil_player:
@@ -40,7 +46,7 @@ coil_player:
     test_glow_coil:
         glow_coil: on
     stop_test_glow_coil:
-        glow_coil: off 
+        glow_coil: off
 shots:
     curve_right_shot:
         switches: s_curve_right
