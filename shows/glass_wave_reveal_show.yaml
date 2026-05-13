@@ -1,7 +1,7 @@
 #show_version=6
 ##! show: glass_wave_reveal_show
 
-    - time: "+0"
+    - time: "+.25"
       lights:
           lamps: "000000"
     - time: "+.25"

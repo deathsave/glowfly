@@ -172,6 +172,96 @@ lights:
     l_apron2:
         number: playfield-1-2
         tags: lamps, apron, b
+    l_apron3:
+        number: playfield-1-3
+        tags: lamps, apron, a
+    l_apron4:
+        number: playfield-1-4
+        tags: lamps, apron, b
+    l_apron5:
+        number: playfield-1-5
+        tags: lamps, apron, a
+    l_apron6:
+        number: playfield-1-6
+        tags: lamps, apron, b
+    l_apron7:
+        number: playfield-1-7
+        tags: lamps, apron, a
+    l_apron8:
+        number: playfield-1-8
+        tags: lamps, apron, b
+    l_apron9:
+        number: playfield-1-9
+        tags: lamps, apron, a
+    l_apron10:
+        number: playfield-1-10
+        tags: lamps, apron, b
+    l_apron11:
+        number: playfield-1-11
+        tags: lamps, apron, a
+    l_apron12:
+        number: playfield-1-12
+        tags: lamps, apron, b
+    l_apron13:
+        number: playfield-1-13
+        tags: lamps, apron, a
+    l_apron14:
+        number: playfield-1-14
+        tags: lamps, apron, b
+    l_apron15:
+        number: playfield-1-15
+        tags: lamps, apron, a
+    l_apron16:
+        number: playfield-1-16
+        tags: lamps, apron, b
+    l_apron17:
+        number: playfield-1-17
+        tags: lamps, apron, a
+    l_apron18:
+        number: playfield-1-18
+        tags: lamps, apron, b
+    l_apron19:
+        number: playfield-1-19
+        tags: lamps, apron, a
+    l_apron20:
+        number: playfield-1-20
+        tags: lamps, apron, b
+    l_apron21:
+        number: playfield-1-21
+        tags: lamps, apron, a
+    l_apron22:
+        number: playfield-1-22
+        tags: lamps, apron, b
+    l_apron23:
+        number: playfield-1-23
+        tags: lamps, apron, a
+    l_apron24:
+        number: playfield-1-24
+        tags: lamps, apron, b
+    l_apron25:
+        number: playfield-1-25
+        tags: lamps, apron, a
+    l_apron26:
+        number: playfield-1-26
+        tags: lamps, apron, b
+    l_apron27:
+        number: playfield-1-27
+        tags: lamps, apron, a
+    l_apron28:
+        number: playfield-1-28
+        tags: lamps, apron, b
+    l_apron29:
+        number: playfield-1-29
+        tags: lamps, apron, a
+    l_apron30:
+        number: playfield-1-30
+        tags: lamps, apron, b
+    l_apron31:
+        number: playfield-1-31
+        tags: lamps, apron, a
+    l_apron32:
+        number: playfield-1-32
+        tags: lamps, apron, b
 #ball guide
     l_shooter_guide1:
         number: playfield-4-1
@@ -312,37 +402,105 @@ lights:
     l_upper_right_wedge10:
         number: playfield-7-10
         tags: lamps, blocks, upper_right_block, a
+#ramp
+    l_ramp1:
+        number: playfield-8-1
+        tags: lamps, ramp, b
+    l_ramp2:
+        number: playfield-8-2
+        tags: lamps, ramp, a
+    l_ramp3:
+        number: playfield-8-3
+        tags: lamps, ramp, b
+    l_ramp4:
+        number: playfield-8-4
+        tags: lamps, ramp, a
+    l_ramp5:
+        number: playfield-8-5
+        tags: lamps, ramp, b
+    l_ramp6:
+        number: playfield-8-6
+        tags: lamps, ramp, a
+    l_ramp7:
+        number: playfield-8-7
+        tags: lamps, ramp, b
+    l_ramp8:
+        number: playfield-8-8
+        tags: lamps, ramp, a
+    l_ramp9:
+        number: playfield-8-9
+        tags: lamps, ramp, b
+    l_ramp10:
+        number: playfield-8-10
+        tags: lamps, ramp, a
+    l_ramp11:
+        number: playfield-8-11
+        tags: lamps, ramp, b
+    l_ramp12:
+        number: playfield-8-12
+        tags: lamps, ramp, a
+    l_ramp13:
+        number: playfield-8-13
+        tags: lamps, ramp, b
+    l_ramp14:
+        number: playfield-8-14
+        tags: lamps, ramp, a
+    l_ramp15:
+        number: playfield-8-15
+        tags: lamps, ramp, b
+    l_ramp16:
+        number: playfield-8-16
+        tags: lamps, ramp, a
+    l_ramp17:
+        number: playfield-8-17
+        tags: lamps, ramp, b
+    l_ramp18:
+        number: playfield-8-18
+        tags: lamps, ramp, a
+    l_ramp19:
+        number: playfield-8-19
+        tags: lamps, ramp, b
+    l_ramp20:
+        number: playfield-8-20
+        tags: lamps, ramp, a
+    l_ramp21:
+        number: playfield-8-21
+        tags: lamps, ramp, b
+    l_ramp22:
+        number: playfield-8-22
+        tags: lamps, ramp, a
+    l_ramp23:
+        number: playfield-8-23
+        tags: lamps, ramp, b
+
 #loop core
     l_loop_core1:
-        number: playfield-8-1
+        number: playfield-8-24
         tags: lamps, blocks, loop_core, b
     l_loop_core2:
-        number: playfield-8-2
+        number: playfield-8-25
         tags: lamps, blocks, loop_core, a
     l_loop_core3:
-        number: playfield-8-3
+        number: playfield-8-26
         tags: lamps, blocks, loop_core, b
     l_loop_core4:
-        number: playfield-8-4
+        number: playfield-8-27
         tags: lamps, blocks, loop_core, a
     l_loop_core5:
-        number: playfield-8-5
+        number: playfield-8-28
         tags: lamps, blocks, loop_core, b
     l_loop_core6:
-        number: playfield-8-6
+        number: playfield-8-29
         tags: lamps, blocks, loop_core, a
     l_loop_core7:
-        number: playfield-8-7
+        number: playfield-8-30
         tags: lamps, blocks, loop_core, b
     l_loop_core8:
-        number: playfield-8-8
+        number: playfield-8-31
         tags: lamps, blocks, loop_core, a
     l_loop_core9:
-        number: playfield-8-9
+        number: playfield-8-32
         tags: lamps, blocks, loop_core, b
-    l_loop_core10:
-        number: playfield-8-10
-        tags: lamps, blocks, loop_core, a
 #cabinet side lights
     l_l_cab1:
         number: neuron-1-1
@@ -514,56 +672,54 @@ switches:
         number: 1616-15
         tags: playfield_active
     s_curve_left:
-        number: 3208-0
+        number: 3208-26
+        type: NC
     s_left_lock:
-        number: 3208-1
+        number: 3208-25
+        type: NC
     s_left_approach:
-        number: 3208-2
+        number: 3208-27
         type: NC
     s_target_g:
-        number: 3208-3
+        number: 3208-0
         tags: playfield_active
     s_target_l:
-        number: 3208-4
+        number: 3208-1
         tags: playfield_active
     s_target_o:
-        number: 3208-5
+        number: 3208-2
         tags: playfield_active
     s_target_w:
-        number: 3208-6
+        number: 3208-3
         tags: playfield_active
     s_core_left:
-        number: 3208-7
+        number: 3208-24
+        type: NC
     s_core_right:
-        number: 3208-8
+        number: 3208-19
+        type: NC
     s_right_approach:
-        number: 3208-9
+        number: 3208-23
         type: NC
-#not added yet
-#    s_path_spinner:
-#        number: 3208-11
+    s_center_spinner:
+        number: 3208-11
     s_uramp_left:
-        number: 3208-12
+        number: 3208-18
         type: NC
-#not added yet
-#    s_uramp_spinner:
-#        number: 3208-1
     s_uramp_right:
-        number: 3208-14
-        type: NC
-    s_curve_right:
-        number: 3208-15
-    s_qp_left:
         number: 3208-17
         type: NC
+    s_curve_right:
+        number: 3208-16
+        type: NC
     s_lane_f:
-        number: 3208-18
-    s_lane_l:
-        number: 3208-19
-    s_lane_y:
         number: 3208-20
-    s_qp_right:
+        type: NC
+    s_lane_l:
         number: 3208-21
+        type: NC
+    s_lane_y:
+        number: 3208-22
         type: NC
 
 coils:
@@ -618,15 +774,17 @@ coils:
         number: 3208-3
         allow_enable: true
         tags: glow_coil
-#    c_glow_qp_left:
-#        number: 3208-4
-#        allow_enable: true
-#    c_glow_qp_right:
-#        number: 3208-5
-#        allow_enable: true
+    c_glow_qp_left:
+        number: 3208-4
+        allow_enable: true
+        tags: glow_coil
+    c_glow_qp_right:
+        number: 3208-5
+        allow_enable: true
+        tags: glow_coil
     c_glow_shooter_lane:
         number: 3208-6
-        default_hold_power: .45
+        default_hold_power: .20
 
 
 ball_devices:

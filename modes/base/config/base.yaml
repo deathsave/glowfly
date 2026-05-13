@@ -38,6 +38,66 @@ coil_player:
     s_shooter_lane_inactive:
         c_glow_shooter_lane: off
 
+shots:
+    curve_right_shot:
+        switches: s_curve_right
+    curve_left_shot:
+        switches: s_curve_left
+    center_spinner_shot:
+        switches: s_center_spinner
+    g_target_shot:
+        switches: s_target_g
+    l_target_shot:
+        switches: s_target_l
+    o_target_shot:
+        switches: s_target_o
+    w_target_shot:
+        switches: s_target_w
+    f_lane_shot:
+        switches: s_lane_f
+    l_lane_shot:
+        switches: s_lane_f
+    y_lane_shot:
+        switches: s_lane_y
+
+sequence_shots:
+    clockwise_core_shot:
+        switch_sequence: s_core_left, s_core_right
+        sequence_timeout: 3s
+    counterwise_core_shot:
+        switch_sequence: s_core_right, s_core_left
+        sequence_timeout: 3s
+    left_uturn_shot:
+        switch_sequence: s_uramp_left, s_uramp_right
+        sequence_timeout: 2s
+    right_uturn_shot:
+        switch_sequence: s_uramp_right, s_uramp_left
+        sequence_timeout: 2s
+    right_qp_full:
+        switch_sequence: s_right_approach, s_left_approach
+        sequence_timeout: 3s
+    left_qp_full:
+        switch_sequence: s_left_approach, s_right_approach
+        sequence_timeout: 3s
+    curve_right_core_shot:
+        event_sequence: curve_right_shot_hit, clockwise_core_shot_hit
+        sequence_timeout: 4s
+    curve_left_core_shot:
+        event_sequence: curve_left_shot_hit, counterwise_core_shot_hit
+        sequence_timeout: 4s
+    left_full_core_shot:
+        event_sequence: curve_left_core_shot_hit, curve_right_shot_hit
+        sequence_timeout: 2s
+    right_full_core_shot:
+        event_sequence: curve_right_core_shot_hit, curve_left_shot_hit
+        sequence_timeout: 2s
+    core_sneak_in:
+        event_sequence: center_spinner_shot_hit, counterwise_core_shot_hit
+        sequence_timeout: 3s
+
+
+
+
 
 timers:
     all_glow_timer:
@@ -47,9 +107,25 @@ timers:
         tick_interval: 1s
         control_events:
             - action: start
-              event: playfield_active
+              event: s_shooter_lane_inactive
             - action: add
-              event: playfield_active
+              event: curve_right_shot_hit
+              value: 4
+            - action: add
+              event: curve_left_shot_hit
+              value: 4
+            - action: add
+              event: clockwise_core_shot_hit
+              value: 4
+            - action: add
+              event: counterwise_core_shot_hit
+              value: 4
+            #change to working on shots later instead of switches
+            - action: add
+              event: s_left_sling_active
+              value: 4
+            - action: add
+              event: s_right_sling_active
               value: 4
             - action: stop
               event: glow_off
