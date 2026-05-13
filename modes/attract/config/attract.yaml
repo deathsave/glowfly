@@ -30,7 +30,7 @@ light_player:
     test_all_lights_white:
         lamps: "ffffff"
     test_apron_cab_white:
-        cab: "ffffff"
+        cabinet: "ffffff"
         apron: "ffffff"
     test_all_lights_white_50:
         lamps: "999999"
