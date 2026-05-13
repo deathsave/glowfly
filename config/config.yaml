@@ -8,6 +8,10 @@ virtual_platform_start_active_switches:
 keyboard:
     s:
         event: #start game
+    g:
+        event: test_glow_coil
+    o:
+        event: stop_test_glow_coil
 
 hardware:
     platform: fast

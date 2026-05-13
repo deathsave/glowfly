@@ -37,7 +37,10 @@ coil_player:
         c_glow_shooter_lane: on
     s_shooter_lane_inactive:
         c_glow_shooter_lane: off
-
+    test_glow_coil:
+        glow_coil: on
+    stop_test_glow_coil:
+        glow_coil: off 
 shots:
     curve_right_shot:
         switches: s_curve_right
