@@ -676,7 +676,6 @@ switches:
         type: NC
     s_left_lock:
         number: 3208-25
-        type: NC
     s_left_approach:
         number: 3208-27
         type: NC
