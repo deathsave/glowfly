@@ -5,7 +5,7 @@ show_player:
     start_attract_shows:
         glass_wave_reveal_show:
             loops: 3
-            speed: 2
+            speed: 1
             events_when_completed: start_rainbow_show
         attract_loop_show:
             loops: -1
@@ -24,8 +24,20 @@ show_player:
         glass_wave_reveal_show:
             loops: 3
             events_when_completed: start_rainbow_show
-            speed: 2
+            speed: 1
 
+light_player:
+    test_all_lights_white:
+        lamps: "ffffff"
+    test_apron_cab_white:
+        cab: "ffffff"
+        apron: "ffffff"
+    test_all_lights_white_50:
+        lamps: "999999"
+    test_all_lights_red_50:
+        lamps: "990000"
+    test_all_lights_out:
+        lamps: "000000"
 slides:
     dspc_logo_slide:
         widgets:
