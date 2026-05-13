@@ -17,7 +17,7 @@ light_player:
         cabinet: off
     test_glow_coil:
         lamps: off
-        cabinet: off 
+        cabinet: off
 
 show_player:
     s_shooter_lane_active:
@@ -27,11 +27,28 @@ show_player:
         base_glimmer_show:
             loops: -1
             show_tokens:
-                color1: "ff0000"
-                color2: "110000"
+                color1: "ffffff"
+                color2: red
     test_glow_coil:
         base_glimmer_show:
             action: stop
+    s_left_flipper_active:
+        base_lights_out_show:
+            action: play
+            loops: -1
+            priority: 100
+    s_right_flipper_active:
+        base_lights_out_show:
+            action: play
+            loops: -1
+            priority: 100
+    s_left_flipper_inactive:
+        base_lights_out_show:
+            action: stop
+    s_right_flipper_inactive:
+        base_lights_out_show:
+            action: stop 
+
 
 
 coil_player:
