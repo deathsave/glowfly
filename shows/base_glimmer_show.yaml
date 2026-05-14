@@ -3,12 +3,116 @@
 
     - time: "+.33"
       lights:
-          a: (color1)
-          b: (color2)
+          a:
+              color: (color1)
+              fade: 200ms
+          b:
+              color: (color2)
+              fade: 200ms
     - time: "+.34"
       lights:
-          a: (color2)
-          b: (color1)
+          a:
+              color: (color2)
+              fade: 200ms
+          b:
+              color: (color1)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          a:
+              color: (color1)
+              fade: 200ms
+          b:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          a:
+              color: (color2)
+              fade: 200ms
+          b:
+              color: (color1)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          a:
+              color: (color1)
+              fade: 200ms
+          b:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          a:
+              color: (color2)
+              fade: 200ms
+          b:
+              color: (color1)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          a:
+              color: (color1)
+              fade: 200ms
+          b:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          a:
+              color: (color2)
+              fade: 200ms
+          b:
+              color: (color1)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          a:
+              color: (color1)
+              fade: 200ms
+          b:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          a:
+              color: (color2)
+              fade: 200ms
+          b:
+              color: (color1)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          a:
+              color: (color1)
+              fade: 200ms
+          b:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          a:
+              color: (color2)
+              fade: 200ms
+          b:
+              color: (color1)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          a:
+              color: (color1)
+              fade: 200ms
+          b:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          a:
+              color: (color2)
+              fade: 200ms
+          b:
+              color: (color1)
+              fade: 200ms
     - time: "+.33"
       lights:
           a: (color1)

@@ -8,20 +8,6 @@ virtual_platform_start_active_switches:
 keyboard:
     s:
         event: #start game
-    g:
-        event: test_glow_coil
-    o:
-        event: stop_test_glow_coil
-    a:
-        event: test_all_lights_white
-    b:
-        event: test_apron_cab_white
-    c:
-        event: test_all_lights_white_50
-    d:
-        event: test_all_lights_red_50
-    r:
-        event: test_all_lights_out
 
 hardware:
     platform: fast

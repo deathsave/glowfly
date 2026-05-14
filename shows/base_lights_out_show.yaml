@@ -5,6 +5,26 @@
       lights:
           lamps: off
           cabinet: off
-    - time: "+2s"
+    - time: "+20ms"
       lights:
-          l_r_cab1: on
+          lamps: on
+          cabinet: on
+    - time: "+10ms"
+      lights:
+          lamps: off
+          cabinet: off
+    - time: "+10ms"
+      lights:
+          apron: "999999"
+    - time: "+1s"
+      lights:
+          lamps: off
+          cabinet: off
+    - time: "+20ms"
+      lights:
+          lamps: on
+          cabinet: on
+    - time: "+10ms"
+      lights:
+          lamps: off
+          cabinet: off

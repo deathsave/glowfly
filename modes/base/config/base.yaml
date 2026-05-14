@@ -11,11 +11,22 @@ ball_saves:
         auto_launch: true
         balls_to_save: 1
 
+slides:
+    base_score_slide:
+        widgets:
+            - type: text
+              text: (player|score)
+              number_grouping: true
+              min_digits: 2
+              font_size: 240
+              font_name: pixelmix
+              color: white
+
+slide_player:
+    mode_base_started: base_score_slide
+
 light_player:
     s_shooter_lane_active:
-        lamps: off
-        cabinet: off
-    test_glow_coil:
         lamps: off
         cabinet: off
 
@@ -47,28 +58,29 @@ show_player:
             action: stop
     s_right_flipper_inactive:
         base_lights_out_show:
-            action: stop 
+            action: stop
 
 
 
 coil_player:
-    timer_all_glow_timer_started:
+    mode_base_started:
         glow_coil: on
-    timer_all_glow_timer_stopped:
+    ball_ending:
         glow_coil: off
     s_shooter_lane_active:
         c_glow_shooter_lane: on
     s_shooter_lane_inactive:
         c_glow_shooter_lane: off
-    test_glow_coil:
-        glow_coil: on
-    stop_test_glow_coil:
-        glow_coil: off
+
 shots:
     curve_right_shot:
         switches: s_curve_right
+        delay_switch:
+            s_core_left: 2s
     curve_left_shot:
         switches: s_curve_left
+        delay_switch:
+            s_core_right: 2s
     center_spinner_shot:
         switches: s_center_spinner
     g_target_shot:
@@ -112,46 +124,51 @@ sequence_shots:
         event_sequence: curve_left_shot_hit, counterwise_core_shot_hit
         sequence_timeout: 4s
     left_full_core_shot:
-        event_sequence: curve_left_core_shot_hit, curve_right_shot_hit
+        event_sequence: curve_left_core_shot_hit, s_curve_right_active
         sequence_timeout: 2s
     right_full_core_shot:
-        event_sequence: curve_right_core_shot_hit, curve_left_shot_hit
+        event_sequence: curve_right_core_shot_hit, s_curve_left_active
         sequence_timeout: 2s
     core_sneak_in:
         event_sequence: center_spinner_shot_hit, counterwise_core_shot_hit
         sequence_timeout: 3s
 
+sound_player:
+    mode_base_started:
+        glowfly_main_infinity_full:
+            action: play
+    ball_ending:
+        glowfly_main_infinity_full:
+            action: stop
+    curve_left_shot_hit:
+        left_1:
+            action: play
+    curve_right_shot_hit:
+        right_1:
+            action: play
+    s_core_left_active:
+        left_2b:
+            action: play
+    s_core_right_active:
+        left_2a:
+            action: play
+    left_full_core_shot_hit:
+        left_3:
+            action: play
+    right_full_core_shot_hit:
+        right_3:
+            action: play
 
-
-
-
-timers:
-    all_glow_timer:
-        start_value: 4
-        end_value: 0
-        direction: down
-        tick_interval: 1s
-        control_events:
-            - action: start
-              event: s_shooter_lane_inactive
-            - action: add
-              event: curve_right_shot_hit
-              value: 4
-            - action: add
-              event: curve_left_shot_hit
-              value: 4
-            - action: add
-              event: clockwise_core_shot_hit
-              value: 4
-            - action: add
-              event: counterwise_core_shot_hit
-              value: 4
-            #change to working on shots later instead of switches
-            - action: add
-              event: s_left_sling_active
-              value: 4
-            - action: add
-              event: s_right_sling_active
-              value: 4
-            - action: stop
-              event: glow_off
+variable_player:
+    curve_right_shot_hit:
+        score: 1000
+    curve_left_shot_hit:
+        score: 1000
+    curve_left_core_shot_hit:
+        score: 5000
+    curve_right_core_shot_hit:
+        score: 5000
+    left_full_core_shot:
+        score: 10000
+    right_full_score_shot:
+        score: 10000
