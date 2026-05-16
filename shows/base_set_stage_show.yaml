@@ -1,0 +1,8 @@
+#show_version=6
+##! show: base_set_stage_show
+
+    - time: "+10ms"
+      events: base_set_stage1
+    - time: "+20ms"
+      events: base_set_stage2
+      

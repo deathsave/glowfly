@@ -285,76 +285,76 @@ lights:
 #upper curve
     l_upper_curve_core1:
         number: playfield-6-1
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve_core2:
         number: playfield-6-2
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
     l_upper_curve_core3:
         number: playfield-6-3
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve_core4:
         number: playfield-6-4
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
     l_upper_curve_core5:
         number: playfield-6-5
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve1:
         number: playfield-6-6
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
     l_upper_curve2:
         number: playfield-6-7
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve3:
         number: playfield-6-8
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
     l_upper_curve4:
         number: playfield-6-9
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve5:
         number: playfield-6-10
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
     l_upper_curve6:
         number: playfield-6-11
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve7:
         number: playfield-6-12
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
     l_upper_curve8:
         number: playfield-6-13
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve9:
         number: playfield-6-14
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
     l_upper_curve10:
         number: playfield-6-15
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve11:
         number: playfield-6-16
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
     l_upper_curve12:
         number: playfield-6-17
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve13:
         number: playfield-6-18
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
     l_upper_curve14:
         number: playfield-6-19
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve15:
         number: playfield-6-20
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
     l_upper_curve16:
         number: playfield-6-21
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve17:
         number: playfield-6-22
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
     l_upper_curve18:
         number: playfield-6-23
-        tags: lamps, blocks, upper_curve_block, a
+        tags: lamps, blocks, upper_curve_block, a, qp
     l_upper_curve19:
         number: playfield-6-24
-        tags: lamps, blocks, upper_curve_block, b
+        tags: lamps, blocks, upper_curve_block, b, qp
 #upper left wedge
     l_upper_left_wedge1:
         number: playfield-5-1
@@ -420,7 +420,7 @@ lights:
         tags: lamps, ramp, b
     l_ramp6:
         number: playfield-8-6
-        tags: lamps, ramp, a
+        tags: lamps, ramp, a, rampgi
     l_ramp7:
         number: playfield-8-7
         tags: lamps, ramp, b
@@ -429,7 +429,7 @@ lights:
         tags: lamps, ramp, a
     l_ramp9:
         number: playfield-8-9
-        tags: lamps, ramp, b
+        tags: lamps, ramp, b, rampgi
     l_ramp10:
         number: playfield-8-10
         tags: lamps, ramp, a
@@ -438,7 +438,7 @@ lights:
         tags: lamps, ramp, b
     l_ramp12:
         number: playfield-8-12
-        tags: lamps, ramp, a
+        tags: lamps, ramp, a, rampgi
     l_ramp13:
         number: playfield-8-13
         tags: lamps, ramp, b
@@ -447,7 +447,7 @@ lights:
         tags: lamps, ramp, a
     l_ramp15:
         number: playfield-8-15
-        tags: lamps, ramp, b
+        tags: lamps, ramp, b, rampgi
     l_ramp16:
         number: playfield-8-16
         tags: lamps, ramp, a
@@ -456,7 +456,7 @@ lights:
         tags: lamps, ramp, b
     l_ramp18:
         number: playfield-8-18
-        tags: lamps, ramp, a
+        tags: lamps, ramp, a, rampgi
     l_ramp19:
         number: playfield-8-19
         tags: lamps, ramp, b
@@ -504,124 +504,124 @@ lights:
 #cabinet side lights
     l_l_cab1:
         number: neuron-1-1
-        tags: l_cab, cabinet, b
+        tags: l_cab, cabinet, b, qp
     l_l_cab2:
         number: neuron-1-2
-        tags: l_cab, cabinet, a
+        tags: l_cab, cabinet, a, qp
     l_l_cab3:
         number: neuron-1-3
-        tags: l_cab, cabinet, b
+        tags: l_cab, cabinet, b, qp
     l_l_cab4:
         number: neuron-1-4
-        tags: l_cab, cabinet, a
+        tags: l_cab, cabinet, a, qp
     l_l_cab5:
         number: neuron-1-5
-        tags: l_cab, cabinet, b
+        tags: l_cab, cabinet, b, qp
     l_l_cab6:
         number: neuron-1-6
-        tags: l_cab, cabinet, a
+        tags: l_cab, cabinet, a, qp
     l_l_cab7:
         number: neuron-1-7
-        tags: l_cab, cabinet, b
+        tags: l_cab, cabinet, b, mid
     l_l_cab8:
         number: neuron-1-8
-        tags: l_cab, cabinet, a
+        tags: l_cab, cabinet, a, mid
     l_l_cab9:
         number: neuron-1-9
-        tags: l_cab, cabinet, b
+        tags: l_cab, cabinet, b, mid
     l_l_cab10:
         number: neuron-1-10
-        tags: l_cab, cabinet, a
+        tags: l_cab, cabinet, a, mid
     l_l_cab11:
         number: neuron-1-11
-        tags: l_cab, cabinet, b
+        tags: l_cab, cabinet, b, mid
     l_l_cab12:
         number: neuron-1-12
-        tags: l_cab, cabinet, a
+        tags: l_cab, cabinet, a, mid
     l_l_cab13:
         number: neuron-1-13
-        tags: l_cab, cabinet, b
+        tags: l_cab, cabinet, b, mid
     l_l_cab14:
         number: neuron-1-14
-        tags: l_cab, cabinet, a
+        tags: l_cab, cabinet, a, mid
     l_l_cab15:
         number: neuron-1-15
-        tags: l_cab, cabinet, b
+        tags: l_cab, cabinet, b, lower
     l_l_cab16:
         number: neuron-1-16
-        tags: l_cab, cabinet, a
+        tags: l_cab, cabinet, a, lower
     l_l_cab17:
         number: neuron-1-17
-        tags: l_cab, cabinet, b
+        tags: l_cab, cabinet, b, lower
     l_l_cab18:
         number: neuron-1-18
-        tags: l_cab, cabinet, a
+        tags: l_cab, cabinet, a, lower
     l_l_cab19:
         number: neuron-1-19
-        tags: l_cab, cabinet, b
+        tags: l_cab, cabinet, b, lower
     l_l_cab20:
         number: neuron-1-20
-        tags: l_cab, cabinet, a
+        tags: l_cab, cabinet, a, lower
     l_r_cab1:
         number: neuron-2-1
-        tags: r_cab, cabinet, b
+        tags: r_cab, cabinet, b, qp
     l_r_cab2:
         number: neuron-2-2
-        tags: r_cab, cabinet, a
+        tags: r_cab, cabinet, a, qp
     l_r_cab3:
         number: neuron-2-3
-        tags: r_cab, cabinet, b
+        tags: r_cab, cabinet, b, qp
     l_r_cab4:
         number: neuron-2-4
-        tags: r_cab, cabinet, a
+        tags: r_cab, cabinet, a, qp
     l_r_cab5:
         number: neuron-2-5
-        tags: r_cab, cabinet, b
+        tags: r_cab, cabinet, b, qp
     l_r_cab6:
         number: neuron-2-6
-        tags: r_cab, cabinet, a
+        tags: r_cab, cabinet, a, qp
     l_r_cab7:
         number: neuron-2-7
-        tags: r_cab, cabinet, b
+        tags: r_cab, cabinet, b, mid
     l_r_cab8:
         number: neuron-2-8
-        tags: r_cab, cabinet, a
+        tags: r_cab, cabinet, a, mid
     l_r_cab9:
         number: neuron-2-9
-        tags: r_cab, cabinet, b
+        tags: r_cab, cabinet, b, mid
     l_r_cab10:
         number: neuron-2-10
-        tags: r_cab, cabinet, a
+        tags: r_cab, cabinet, a, mid
     l_r_cab11:
         number: neuron-2-11
-        tags: r_cab, cabinet, b
+        tags: r_cab, cabinet, b, mid
     l_r_cab12:
         number: neuron-2-12
-        tags: r_cab, cabinet, a
+        tags: r_cab, cabinet, a, mid
     l_r_cab13:
         number: neuron-2-13
-        tags: r_cab, cabinet, b
+        tags: r_cab, cabinet, b, mid
     l_r_cab14:
         number: neuron-2-14
-        tags: r_cab, cabinet, a
+        tags: r_cab, cabinet, a, mid
     l_r_cab15:
         number: neuron-2-15
-        tags: r_cab, cabinet, b
+        tags: r_cab, cabinet, b, lower
     l_r_cab16:
         number: neuron-2-16
-        tags: r_cab, cabinet, a
+        tags: r_cab, cabinet, a, lower
     l_r_cab17:
         number: neuron-2-17
-        tags: r_cab, cabinet, b
+        tags: r_cab, cabinet, b, lower
     l_r_cab18:
         number: neuron-2-18
-        tags: r_cab, cabinet, a
+        tags: r_cab, cabinet, a, lower
     l_r_cab19:
         number: neuron-2-19
-        tags: r_cab, cabinet, b
+        tags: r_cab, cabinet, b, lower
     l_r_cab20:
         number: neuron-2-20
-        tags: r_cab, cabinet, a
+        tags: r_cab, cabinet, a, lower
 
 switches:
     s_left_flipper:
@@ -892,6 +892,18 @@ machine_vars:
 player_vars:
     pop_bumper_hits:
         initial_value: 0
+    ramp_x:
+        initial_value: 1
+    curve_x:
+        initial_value: 1
+    core_x:
+        initial_value: 1
+    target_x:
+        initial_value: 1
+    qp_x:
+        initial_value: 1
+    shot_x:
+        initial_value: 1
 
 modes:
     - base

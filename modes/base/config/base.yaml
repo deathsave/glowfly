@@ -29,17 +29,23 @@ light_player:
     s_shooter_lane_active:
         lamps: off
         cabinet: off
+    base_set_stage1:
+        qp: off
+        ramp: off
+        mid: on
+        lower: on
+    base_set_stage2:
+        rampgi: on
+        loop_core: red
+
 
 show_player:
     s_shooter_lane_active:
         base_glimmer_show:
             action: stop
     s_shooter_lane_inactive:
-        base_glimmer_show:
-            loops: -1
-            show_tokens:
-                color1: "ffffff"
-                color2: red
+        base_set_stage_show:
+            loops: 0
     test_glow_coil:
         base_glimmer_show:
             action: stop
@@ -161,14 +167,24 @@ sound_player:
 
 variable_player:
     curve_right_shot_hit:
-        score: 1000
+        score: 1000 * current_player.curve_x
     curve_left_shot_hit:
-        score: 1000
+        score: 1000 * current_player.curve_x
     curve_left_core_shot_hit:
-        score: 5000
+        score: 5000 * current_player.curve_x
+        core_x: 1
     curve_right_core_shot_hit:
-        score: 5000
-    left_full_core_shot:
-        score: 10000
-    right_full_score_shot:
-        score: 10000
+        score: 5000 * current_player.curve_x
+        core_x: 1
+    left_full_core_shot_hit:
+        score: 10000 * (current_player.curve_x + current_player.core_x)
+        curve_x: 1
+    right_full_core_shot_hit:
+        score: 10000 * (current_player.curve_x + current_player.core_x)
+        curve_x: 1
+    left_uturn_shot_hit:
+        score: 2500 * current_player.ramp_x
+        ramp_x: 1
+    right_uturn_shot_hit:
+        score: 2500 * current_player.ramp_x
+        ramp_x: 1

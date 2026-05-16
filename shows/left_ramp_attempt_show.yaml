@@ -1,0 +1,21 @@
+#show_version=6
+##! show: left_ramp_attempt_show
+
+    - time: "+33ms"
+      lights:
+          l_ramp1: on
+    - time: "+34ms"
+      lights:
+          l_ramp2: on
+    - time: "+34ms"
+      lights:
+          l_ramp3: on
+    - time: "+33ms"
+      lights:
+          l_ramp4: on
+    - time: "+34ms"
+      lights:
+          l_ramp5: on
+    - time: "+33ms"
+      lights:
+          l_ramp6: on
