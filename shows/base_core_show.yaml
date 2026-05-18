@@ -1,0 +1,202 @@
+#show_version=6
+##! show: base_core_show
+    - time: "+.33"
+      lights:
+          l_loop_core1:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core2:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core3:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core4:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core5:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core6:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core7:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core8:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core9:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          loop_core:
+              color: "000000"
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core1:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core2:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core3:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core4:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core5:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core6:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core7:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core8:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core9:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          loop_core:
+              color: "000000"
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core9:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core8:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core7:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core6:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core5:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core4:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core3:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core2:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core1:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          loop_core:
+              color: "000000"
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core9:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core8:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core7:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core6:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core5:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core4:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core3:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_loop_core2:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_loop_core1:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          loop_core:
+              color: "000000"
+              fade: 200ms

@@ -1,0 +1,101 @@
+#show_version=6
+##! show: ramp_r_attempt_show
+
+    - time: "+50ms"
+      lights:
+          rampgi:
+              color: "000000"
+          l_ramp23:
+              color: (color)
+              fade: 200ms
+    - time: "+50ms"
+      lights:
+          l_ramp22:
+              color: (color)
+              fade: 200ms
+    - time: "+50ms"
+      lights:
+          l_ramp23:
+              color: "000000"
+              fade: 200ms
+          l_ramp21:
+              color: (color)
+              fade: 200ms
+    - time: "+50ms"
+      lights:
+          l_ramp22:
+              color: "000000"
+              fade: 200ms
+          l_ramp20:
+              color: (color)
+              fade: 200ms
+    - time: "+50ms"
+      lights:
+          l_ramp21:
+              color: "000000"
+              fade: 200ms
+          l_ramp19:
+              color: (color)
+              fade: 200ms
+    - time: "+50ms"
+      lights:
+          l_ramp20:
+              color: "000000"
+              fade: 200ms
+          l_ramp18:
+              color: (color)
+              fade: 200ms
+    - time: "+50ms"
+      lights:
+          l_ramp19:
+              color: "000000"
+              fade: 200ms
+          l_ramp17:
+              color: (color)
+              fade: 200ms
+    - time: "+50ms"
+      lights:
+          l_ramp18:
+              color: "000000"
+              fade: 200ms
+          l_ramp16:
+              color: (color)
+              fade: 200ms
+    - time: "+50ms"
+      lights:
+          l_ramp17:
+              color: "000000"
+              fade: 200ms
+          l_ramp15:
+              color: (color)
+              fade: 200ms
+    - time: "+50ms"
+      lights:
+          l_ramp16:
+              color: "000000"
+              fade: 200ms
+          l_ramp14:
+              color: (color)
+              fade: 200ms
+    - time: "+50ms"
+      lights:
+          l_ramp15:
+              color: "000000"
+              fade: 200ms
+          l_ramp13:
+              color: (color)
+              fade: 200ms
+    - time: "+50ms"
+      lights:
+          l_ramp14:
+              color: "000000"
+              fade: 200ms
+          l_ramp12:
+              color: (color)
+              fade: 200ms
+    - time: "+200ms"
+      lights:
+          l_ramp13:
+              color: "000000"
+              fade: 200ms
+      events: relight_ramp_shots

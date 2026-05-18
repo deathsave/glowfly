@@ -1,0 +1,75 @@
+#show_version=6
+##! show: ramp_lit_show
+
+    - time: "+.33"
+      lights:
+          l_ramp1:
+              color: (color)
+              fade: 200ms
+          l_ramp23:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_ramp1:
+              color: "000000"
+              fade: 200ms
+          l_ramp23:
+              color: "000000"
+              fade: 200ms
+          l_ramp2:
+              color: (color)
+              fade: 200ms
+          l_ramp22:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_ramp2:
+              color: "000000"
+              fade: 200ms
+          l_ramp22:
+              color: "000000"
+              fade: 200ms
+          l_ramp3:
+              color: (color)
+              fade: 200ms
+          l_ramp21:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_ramp3:
+              color: "000000"
+              fade: 200ms
+          l_ramp21:
+              color: "000000"
+              fade: 200ms
+          l_ramp4:
+              color: (color)
+              fade: 200ms
+          l_ramp20:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          l_ramp4:
+              color: "000000"
+              fade: 200ms
+          l_ramp20:
+              color: "000000"
+              fade: 200ms
+          l_ramp5:
+              color: (color)
+              fade: 200ms
+          l_ramp19:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          l_ramp5:
+              color: "000000"
+              fade: 200ms
+          l_ramp19:
+              color: "000000"
+              fade: 200ms

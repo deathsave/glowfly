@@ -46,25 +46,63 @@ show_player:
     s_shooter_lane_inactive:
         base_set_stage_show:
             loops: 0
-    test_glow_coil:
-        base_glimmer_show:
-            action: stop
-    s_left_flipper_active:
+    curve_left_shot_hit:
         base_lights_out_show:
             action: play
-            loops: -1
+            loops: 0
             priority: 100
-    s_right_flipper_active:
+    curve_right_shot_hit:
         base_lights_out_show:
             action: play
-            loops: -1
+            loops: 0
             priority: 100
-    s_left_flipper_inactive:
-        base_lights_out_show:
+    base_set_stage2:
+        ramp_lit_show:
+            action: play
+            loops: -1
+            show_tokens:
+                color: red
+        base_lanes_show:
+            action: play
+            loops: -1
+            speed: 1
+        base_core_show:
+            action: play
+            loops: -1
+            show_tokens:
+                color: red 
+    relight_ramp_shots:
+        ramp_lit_show:
+            action: play
+            loops: -1
+            show_tokens:
+                color: red
+    ramp_left_entry_shot_hit:
+        ramp_lit_show:
             action: stop
-    s_right_flipper_inactive:
-        base_lights_out_show:
+        ramp_l_attempt_show:
+            action: play
+            loops: 0
+            show_tokens:
+                color: red
+    left_uturn_shot_hit:
+        ramp_l_complete_show:
+            loops: 0
+            show_tokens:
+                color: red
+    ramp_right_entry_shot_hit:
+        ramp_lit_show:
             action: stop
+        ramp_r_attempt_show:
+            action: play
+            loops: 0
+            show_tokens:
+                color: red
+    right_uturn_shot_hit:
+        ramp_r_complete_show:
+            loops: 0
+            show_tokens:
+                color: red
 
 
 
@@ -103,6 +141,21 @@ shots:
         switches: s_lane_f
     y_lane_shot:
         switches: s_lane_y
+    ramp_right_entry_shot:
+        switches: s_uramp_right
+        delay_switch:
+            s_uramp_left: 2s
+    ramp_left_entry_shot:
+        switches: s_uramp_left
+        delay_switch:
+            s_uramp_right: 2s
+    slingshot_r:
+        switches: s_right_sling
+    slingshot_l:
+        switches: s_left_sling
+    shooter_lane_loaded:
+        switches: s_shooter_lane
+        disable_events: s_shooter_lane_inactive
 
 sequence_shots:
     clockwise_core_shot:
@@ -140,11 +193,17 @@ sequence_shots:
         sequence_timeout: 3s
 
 sound_player:
-    mode_base_started:
-        glowfly_main_infinity_full:
+    shooter_lane_loaded_hit:
+        glowfly_launch_wait:
+            action: play
+            loops: -1
+    s_shooter_lane_inactive:
+        glowfly_launch_wait:
+            action: stop
+        glowfly_infinity_main:
             action: play
     ball_ending:
-        glowfly_main_infinity_full:
+        glowfly_infinity_main:
             action: stop
     curve_left_shot_hit:
         left_1:
@@ -188,3 +247,21 @@ variable_player:
     right_uturn_shot_hit:
         score: 2500 * current_player.ramp_x
         ramp_x: 1
+    slingshot_l_hit:
+        score: 125
+    slingshot_r_hit:
+        score: 125
+    g_target_shot_hit:
+        score: 500
+    l_target_shot_hit:
+        score: 500
+    o_target_shot_hit:
+        score: 500
+    w_target_shot_hit:
+        score: 500
+    f_lane_shot_hit:
+        score: 1000
+    l_lane_shot_hit:
+        score: 1000
+    y_lane_shot_hit:
+        score: 1000
