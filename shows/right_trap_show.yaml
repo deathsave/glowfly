@@ -1,0 +1,14 @@
+#show_version=6
+##! show: right_trap_show
+
+- time: "+30ms"
+  lights:
+      lamps: off
+      cabinet: off
+- time: "+10ms"
+  lights:
+      apron: "999999"
+- time: "+10s"
+  lights:
+      lamps: off
+      cabinet: off 

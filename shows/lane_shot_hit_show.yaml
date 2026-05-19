@@ -1,0 +1,32 @@
+#show_version=6
+##! show: lane_shot_hit_show
+    - time: +50ms
+      lights:
+          upper_curve_block:
+              color: "ffffff"
+              fade: 20ms
+    - time: +50ms
+      lights:
+          upper_curve_block:
+              color: "000000"
+              fade: 20ms
+    - time: +50ms
+      lights:
+          upper_curve_block:
+              color: "ffffff"
+              fade: 20ms
+    - time: +50ms
+      lights:
+          upper_curve_block:
+              color: "000000"
+              fade: 20ms
+    - time: +50ms
+      lights:
+          upper_curve_block:
+              color: "ffffff"
+              fade: 20ms
+    - time: +50ms
+      lights:
+          upper_curve_block:
+              color: "000000"
+              fade: 20ms

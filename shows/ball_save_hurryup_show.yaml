@@ -1,0 +1,171 @@
+#show_version=6
+##! show: ball_save_hurryup_show
+
+    - time: "+.33"
+      lights:
+          l_left_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_left_lane2:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane2:
+              color: "yellow"
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_left_lane1:
+              color: "000000"
+              fade: 67ms
+          l_left_lane2:
+              color: "000000"
+              fade: 67ms
+          l_right_lane1:
+              color: "000000"
+              fade: 67ms
+          l_right_lane2:
+              color: "000000"
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_left_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_left_lane2:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane2:
+              color: "yellow"
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_left_lane1:
+              color: "000000"
+              fade: 67ms
+          l_left_lane2:
+              color: "000000"
+              fade: 67ms
+          l_right_lane1:
+              color: "000000"
+              fade: 67ms
+          l_right_lane2:
+              color: "000000"
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_left_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_left_lane2:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane2:
+              color: "yellow"
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_left_lane1:
+              color: "000000"
+              fade: 67ms
+          l_left_lane2:
+              color: "000000"
+              fade: 67ms
+          l_right_lane1:
+              color: "000000"
+              fade: 67ms
+          l_right_lane2:
+              color: "000000"
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_left_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_left_lane2:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane2:
+              color: "yellow"
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_left_lane1:
+              color: "000000"
+              fade: 67ms
+          l_left_lane2:
+              color: "000000"
+              fade: 67ms
+          l_right_lane1:
+              color: "000000"
+              fade: 67ms
+          l_right_lane2:
+              color: "000000"
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_left_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_left_lane2:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane2:
+              color: "yellow"
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_left_lane1:
+              color: "000000"
+              fade: 67ms
+          l_left_lane2:
+              color: "000000"
+              fade: 67ms
+          l_right_lane1:
+              color: "000000"
+              fade: 67ms
+          l_right_lane2:
+              color: "000000"
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_left_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_left_lane2:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane1:
+              color: "yellow"
+              fade: 67ms
+          l_right_lane2:
+              color: "yellow"
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_left_lane1:
+              color: "000000"
+              fade: 67ms
+          l_left_lane2:
+              color: "000000"
+              fade: 67ms
+          l_right_lane1:
+              color: "000000"
+              fade: 67ms
+          l_right_lane2:
+              color: "000000"
+              fade: 67ms

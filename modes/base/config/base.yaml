@@ -5,9 +5,9 @@ mode:
 
 ball_saves:
     ball_start_ball_save:
-        active_time: "+5s"
-        hurry_up_time: 6s
-        timer_start_events: s_shooter_lane_inactive
+        active_time: 10s
+        hurry_up_time: 5s
+        timer_start_events: sw_playfield_active
         auto_launch: true
         balls_to_save: 1
 
@@ -36,7 +36,7 @@ light_player:
         lower: on
     base_set_stage2:
         rampgi: on
-        loop_core: red
+
 
 
 show_player:
@@ -70,7 +70,25 @@ show_player:
             action: play
             loops: -1
             show_tokens:
-                color: red 
+                color: red
+    right_trap_detected:
+        right_trap_show:
+            action: play
+            loops: -1
+        left_trap_show:
+            action: stop
+    right_trap_released:
+        right_trap_show:
+            action: stop
+    left_trap_detected:
+        left_trap_show:
+            action: play
+            loops: -1
+        right_trap_show:
+            action: stop
+    left_trap_released:
+        left_trap_show:
+            action: stop
     relight_ramp_shots:
         ramp_lit_show:
             action: play
@@ -103,6 +121,23 @@ show_player:
             loops: 0
             show_tokens:
                 color: red
+    f_lane_shot_hit:
+        lane_shot_hit_show:
+            loops: 0
+    l_lane_shot_hit:
+        lane_shot_hit_show:
+            loops: 0
+    y_lane_shot_hit:
+        lane_shot_hit_show:
+            loops: 0
+    ball_save_ball_start_ball_save_timer_start:
+        ball_save_active_show:
+            loops: -1
+    ball_save_ball_start_ball_save_hurry_up:
+        ball_save_active_show:
+            action: stop
+        ball_save_hurryup_show:
+            loops: 0
 
 
 
@@ -115,6 +150,19 @@ coil_player:
         c_glow_shooter_lane: on
     s_shooter_lane_inactive:
         c_glow_shooter_lane: off
+
+timed_switches:
+    trap_left:
+        switches: s_left_flipper
+        time: 3s
+        events_when_active: left_trap_detected
+        events_when_released: left_trap_released
+    trap_right:
+        switches: s_right_flipper
+        time: 3s
+        events_when_active: right_trap_detected
+        events_when_released: right_trap_released
+
 
 shots:
     curve_right_shot:
@@ -138,7 +186,7 @@ shots:
     f_lane_shot:
         switches: s_lane_f
     l_lane_shot:
-        switches: s_lane_f
+        switches: s_lane_l
     y_lane_shot:
         switches: s_lane_y
     ramp_right_entry_shot:
@@ -222,6 +270,27 @@ sound_player:
             action: play
     right_full_core_shot_hit:
         right_3:
+            action: play
+    slingshot_l_hit:
+        slingsounds:
+            action: play
+    slingshot_r_hit:
+        slingsounds:
+            action: play
+    right_uturn_shot_hit:
+        ramp_r:
+            action: play
+    left_uturn_shot_hit:
+        ramp_l:
+            action: play
+    f_lane_shot_hit:
+        fairy_sounds:
+            action: play
+    l_lane_shot_hit:
+        fairy_sounds:
+            action: play
+    y_lane_shot_hit:
+        fairy_sounds:
             action: play
 
 variable_player:
