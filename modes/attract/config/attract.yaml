@@ -62,3 +62,4 @@ slides:
         widgets:
             type: image
             image: glowfly_title
+            scale: .9

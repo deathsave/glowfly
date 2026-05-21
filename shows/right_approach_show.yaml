@@ -1,10 +1,13 @@
 #show_version=6
-##! show: base_lights_out_show
+##! show: right_approach_show
 
-    - time: "+30ms"
+    - time: "+20ms"
       lights:
           lamps: off
           cabinet: off
+    - time: "+20ms"
+      lights:
+          upper_right_block: on
     - time: "+30ms"
       lights:
           lamps: on
@@ -13,7 +16,14 @@
       lights:
           lamps: off
           cabinet: off
-    - time: "+1s"
+    - time: "+20ms"
+      lights:
+          upper_right_block: on
+    - time: "+200ms"
+      lights:
+          lamps: off
+          cabinet: off
+    - time: "+800ms"
       lights:
           lamps: off
           cabinet: off

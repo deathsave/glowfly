@@ -1,0 +1,426 @@
+#show_version=6
+##! show: base_apron_show
+    - time: "+.33"
+      lights:
+          l_apron1:
+              color: (color)
+              fade: 67ms
+          l_apron2:
+              color: (color)
+              fade: 67ms
+          l_apron31:
+              color: (color)
+              fade: 67ms
+          l_apron32:
+              color: (color)
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_apron3:
+              color: (color)
+              fade: 67ms
+          l_apron4:
+              color: (color)
+              fade: 67ms
+          l_apron30:
+              color: (color)
+              fade: 67ms
+          l_apron29:
+              color: (color)
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_apron1:
+              color: "000000"
+              fade: 67ms
+          l_apron2:
+              color: "000000"
+              fade: 67ms
+          l_apron31:
+              color: "000000"
+              fade: 67ms
+          l_apron32:
+              color: "000000"
+              fade: 67ms
+          l_apron5:
+              color: (color)
+              fade: 67ms
+          l_apron6:
+              color: (color)
+              fade: 67ms
+          l_apron28:
+              color: (color)
+              fade: 67ms
+          l_apron27:
+              color: (color)
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_apron3:
+              color: "000000"
+              fade: 67ms
+          l_apron4:
+              color: "000000"
+              fade: 67ms
+          l_apron29:
+              color: "000000"
+              fade: 67ms
+          l_apron30:
+              color: "000000"
+              fade: 67ms
+          l_apron7:
+              color: (color)
+              fade: 67ms
+          l_apron8:
+              color: (color)
+              fade: 67ms
+          l_apron26:
+              color: (color)
+              fade: 67ms
+          l_apron25:
+              color: (color)
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_apron5:
+              color: "000000"
+              fade: 67ms
+          l_apron6:
+              color: "000000"
+              fade: 67ms
+          l_apron27:
+              color: "000000"
+              fade: 67ms
+          l_apron28:
+              color: "000000"
+              fade: 67ms
+          l_apron9:
+              color: (color)
+              fade: 67ms
+          l_apron10:
+              color: (color)
+              fade: 67ms
+          l_apron24:
+              color: (color)
+              fade: 67ms
+          l_apron23:
+              color: (color)
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_apron7:
+              color: "000000"
+              fade: 67ms
+          l_apron8:
+              color: "000000"
+              fade: 67ms
+          l_apron25:
+              color: "000000"
+              fade: 67ms
+          l_apron26:
+              color: "000000"
+              fade: 67ms
+          l_apron11:
+              color: (color)
+              fade: 67ms
+          l_apron12:
+              color: (color)
+              fade: 67ms
+          l_apron22:
+              color: (color)
+              fade: 67ms
+          l_apron21:
+              color: (color)
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_apron9:
+              color: "000000"
+              fade: 67ms
+          l_apron10:
+              color: "000000"
+              fade: 67ms
+          l_apron24:
+              color: "000000"
+              fade: 67ms
+          l_apron23:
+              color: "000000"
+              fade: 67ms
+          l_apron13:
+              color: (color)
+              fade: 67ms
+          l_apron14:
+              color: (color)
+              fade: 67ms
+          l_apron20:
+              color: (color)
+              fade: 67ms
+          l_apron19:
+              color: (color)
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_apron11:
+              color: "000000"
+              fade: 67ms
+          l_apron12:
+              color: "000000"
+              fade: 67ms
+          l_apron22:
+              color: "000000"
+              fade: 67ms
+          l_apron21:
+              color: "000000"
+              fade: 67ms
+          l_apron15:
+              color: (color)
+              fade: 67ms
+          l_apron16:
+              color: (color)
+              fade: 67ms
+          l_apron18:
+              color: (color)
+              fade: 67ms
+          l_apron17:
+              color: (color)
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_apron13:
+              color: "000000"
+              fade: 67ms
+          l_apron14:
+              color: "000000"
+              fade: 67ms
+          l_apron20:
+              color: "000000"
+              fade: 67ms
+          l_apron19:
+              color: "000000"
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_apron15:
+              color: "000000"
+              fade: 67ms
+          l_apron16:
+              color: "000000"
+              fade: 67ms
+          l_apron18:
+              color: "000000"
+              fade: 67ms
+          l_apron17:
+              color: "000000"
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_apron15:
+              color: (color)
+              fade: 67ms
+          l_apron16:
+              color: (color)
+              fade: 67ms
+          l_apron18:
+              color: (color)
+              fade: 67ms
+          l_apron17:
+              color: (color)
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_apron13:
+              color: (color)
+              fade: 67ms
+          l_apron14:
+              color: (color)
+              fade: 67ms
+          l_apron20:
+              color: (color)
+              fade: 67ms
+          l_apron19:
+              color: (color)
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_apron15:
+              color: "000000"
+              fade: 67ms
+          l_apron16:
+              color: "000000"
+              fade: 67ms
+          l_apron17:
+              color: "000000"
+              fade: 67ms
+          l_apron18:
+              color: "000000"
+              fade: 67ms
+          l_apron11:
+              color: (color)
+              fade: 67ms
+          l_apron12:
+              color: (color)
+              fade: 67ms
+          l_apron21:
+              color: (color)
+              fade: 67ms
+          l_apron22:
+              color: (color)
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_apron13:
+              color: "000000"
+              fade: 67ms
+          l_apron14:
+              color: "000000"
+              fade: 67ms
+          l_apron19:
+              color: "000000"
+              fade: 67ms
+          l_apron20:
+              color: "000000"
+              fade: 67ms
+          l_apron9:
+              color: (color)
+              fade: 67ms
+          l_apron10:
+              color: (color)
+              fade: 67ms
+          l_apron23:
+              color: (color)
+              fade: 67ms
+          l_apron24:
+              color: (color)
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_apron11:
+              color: "000000"
+              fade: 67ms
+          l_apron12:
+              color: "000000"
+              fade: 67ms
+          l_apron21:
+              color: "000000"
+              fade: 67ms
+          l_apron22:
+              color: "000000"
+              fade: 67ms
+          l_apron7:
+              color: (color)
+              fade: 67ms
+          l_apron8:
+              color: (color)
+              fade: 67ms
+          l_apron25:
+              color: (color)
+              fade: 67ms
+          l_apron26:
+              color: (color)
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_apron9:
+              color: "000000"
+              fade: 67ms
+          l_apron10:
+              color: "000000"
+              fade: 67ms
+          l_apron23:
+              color: "000000"
+              fade: 67ms
+          l_apron24:
+              color: "000000"
+              fade: 67ms
+          l_apron5:
+              color: (color)
+              fade: 67ms
+          l_apron6:
+              color: (color)
+              fade: 67ms
+          l_apron27:
+              color: (color)
+              fade: 67ms
+          l_apron28:
+              color: (color)
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_apron7:
+              color: "000000"
+              fade: 67ms
+          l_apron8:
+              color: "000000"
+              fade: 67ms
+          l_apron25:
+              color: "000000"
+              fade: 67ms
+          l_apron26:
+              color: "000000"
+              fade: 67ms
+          l_apron3:
+              color: (color)
+              fade: 67ms
+          l_apron4:
+              color: (color)
+              fade: 67ms
+          l_apron29:
+              color: (color)
+              fade: 67ms
+          l_apron30:
+              color: (color)
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_apron5:
+              color: "000000"
+              fade: 67ms
+          l_apron6:
+              color: "000000"
+              fade: 67ms
+          l_apron27:
+              color: "000000"
+              fade: 67ms
+          l_apron28:
+              color: "000000"
+              fade: 67ms
+          l_apron1:
+              color: (color)
+              fade: 67ms
+          l_apron2:
+              color: (color)
+              fade: 67ms
+          l_apron31:
+              color: (color)
+              fade: 67ms
+          l_apron32:
+              color: (color)
+              fade: 67ms
+    - time: "+.33"
+      lights:
+          l_apron3:
+              color: "000000"
+              fade: 67ms
+          l_apron4:
+              color: "000000"
+              fade: 67ms
+          l_apron29:
+              color: "000000"
+              fade: 67ms
+          l_apron30:
+              color: "000000"
+              fade: 67ms
+    - time: "+.34"
+      lights:
+          l_apron1:
+              color: "000000"
+              fade: 67ms
+          l_apron2:
+              color: "000000"
+              fade: 67ms
+          l_apron31:
+              color: "000000"
+              fade: 67ms
+          l_apron32:
+              color: "000000"
+              fade: 67ms

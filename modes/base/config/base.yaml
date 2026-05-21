@@ -21,6 +21,15 @@ slides:
               font_size: 240
               font_name: pixelmix
               color: white
+            - type: text
+              text: PLAYER (number)
+              anchor_x: left
+              anchor_y: top
+              x: left+20
+              y: top-20
+              font_name: pixelmix
+              font_size: 42
+              color: white
 
 slide_player:
     mode_base_started: base_score_slide
@@ -46,16 +55,6 @@ show_player:
     s_shooter_lane_inactive:
         base_set_stage_show:
             loops: 0
-    curve_left_shot_hit:
-        base_lights_out_show:
-            action: play
-            loops: 0
-            priority: 100
-    curve_right_shot_hit:
-        base_lights_out_show:
-            action: play
-            loops: 0
-            priority: 100
     base_set_stage2:
         ramp_lit_show:
             action: play
@@ -66,11 +65,19 @@ show_player:
             action: play
             loops: -1
             speed: 1
+        base_slings_gi_show:
+            action: play
+            loops: -1
         base_core_show:
             action: play
             loops: -1
             show_tokens:
                 color: red
+        base_apron_show:
+            action: play
+            loops: -1
+            show_tokens:
+                color: white
     right_trap_detected:
         right_trap_show:
             action: play
@@ -95,6 +102,17 @@ show_player:
             loops: -1
             show_tokens:
                 color: red
+#shows for shots
+    curve_left_shot_hit:
+        base_lights_out_show:
+            action: play
+            loops: 0
+            priority: 100
+    curve_right_shot_hit:
+        base_lights_out_show:
+            action: play
+            loops: 0
+            priority: 100
     ramp_left_entry_shot_hit:
         ramp_lit_show:
             action: stop
@@ -130,6 +148,22 @@ show_player:
     y_lane_shot_hit:
         lane_shot_hit_show:
             loops: 0
+    right_approach_shot_hit:
+        right_approach_show:
+            loops: 0
+    left_approach_shot_hit:
+        left_approach_show:
+            loops: 0
+    slingshot_l_hit:
+        left_sling_show:
+            loops: 0
+            speed: 1.5
+    slingshot_r_hit:
+        right_sling_show:
+            loops: 0
+            speed: 1.5
+
+#ball save shows
     ball_save_ball_start_ball_save_timer_start:
         ball_save_active_show:
             loops: -1
@@ -138,6 +172,7 @@ show_player:
             action: stop
         ball_save_hurryup_show:
             loops: 0
+
 
 
 
@@ -204,6 +239,15 @@ shots:
     shooter_lane_loaded:
         switches: s_shooter_lane
         disable_events: s_shooter_lane_inactive
+    left_approach_shot:
+        switches: s_left_approach
+        delay_switch:
+            s_right_approach: 4s
+    right_approach_shot:
+        switches: s_right_approach
+        delay_switch:
+            s_left_approach: 4s
+
 
 sequence_shots:
     clockwise_core_shot:

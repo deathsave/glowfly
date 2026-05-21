@@ -1,0 +1,123 @@
+#show_version=6
+##! show: base_slings_gi_show
+
+    - time: "+.33"
+      lights:
+          slings:
+              color: "ffffff"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms
+    - time: "+.33"
+      lights:
+          slings:
+              color: "000000"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms
+    - time: "+.33"
+      lights:
+          slings:
+              color: "ffffff"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms
+    - time: "+.33"
+      lights:
+          slings:
+              color: "000000"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms
+    - time: "+.33"
+      lights:
+          slings:
+              color: "ffffff"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms
+    - time: "+.33"
+      lights:
+          slings:
+              color: "000000"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms
+    - time: "+.33"
+      lights:
+          slings:
+              color: "ffffff"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms
+    - time: "+.33"
+      lights:
+          slings:
+              color: "000000"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms
+    - time: "+.33"
+      lights:
+          slings:
+              color: "ffffff"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms
+    - time: "+.33"
+      lights:
+          slings:
+              color: "000000"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms
+    - time: "+.33"
+      lights:
+          slings:
+              color: "ffffff"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms
+    - time: "+.33"
+      lights:
+          slings:
+              color: "000000"
+              fade: 100ms
+    - time: "+.34"
+      lights:
+          slings:
+              color: "999999"
+              fade: 100ms

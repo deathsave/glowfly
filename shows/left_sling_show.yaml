@@ -1,0 +1,35 @@
+#show_version=6
+##! show: left_sling_show
+
+    - time: "+10ms"
+      lights:
+          lamps: off
+          cabinet: off
+    - time: "+30ms"
+      lights:
+          l_left_sling1: red
+    - time: "+30ms"
+      lights:
+          l_left_sling2: red
+    - time: "+30ms"
+      lights:
+          l_left_sling1: orange
+    - time: "+30ms"
+      lights:
+          l_left_sling2: orange
+    - time: "+30ms"
+      lights:
+          l_left_sling1: yellow
+    - time: "+30ms"
+      lights:
+          l_left_sling2: yellow
+    - time: "+30ms"
+      lights:
+          l_left_sling1: blue
+    - time: "+30ms"
+      lights:
+          l_left_sling2: blue
+    - time: "+30ms"
+      lights:
+          l_left_sling1: white
+          l_left_sling2: white
