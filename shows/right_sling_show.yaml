@@ -14,12 +14,20 @@
     - time: "+30ms"
       lights:
           l_right_sling1: orange
+    - time: "+10ms"
+      lights:
+          lamps: on
+          cabinet: on
     - time: "+30ms"
       lights:
           l_right_sling2: orange
     - time: "+30ms"
       lights:
           l_right_sling1: yellow
+    - time: "+10ms"
+      lights:
+          lamps: off
+          cabinet: off
     - time: "+30ms"
       lights:
           l_right_sling2: yellow

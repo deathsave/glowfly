@@ -19,11 +19,11 @@
     - time: "+20ms"
       lights:
           upper_right_block: on
-    - time: "+200ms"
+    - time: "+100ms"
       lights:
           lamps: off
           cabinet: off
-    - time: "+800ms"
+    - time: "+300ms"
       lights:
           lamps: off
           cabinet: off
