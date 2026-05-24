@@ -11,6 +11,119 @@ ball_saves:
         auto_launch: true
         balls_to_save: 1
 
+state_machines:
+    g_target_status:
+        starting_state: lit
+        states:
+            lit:
+                label: Start state
+                events_when_started: g_target_lit
+            hit:
+                show_when_active:
+                    show: g_target_light_show
+        transitions:
+            - source: lit
+              target: hit
+              events: g_target_shot_hit
+            - source: hit
+              target: lit
+              events: reset_glowfly_targets
+    l_target_status:
+        starting_state: lit
+        states:
+            lit:
+                label: Start state
+                events_when_started: l_target_lit
+            hit:
+                show_when_active:
+                    show: l_target_light_show
+        transitions:
+            - source: lit
+              target: hit
+              events: l_target_shot_hit
+            - source: hit
+              target: lit
+              events: reset_glowfly_targets
+    o_target_status:
+        starting_state: lit
+        states:
+            lit:
+                label: Start state
+                events_when_started: o_target_lit
+            hit:
+                show_when_active:
+                    show: o_target_light_show
+        transitions:
+            - source: lit
+              target: hit
+              events: o_target_shot_hit
+            - source: hit
+              target: lit
+              events: reset_glowfly_targets
+    w_target_status:
+        starting_state: lit
+        states:
+            lit:
+                label: Start state
+                events_when_started: w_target_lit
+            hit:
+                show_when_active:
+                    show: w_target_light_show
+        transitions:
+            - source: lit
+              target: hit
+              events: w_target_shot_hit
+            - source: hit
+              target: lit
+              events: reset_glowfly_targets
+    f_lane_status:
+        starting_state: lit
+        states:
+            lit:
+                label: Start state
+                events_when_started: f_lane_lit
+            hit:
+                show_when_active:
+                    show: f_lane_light_show
+        transitions:
+            - source: lit
+              target: hit
+              events: f_lane_shot_hit
+            - source: hit
+              target: lit
+              events: reset_glowfly_targets
+    l_lane_status:
+        starting_state: lit
+        states:
+            lit:
+                label: Start state
+                events_when_started: l_lane_lit
+            hit:
+                show_when_active:
+                    show: l_lane_light_show
+        transitions:
+            - source: lit
+              target: hit
+              events: l_lane_shot_hit
+            - source: hit
+              target: lit
+              events: reset_glowfly_targets
+    y_lane_status:
+        starting_state: lit
+        states:
+            lit:
+                label: Start state
+                events_when_started: y_lane_lit
+            hit:
+                show_when_active:
+                    show: y_lane_light_show
+        transitions:
+            - source: lit
+              target: hit
+              events: y_lane_shot_hit
+            - source: hit
+              target: lit
+              events: reset_glowfly_targets
 slides:
     base_score_slide:
         widgets:
@@ -198,6 +311,13 @@ timed_switches:
         events_when_active: right_trap_detected
         events_when_released: right_trap_released
 
+#shot_profiles:
+#    fly_lanes:
+#        states:
+#            - name: unlit
+#              show: "off"
+#            - name: lit
+#              show: "on"
 
 shots:
     curve_right_shot:
@@ -220,10 +340,16 @@ shots:
         switches: s_target_w
     f_lane_shot:
         switches: s_lane_f
+        show_tokens:
+            light: f
     l_lane_shot:
         switches: s_lane_l
+        show_tokens:
+            light: l
     y_lane_shot:
         switches: s_lane_y
+        show_tokens:
+            light: y
     ramp_right_entry_shot:
         switches: s_uramp_right
         delay_switch:

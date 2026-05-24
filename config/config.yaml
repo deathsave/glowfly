@@ -371,6 +371,19 @@ lights:
     l_upper_left_wedge5:
         number: playfield-5-5
         tags: lamps, blocks, upper_left_block, a
+#glow target lights:
+    l_g:
+        number: playfield-5-6
+        tags: lamps, targets, g
+    l_l:
+        number: playfield-5-7
+        tags: lamps, targets, l_target
+    l_o:
+        number: playfield-5-8
+        tags: lamps, targets, o
+    l_w:
+        number: playfield-5-9
+        tags: lamps, targets, w
 #upper right wedge
     l_upper_right_wedge1:
         number: playfield-7-1
@@ -402,6 +415,25 @@ lights:
     l_upper_right_wedge10:
         number: playfield-7-10
         tags: lamps, blocks, upper_right_block, a
+#f-l-y lanes
+    l_y2:
+        number: playfield-7-11
+        tags: lamps, lanes, y
+    l_y1:
+        number: playfield-7-12
+        tags: lamps, lanes, y
+    l_l2:
+        number: playfield-7-13
+        tags: lamps, lanes, l
+    l_l1:
+        number: playfield-7-14
+        tags: lamps, lanes, l
+    l_f2:
+        number: playfield-7-15
+        tags: lamps, lanes, f
+    l_f1:
+        number: playfield-7-16
+        tags: lamps, lanes, f
 #ramp
     l_ramp1:
         number: playfield-8-1
