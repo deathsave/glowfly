@@ -21,6 +21,7 @@ state_machines:
             hit:
                 show_when_active:
                     show: g_target_light_show
+                events_when_started: g_target_hit
         transitions:
             - source: lit
               target: hit
@@ -37,6 +38,7 @@ state_machines:
             hit:
                 show_when_active:
                     show: l_target_light_show
+                events_when_started: l_target_hit
         transitions:
             - source: lit
               target: hit
@@ -53,6 +55,7 @@ state_machines:
             hit:
                 show_when_active:
                     show: o_target_light_show
+                events_when_started: o_target_hit
         transitions:
             - source: lit
               target: hit
@@ -69,6 +72,7 @@ state_machines:
             hit:
                 show_when_active:
                     show: w_target_light_show
+                events_when_started: w_target_hit
         transitions:
             - source: lit
               target: hit
@@ -85,6 +89,7 @@ state_machines:
             hit:
                 show_when_active:
                     show: f_lane_light_show
+                events_when_started: f_lane_hit
         transitions:
             - source: lit
               target: hit
@@ -101,6 +106,7 @@ state_machines:
             hit:
                 show_when_active:
                     show: l_lane_light_show
+                events_when_started: l_lane_hit
         transitions:
             - source: lit
               target: hit
@@ -117,6 +123,7 @@ state_machines:
             hit:
                 show_when_active:
                     show: y_lane_light_show
+                events_when_started: y_lane_hit
         transitions:
             - source: lit
               target: hit
@@ -159,7 +166,8 @@ light_player:
     base_set_stage2:
         rampgi: on
 
-
+event_player:
+    glowfly_shots_complete: reset_glowfly_targets
 
 show_player:
     s_shooter_lane_active:
@@ -319,6 +327,11 @@ timed_switches:
 #            - name: lit
 #              show: "on"
 
+#shot_groups:
+#    glowfly_shots:
+#        shots: g_target_shot, l_target_shot, o_target_shot, w_target_shot, f_lane_shot, l_lane_shot, y_lane_shot
+#        reset_events: glowfly_shots_lit_complete
+
 shots:
     curve_right_shot:
         switches: s_curve_right
@@ -374,7 +387,6 @@ shots:
         delay_switch:
             s_left_approach: 4s
 
-
 sequence_shots:
     clockwise_core_shot:
         switch_sequence: s_core_left, s_core_right
@@ -409,6 +421,21 @@ sequence_shots:
     core_sneak_in:
         event_sequence: center_spinner_shot_hit, counterwise_core_shot_hit
         sequence_timeout: 3s
+
+sequences:
+    glowfly_shots_sequence:
+        events:
+            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
+            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
+            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
+            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
+            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
+            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
+            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
+        events_when_complete: glowfly_shots_complete
+        enable_events: reset_glowfly_targets, mode_base_started
+
+
 
 sound_player:
     shooter_lane_loaded_hit:
@@ -499,8 +526,15 @@ variable_player:
     w_target_shot_hit:
         score: 500
     f_lane_shot_hit:
-        score: 1000
+        score: 2500
     l_lane_shot_hit:
-        score: 1000
+        score: 2500
     y_lane_shot_hit:
-        score: 1000
+        score: 2500
+    glowfly_shots_complete:
+        score: 150000 * current_player.qp_x
+        ramp_x: 1
+        curve_x: 1
+        core_x: 1
+        qp_x: 1
+    
