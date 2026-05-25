@@ -712,6 +712,7 @@ switches:
         tags: playfield_active
     s_left_lock:
         number: 3208-25
+        type: NC
     s_left_approach:
         number: 3208-27
         type: NC
@@ -740,7 +741,7 @@ switches:
         type: NC
         tags: playfield_active
     s_right_approach:
-        number: 3208-23
+        number: 3208-9
         type: NC
         tags: playfield_active
     s_center_spinner:
