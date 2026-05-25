@@ -377,13 +377,25 @@ lights:
         tags: lamps, targets, g
     l_l:
         number: playfield-5-7
-        tags: lamps, targets, l_target
+        tags: lamps, targets, l
     l_o:
         number: playfield-5-8
         tags: lamps, targets, o
     l_w:
         number: playfield-5-9
         tags: lamps, targets, w
+    l_letter_w:
+        number: playfield-5-10
+        tags: lamps, targets, w
+    l_letter_o:
+        number: playfield-5-11
+        tags: lamps, targets, o
+    l_letter_l:
+        number: playfield-5-12
+        tags: lamps, targets, l
+    l_letter_g:
+        number: playfield-5-13
+        tags: lamps, tragets, g
 #upper right wedge
     l_upper_right_wedge1:
         number: playfield-7-1
@@ -416,24 +428,15 @@ lights:
         number: playfield-7-10
         tags: lamps, blocks, upper_right_block, a
 #f-l-y lanes
-    l_y2:
-        number: playfield-7-11
-        tags: lamps, lanes, y
-    l_y1:
-        number: playfield-7-12
-        tags: lamps, lanes, y
-    l_l2:
-        number: playfield-7-13
-        tags: lamps, lanes, l
-    l_l1:
-        number: playfield-7-14
-        tags: lamps, lanes, l
-    l_f2:
-        number: playfield-7-15
-        tags: lamps, lanes, f
     l_f1:
-        number: playfield-7-16
-        tags: lamps, lanes, f
+        number: playfield-7-11
+        tags: lamps, fly_lanes, lane_f
+    l_l1:
+        number: playfield-7-12
+        tags: lamps, fly_lanes, lane_l
+    l_y1:
+        number: playfield-7-13
+        tags: lamps, fly_lanes, lane_y
 #ramp
     l_ramp1:
         number: playfield-8-1
@@ -724,6 +727,9 @@ switches:
         tags: playfield_active
     s_target_w:
         number: 3208-3
+        tags: playfield_active
+    s_ricochet_bumper:
+        number: 3208-8
         tags: playfield_active
     s_core_left:
         number: 3208-24
@@ -1114,7 +1120,16 @@ sound_pools:
             - fairy_whirl2
             - fairy_whirl3
             - fairy_whirl4
-
+    ricochet_sounds:
+        type: random_force_all
+        track: sfx
+        sounds:
+            - ricochet1
+            - ricochet2
+            - ricochet3
+            - ricochet4
+            - ricochet5
+            - ricochet6
 event_player:
     mode_attract_started:
         start_attract_shows:

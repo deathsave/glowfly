@@ -2,61 +2,61 @@
 ##! show: g_target_light_show
     - time: "+.33"
       lights:
-          l_g:
+          g:
               color: "ff00ff"
               fade: 67ms
     - time: "+.34"
       lights:
-          l_g:
+          g:
               color: "dd00dd"
               fade: 67ms
     - time: "+.33"
       lights:
-          l_g:
+          g:
               color: "ff00ff"
               fade: 67ms
     - time: "+.34"
       lights:
-          l_g:
+          g:
               color: "dd00dd"
               fade: 67ms
     - time: "+.33"
       lights:
-          l_g:
+          g:
               color: "ff00ff"
               fade: 67ms
     - time: "+.34"
       lights:
-          l_g:
+          g:
               color: "dd00dd"
               fade: 67ms
     - time: "+.33"
       lights:
-          l_g:
+          g:
               color: "ff00ff"
               fade: 67ms
     - time: "+.34"
       lights:
-          l_g:
+          g:
               color: "dd00dd"
               fade: 67ms
     - time: "+.33"
       lights:
-          l_g:
+          g:
               color: "ff00ff"
               fade: 67ms
     - time: "+.34"
       lights:
-          l_g:
+          g:
               color: "dd00dd"
               fade: 67ms
     - time: "+.33"
       lights:
-          l_g:
+          g:
               color: "ff00ff"
               fade: 67ms
     - time: "+.34"
       lights:
-          l_g:
+          g:
               color: "dd00dd"
               fade: 67ms

@@ -9,7 +9,7 @@
       lights:
           lamps: on
           cabinet: on
-    - time: "+250s"
+    - time: "+250ms"
       lights:
           lamps: off
           cabinet: off

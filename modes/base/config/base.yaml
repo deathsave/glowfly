@@ -337,6 +337,7 @@ shots:
         switches: s_curve_right
         delay_switch:
             s_core_left: 2s
+        enable_events: sw_playfield_active
     curve_left_shot:
         switches: s_curve_left
         delay_switch:
@@ -353,16 +354,16 @@ shots:
         switches: s_target_w
     f_lane_shot:
         switches: s_lane_f
-        show_tokens:
-            light: f
+#        show_tokens:
+#            light: f
     l_lane_shot:
         switches: s_lane_l
-        show_tokens:
-            light: l
+#        show_tokens:
+#            light: l
     y_lane_shot:
         switches: s_lane_y
-        show_tokens:
-            light: y
+#        show_tokens:
+#            light: y
     ramp_right_entry_shot:
         switches: s_uramp_right
         delay_switch:
@@ -386,6 +387,9 @@ shots:
         switches: s_right_approach
         delay_switch:
             s_left_approach: 4s
+    ricochet_shot:
+        switches: s_ricochet_bumper
+
 
 sequence_shots:
     clockwise_core_shot:
@@ -489,6 +493,9 @@ sound_player:
     y_lane_shot_hit:
         fairy_sounds:
             action: play
+    ricochet_shot_hit:
+        ricochet_sounds:
+            action: play
 
 variable_player:
     curve_right_shot_hit:
@@ -537,4 +544,5 @@ variable_player:
         curve_x: 1
         core_x: 1
         qp_x: 1
-    
+    ricochet_shot_hit:
+        score: 69
