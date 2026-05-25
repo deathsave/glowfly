@@ -427,15 +427,46 @@ lights:
     l_upper_right_wedge10:
         number: playfield-7-10
         tags: lamps, blocks, upper_right_block, a
+    l_upper_right_wedge11:
+        number: playfield-7-11
+        tags: lamps, blocks, upper_right_block, b
+    l_upper_right_wedge12:
+        number: playfield-7-12
+        tags: lamps, blocks, upper_right_block, a
+    l_upper_right_wedge13:
+        number: playfield-7-13
+        tags: lamps, blocks, upper_right_block, b
+    l_upper_right_wedge14:
+        number: playfield-7-14
+        tags: lamps, blocks, upper_right_block, a
+    l_upper_right_wedge15:
+        number: playfield-7-15
+        tags: lamps, blocks, upper_right_block, b
+    l_upper_right_wedge16:
+        number: playfield-7-16
+        tags: lamps, blocks, upper_right_block, a
+    l_upper_right_wedge17:
+        number: playfield-7-17
+        tags: lamps, blocks, upper_right_block, b
+    l_upper_right_wedge18:
+        number: playfield-7-18
+        tags: lamps, blocks, upper_right_block, a
+    l_upper_right_wedge19:
+        number: playfield-7-19
+        tags: lamps, blocks, upper_right_block, b
+    l_upper_right_wedge20:
+        number: playfield-7-20
+        tags: lamps, blocks, upper_right_block, a
+
 #f-l-y lanes
     l_f1:
-        number: playfield-7-11
+        number: playfield-7-24
         tags: lamps, fly_lanes, lane_f
     l_l1:
-        number: playfield-7-12
+        number: playfield-7-25
         tags: lamps, fly_lanes, lane_l
     l_y1:
-        number: playfield-7-13
+        number: playfield-7-26
         tags: lamps, fly_lanes, lane_y
 #ramp
     l_ramp1:
@@ -712,7 +743,6 @@ switches:
         tags: playfield_active
     s_left_lock:
         number: 3208-25
-        type: NC
     s_left_approach:
         number: 3208-27
         type: NC
