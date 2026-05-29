@@ -345,6 +345,12 @@ timed_switches:
 #        reset_events: glowfly_shots_lit_complete
 
 shots:
+    qp_assist_shot:
+        switches: s_left_approach
+        enable_events: s_right_inlane_active
+        disable_events: ball_ending, s_left_lock_active, diverter_left_lock_gate_activating
+        delay_switch:
+            s_right_approach: 5s
     curve_right_shot:
         switches: s_curve_right
         delay_switch:
@@ -406,6 +412,10 @@ shots:
 
 
 sequence_shots:
+#    left_approach_fail_shot:
+#        event_sequence: s_left_approach_active, s_left_approach_active
+#        sequence_timeout: 10s
+#        cancel_switches: s_right_approach, s_lane_f, s_lane_l, s_lane_y
     clockwise_core_shot:
         switch_sequence: s_core_left, s_core_right
         sequence_timeout: 3s
@@ -456,6 +466,14 @@ sequences:
 
 
 sound_player:
+    ball_save_ball_start_ball_save_saving_ball:
+        hey:
+            action: play
+            loops: 0
+    s_left_lock_active:
+        watch_out:
+            action: play
+            loops: 0
     shooter_lane_loaded_hit:
         glowfly_launch_wait:
             action: play
@@ -560,3 +578,13 @@ variable_player:
         qp_x: 1
     ricochet_shot_hit:
         score: 69
+    qp_assist_shot_hit:
+        score: 1000
+    s_left_inlane_active:
+        score: 11
+    s_right_inlane_active:
+        score: 11
+    s_left_outlane_active:
+        score: 250
+    s_right_outlane_active:
+        score: 250

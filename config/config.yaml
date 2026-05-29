@@ -889,7 +889,7 @@ ball_devices:
 diverters:
     left_lock_gate:
         activation_coil: c_gate
-        activate_events: test_diverter_on, open_lock
+        activate_events: test_diverter_on, qp_assist_shot_hit
         type: hold
         activation_time: 4s
         enable_events: ball_started
