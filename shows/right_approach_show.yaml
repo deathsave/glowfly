@@ -1,37 +1,36 @@
 #show_version=6
 ##! show: right_approach_show
 
-    - time: "+20ms"
+    - time: "+10ms"
       lights:
           lamps: off
           cabinet: off
-    - time: "+20ms"
-      lights:
-          upper_right_block: on
-    - time: "+30ms"
+    - time: "+67ms"
       lights:
           lamps: on
           cabinet: on
-    - time: "+30ms"
+    - time: "+67ms"
       lights:
           lamps: off
           cabinet: off
-    - time: "+20ms"
-      lights:
-          upper_right_block: on
-    - time: "+100ms"
-      lights:
-          lamps: off
-          cabinet: off
-    - time: "+300ms"
-      lights:
-          lamps: off
-          cabinet: off
-    - time: "+30ms"
+    - time: "+134ms"
       lights:
           lamps: on
           cabinet: on
-    - time: "+30ms"
+    - time: "+67ms"
       lights:
           lamps: off
           cabinet: off
+    - time: "+134ms"
+      lights:
+          lamps: on
+          cabinet: on
+    - time: "+67ms"
+      lights:
+          lamps: off
+          cabinet: off
+    - time: "+67ms"
+      lights:
+          lamps: on
+          cabinet: on
+      events: relight_right_approach

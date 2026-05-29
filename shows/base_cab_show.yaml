@@ -1,0 +1,242 @@
+#show_version=6
+##! show: base_cab_show
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color)
+              fade: 200ms
+    - time: "+.33"
+      lights:
+          lower:
+              color: (color2)
+              fade: 200ms
+    - time: "+.34"
+      lights:
+          mid:
+              color: (color2)
+              fade: 200ms

@@ -8,6 +8,8 @@ virtual_platform_start_active_switches:
 keyboard:
     s:
         event: #start game
+    d:
+        event: test_diverter_on
 
 hardware:
     platform: fast
@@ -828,7 +830,7 @@ coils:
             recycle_ms: 100
     c_gate:
         number: 1616-8
-        default_pulse_ms: 8
+        default_pulse_ms: 15
         default_hold_power: .625
     c_lock_launcher:
         number: 1616-9
@@ -879,6 +881,7 @@ ball_devices:
         eject_timeouts: 3s
     bd_left_lock:
         ball_switches: s_left_lock
+        entrance_count_delay: 1s
         eject_coil: c_lock_launcher
         eject_timeouts: 3s
         tags: lock, launcher
@@ -886,10 +889,11 @@ ball_devices:
 diverters:
     left_lock_gate:
         activation_coil: c_gate
+        activate_events: test_diverter_on, open_lock
         type: hold
-        activation_time: 3s
-        enable_events: ball_started, s_left_lock_inactive
-        disable_events: ball_ended, s_left_lock_active
+        activation_time: 4s
+        enable_events: ball_started
+        disable_events: ball_ended
         targets_when_active: bd_left_lock
         targets_when_inactive: playfield
 

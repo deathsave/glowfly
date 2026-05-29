@@ -171,11 +171,15 @@ event_player:
 
 show_player:
     s_shooter_lane_active:
-        base_glimmer_show:
-            action: stop
+        launch_the_ball_show:
+            action: play
+            loops: -1
+            speed: .5
     s_shooter_lane_inactive:
         base_set_stage_show:
             loops: 0
+        launch_the_ball_show:
+            action: stop
     base_set_stage2:
         ramp_lit_show:
             action: play
@@ -199,6 +203,12 @@ show_player:
             loops: -1
             show_tokens:
                 color: white
+        base_cab_show:
+            action: play
+            loops: -1
+            show_tokens:
+                color: red
+                color2: "880000"
     right_trap_detected:
         right_trap_show:
             action: play
@@ -319,6 +329,8 @@ timed_switches:
         events_when_active: right_trap_detected
         events_when_released: right_trap_released
 
+#so far we're doing this with a sequence and state machines, but may need to
+#go back and add these if we want to do lane change with f-l-y
 #shot_profiles:
 #    fly_lanes:
 #        states:
@@ -387,6 +399,8 @@ shots:
         switches: s_right_approach
         delay_switch:
             s_left_approach: 4s
+        enable_events: mode_base_started, relight_right_approach
+        disable_events: right_approach_shot_hit
     ricochet_shot:
         switches: s_ricochet_bumper
 

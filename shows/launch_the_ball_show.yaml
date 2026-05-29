@@ -1,0 +1,41 @@
+#show_version=6
+##! show: launch_the_ball_show
+
+    - time: "+10ms"
+      lights:
+          l_shooter_guide1: "0000ff"
+    - time: "+34ms"
+      lights:
+          l_shooter_guide1: "0033dd"
+          l_shooter_guide2: "0000ff"
+    - time: "+33ms"
+      lights:
+          l_shooter_guide1: off
+          l_shooter_guide2: "0033dd"
+          l_shooter_guide3: "0000ff"
+    - time: "+34ms"
+      lights:
+          l_shooter_guide2: off
+          l_shooter_guide3: "0033dd"
+          l_shooter_guide4: "0000ff"
+    - time: "+33ms"
+      lights:
+          l_shooter_guide3: off
+          l_shooter_guide4: "0033dd"
+          l_shooter_guide5: "0000ff"
+    - time: "+34ms"
+      lights:
+          l_shooter_guide4: off
+          l_shooter_guide5: "0033dd"
+          l_shooter_guide6: "0000ff"
+    - time: "+33ms"
+      lights:
+          l_shooter_guide5: off
+          l_shooter_guide6: "0033dd"
+    - time: "+34ms"
+      lights:
+          l_shooter_guide5: off
+          l_shooter_guide6: "0033dd"
+    - time: "+33ms"
+      lights:
+          l_shooter_guide6: off

@@ -1,23 +1,27 @@
 #show_version=6
 ##! show: base_lights_out_show
 
-    - time: "+30ms"
+    - time: "+10ms"
       lights:
           lamps: off
           cabinet: off
-    - time: "+30ms"
+    - time: "+67ms"
       lights:
           lamps: on
           cabinet: on
-    - time: "+250ms"
+    - time: "+67ms"
       lights:
           lamps: off
           cabinet: off
-    - time: "+30ms"
+    - time: "+134ms"
       lights:
           lamps: on
           cabinet: on
-    - time: "+30ms"
+    - time: "+67ms"
       lights:
           lamps: off
           cabinet: off
+    - time: "+67ms"
+      lights:
+          lamps: on
+          cabinet: on
