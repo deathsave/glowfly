@@ -459,83 +459,83 @@ lights:
 
 #f-l-y lanes
     l_f1:
-        number: playfield-7-24
+        number: playfield-7-23
         tags: lamps, fly_lanes, lane_f
     l_l1:
-        number: playfield-7-25
+        number: playfield-7-24
         tags: lamps, fly_lanes, lane_l
     l_y1:
-        number: playfield-7-26
+        number: playfield-7-25
         tags: lamps, fly_lanes, lane_y
 #ramp
     l_ramp1:
-        number: playfield-8-1
+        number: playfield-8-23
         tags: lamps, ramp, b
     l_ramp2:
-        number: playfield-8-2
+        number: playfield-8-22
         tags: lamps, ramp, a
     l_ramp3:
-        number: playfield-8-3
+        number: playfield-8-21
         tags: lamps, ramp, b
     l_ramp4:
-        number: playfield-8-4
+        number: playfield-8-20
         tags: lamps, ramp, a
     l_ramp5:
-        number: playfield-8-5
+        number: playfield-8-19
         tags: lamps, ramp, b
     l_ramp6:
-        number: playfield-8-6
+        number: playfield-8-18
         tags: lamps, ramp, a, rampgi
     l_ramp7:
-        number: playfield-8-7
+        number: playfield-8-17
         tags: lamps, ramp, b
     l_ramp8:
-        number: playfield-8-8
+        number: playfield-8-16
         tags: lamps, ramp, a
     l_ramp9:
-        number: playfield-8-9
+        number: playfield-8-15
         tags: lamps, ramp, b, rampgi
     l_ramp10:
-        number: playfield-8-10
+        number: playfield-8-14
         tags: lamps, ramp, a
     l_ramp11:
-        number: playfield-8-11
+        number: playfield-8-13
         tags: lamps, ramp, b
     l_ramp12:
         number: playfield-8-12
         tags: lamps, ramp, a, rampgi
     l_ramp13:
-        number: playfield-8-13
+        number: playfield-8-11
         tags: lamps, ramp, b
     l_ramp14:
-        number: playfield-8-14
+        number: playfield-8-10
         tags: lamps, ramp, a
     l_ramp15:
-        number: playfield-8-15
+        number: playfield-8-9
         tags: lamps, ramp, b, rampgi
     l_ramp16:
-        number: playfield-8-16
+        number: playfield-8-8
         tags: lamps, ramp, a
     l_ramp17:
-        number: playfield-8-17
+        number: playfield-8-7
         tags: lamps, ramp, b
     l_ramp18:
-        number: playfield-8-18
+        number: playfield-8-6
         tags: lamps, ramp, a, rampgi
     l_ramp19:
-        number: playfield-8-19
+        number: playfield-8-5
         tags: lamps, ramp, b
     l_ramp20:
-        number: playfield-8-20
+        number: playfield-8-4
         tags: lamps, ramp, a
     l_ramp21:
-        number: playfield-8-21
+        number: playfield-8-3
         tags: lamps, ramp, b
     l_ramp22:
-        number: playfield-8-22
+        number: playfield-8-2
         tags: lamps, ramp, a
     l_ramp23:
-        number: playfield-8-23
+        number: playfield-8-1
         tags: lamps, ramp, b
 
 #loop core
@@ -733,7 +733,7 @@ switches:
     s_right_inlane:
         number: 1616-14
         tags: playfield_active
-    s_r_outlane:
+    s_right_outlane:
         number: 1616-15
         tags: playfield_active
     s_curve_left:
@@ -955,7 +955,7 @@ sound_system:
         music:
             type: standard
             simultaneous_sounds: 1
-            volume: 0.5
+            volume: 0.6
         voice:
             type: standard
             simultaneous_sounds: 1
@@ -963,11 +963,11 @@ sound_system:
         sfx:
             type: standard
             simultaneous_sounds: 8
-            volume: 0.6
+            volume: 0.7
 
 machine_vars:
     master_volume:
-        initial_value: 0.8
+        initial_value: 0.9
 
 player_vars:
     pop_bumper_hits:
@@ -1057,6 +1057,12 @@ widget_player:
     player_added{num==4}:
         player4_scoring:
             slide: base_slide
+
+sound_player:
+    player_added:
+        glowfly_player_added:
+            action: play
+            loops: 0
 
 widgets:
     player2_scoring:

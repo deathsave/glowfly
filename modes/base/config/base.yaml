@@ -474,6 +474,10 @@ sound_player:
         watch_out:
             action: play
             loops: 0
+    diverter_left_lock_gate_activating:
+        glowfly_diverter:
+            action: play
+            loops: 0
     shooter_lane_loaded_hit:
         glowfly_launch_wait:
             action: play
@@ -486,6 +490,30 @@ sound_player:
     ball_ending:
         glowfly_infinity_main:
             action: stop
+    s_right_inlane_active:
+        glowfly_right_inlane:
+            action: play
+            loops: 0
+    s_left_inlane_active:
+        glowfly_left_inlane:
+            action: play
+            loops: 0
+    s_right_outlane_active:
+        glowfly_outlane2:
+            action: play
+            loops: 0
+    s_left_outlane_active:
+        glowfly_outlane2:
+            action: play
+            loops: 0
+    left_approach_shot_hit:
+        glowfly_qp1:
+            action: play
+            loops: 0
+    right_approach_shot_hit:
+        glowfly_qp2:
+            action: play
+            loops: 0
     curve_left_shot_hit:
         left_1:
             action: play
@@ -516,6 +544,23 @@ sound_player:
     left_uturn_shot_hit:
         ramp_l:
             action: play
+            loops: 0
+    g_target_shot_hit:
+        glowfly_target1:
+            action: play
+            loops: 0
+    l_target_shot_hit:
+        glowfly_target1:
+            action: play
+            loops: 0
+    o_target_shot_hit:
+        glowfly_target1:
+            action: play
+            loops: 0
+    w_target_shot_hit:
+        glowfly_target1:
+            action: play
+            loops: 0
     f_lane_shot_hit:
         fairy_sounds:
             action: play
@@ -525,9 +570,13 @@ sound_player:
     y_lane_shot_hit:
         fairy_sounds:
             action: play
+    glowfly_shots_complete:
+        glowfly_complete1:
+            action: play
     ricochet_shot_hit:
         ricochet_sounds:
             action: play
+
 
 variable_player:
     curve_right_shot_hit:
