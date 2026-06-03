@@ -698,7 +698,7 @@ lights:
         number: neuron-3-3
         tags: bbox, marquee
     l_bbox_marq2:
-        number: nueron-3-28
+        number: neuron-3-28
         tags: bbox, marquee
     l_bbox_marq3:
         number: neuron-3-4
