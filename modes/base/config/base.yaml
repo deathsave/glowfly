@@ -155,6 +155,8 @@ slide_player:
     mode_base_started: base_score_slide
 
 light_player:
+    mode_base_started:
+        bbox: red 
     s_shooter_lane_active:
         lamps: off
         cabinet: off

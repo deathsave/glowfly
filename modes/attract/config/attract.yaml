@@ -27,6 +27,8 @@ show_player:
             speed: 1
 
 light_player:
+    mode_attract_started:
+        bbox: "ffffff"
     test_all_lights_white:
         lamps: "ffffff"
     test_apron_cab_white:

@@ -687,6 +687,91 @@ lights:
     l_r_cab20:
         number: neuron-2-20
         tags: r_cab, cabinet, a, lower
+#backbox lights
+    l_bbox_lside1:
+        number: neuron-3-1
+        tags: bbox, bbox_sides
+    l_bbox_lside2:
+        number: neuron-3-2
+        tags: bbox, bbox_sides
+    l_bbox_marq1:
+        number: neuron-3-3
+        tags: bbox, marquee
+    l_bbox_marq2:
+        number: nueron-3-28
+        tags: bbox, marquee
+    l_bbox_marq3:
+        number: neuron-3-4
+        tags: bbox, marquee
+    l_bbox_marq4:
+        number: neuron-3-27
+        tags: bbox, marquee
+    l_bbox_marq5:
+        number: neuron-3-5
+        tags: bbox, marquee
+    l_bbox_marq6:
+        number: neuron-3-26
+        tags: bbox, marquee
+    l_bbox_marq7:
+        number: neuron-3-6
+        tags: bbox, marquee
+    l_bbox_marq8:
+        number: neuron-3-25
+        tags: bbox, marquee
+    l_bbox_marq9:
+        number: neuron-3-7
+        tags: bbox, marquee
+    l_bbox_marq10:
+        number: neuron-3-24
+        tags: bbox, marquee
+    l_bbox_marq11:
+        number: neuron-3-8
+        tags: bbox, marquee
+    l_bbox_marq12:
+        number: neuron-3-23
+        tags: bbox, marquee
+    l_bbox_marq13:
+        number: neuron-3-9
+        tags: bbox, marquee
+    l_bbox_marq14:
+        number: neuron-3-22
+        tags: bbox, marquee
+    l_bbox_marq15:
+        number: neuron-3-10
+        tags: bbox, marquee
+    l_bbox_marq16:
+        number: neuron-3-21
+        tags: bbox, marquee
+    l_bbox_marq17:
+        number: neuron-3-11
+        tags: bbox, marquee
+    l_bbox_marq18:
+        number: neuron-3-20
+        tags: bbox, marquee
+    l_bbox_marq19:
+        number: neuron-3-12
+        tags: bbox, marquee
+    l_bbox_marq20:
+        number: neuron-3-19
+        tags: bbox, marquee
+    l_bbox_marq21:
+        number: neuron-3-13
+        tags: bbox, marquee
+    l_bbox_marq22:
+        number: neuron-3-18
+        tags: bbox, marquee
+    l_bbox_marq23:
+        number: neuron-3-14
+        tags: bbox, marquee
+    l_bbox_marq24:
+        number: neuron-3-17
+        tags: bbox, marquee
+    l_bbox_rside1:
+        number: neuron-3-16
+        tags: bbox, bbox_sides
+    l_bbox_rside2:
+        number: neuron-3-15
+        tags: bbox, bbox_sides
 
 switches:
     s_left_flipper:
