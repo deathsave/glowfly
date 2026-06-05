@@ -1079,7 +1079,7 @@ slides:
     welcome_slide:
         widgets:
             - type: text
-              text: IF YOU SEE THIS, SOMETHING IS WRONG!
+              text: LOADING...
               font_size: 50
               color: red
             - type: rectangle
@@ -1129,6 +1129,13 @@ slides:
               font_size: 50
             - type: image
               image: base_background1
+    shooter_lane_slide:
+        widgets:
+            - type: text
+              text: LAUNCH THE BALL->
+              font_size: 100
+              color: red
+          
 
 
 

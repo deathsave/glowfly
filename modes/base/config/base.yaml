@@ -153,10 +153,17 @@ slides:
 
 slide_player:
     mode_base_started: base_score_slide
+    s_shooter_lane_active:
+        shooter_lane_slide:
+            action: play
+    s_shooter_lane_inactive:
+        shooter_lane_slide:
+            action: remove 
+
 
 light_player:
     mode_base_started:
-        bbox: red 
+        bbox: red
     s_shooter_lane_active:
         lamps: off
         cabinet: off
@@ -241,11 +248,13 @@ show_player:
             action: play
             loops: 0
             priority: 100
+            speed: 2
     curve_right_shot_hit:
         base_lights_out_show:
             action: play
             loops: 0
             priority: 100
+            speed: 2
     ramp_left_entry_shot_hit:
         ramp_lit_show:
             action: stop
@@ -284,9 +293,11 @@ show_player:
     right_approach_shot_hit:
         right_approach_show:
             loops: 0
+            speed: 2
     left_approach_shot_hit:
         left_approach_show:
             loops: 0
+            speed: 2
     slingshot_l_hit:
         left_sling_show:
             loops: 0
