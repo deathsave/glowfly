@@ -899,7 +899,7 @@ coils:
         allow_enable: true
     c_plunger:
         number: 1616-7
-        default_pulse_ms: 18
+        default_pulse_ms: 25
     c_trough_eject:
         number: 1616-6
         default_pulse_ms: 20
@@ -1133,9 +1133,9 @@ slides:
         widgets:
             - type: text
               text: LAUNCH THE BALL->
-              font_size: 100
-              color: red
-          
+              font_size: 150
+              color: white
+
 
 
 
