@@ -1,7 +1,53 @@
 #show_version=6
 ##! show: attract_loop_show
-
-    - time: "+10"
+    - time: "+1"
+      slides:
+          show_final_scores:
+              widgets:
+              - type: Text
+                text: FINAL SCORES
+                font_size: 80
+              - type: Text
+                text: PLAYER 1
+                style: attract_mode_final_score_display_player_number
+                y: top-50
+                x: left+50
+              - type: Text
+                text: PLAYER 2
+                style: attract_mode_final_score_display_player_number
+                y: top-50
+                x: right-500
+              - type: Text
+                text: PLAYER 3
+                style: attract_mode_final_score_display_player_number
+                y: bottom+50
+                x: left+50
+              - type: Text
+                text: PLAYER 4
+                style: attract_mode_final_score_display_player_number
+                y: bottom+50
+                x: right-500
+              - type: Text
+                text: (machine|player1_score)
+                style: attract_mode_final_score_display_score
+                y: top-50
+                x: left+300
+              - type: Text
+                text: (machine|player2_score)
+                style: attract_mode_final_score_display_score
+                y: top-50
+                x: right-250
+              - type: Text
+                text: (machine|player3_score)
+                style: attract_mode_final_score_display_score
+                y: bottom+50
+                x: left+300
+              - type: Text
+                text: (machine|player4_score)
+                style: attract_mode_final_score_display_score
+                y: bottom+50
+                x: right-250
+    - time: "+15"
       slides:
           dspc_logo_slide:
               target: window
@@ -15,7 +61,7 @@
               widgets:
               - type: Text
                 text: FINAL SCORES
-                font_size: 80                
+                font_size: 80
               - type: Text
                 text: PLAYER 1
                 style: attract_mode_final_score_display_player_number
