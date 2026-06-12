@@ -7,8 +7,13 @@ show_player:
             loops: 3
             speed: 1
             events_when_completed: start_rainbow_show
+            priority: 1
         attract_loop_show:
             loops: -1
+            priority: 2
+        attract_backbox_show:
+            loops: -1
+            priority: 3
     mode_attract_stopping:
         attract_loop_show:
             action: stop
