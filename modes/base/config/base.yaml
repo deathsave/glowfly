@@ -177,6 +177,32 @@ light_player:
         apron:
             color: "ffffff"
             priority: 100
+    left_flips_full:
+        l_left_lane_block1: red
+        l_left_lane_block2: red
+        l_left_lane_block3: orange
+        l_left_lane_block4: orange
+        l_left_lane_block5: gold
+        l_left_lane_block6: gold
+        l_left_lane_block7: green
+        l_left_lane_block8: green
+        l_left_lane_block9: blue
+        l_left_lane_block10: blue
+        l_left_lane_block11: purple
+        l_left_lane_block12: purple
+    right_flips_full:
+        l_right_lane_block1: red
+        l_right_lane_block2: red
+        l_right_lane_block3: orange
+        l_right_lane_block4: orange
+        l_right_lane_block5: gold
+        l_right_lane_block6: gold
+        l_right_lane_block7: green
+        l_right_lane_block8: green
+        l_right_lane_block9: blue
+        l_right_lane_block10: blue
+        l_right_lane_block11: purple
+        l_right_lane_block12: purple
 
 event_player:
     glowfly_shots_complete: reset_glowfly_targets

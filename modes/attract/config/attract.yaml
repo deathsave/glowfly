@@ -31,6 +31,16 @@ show_player:
             loops: 3
             events_when_completed: start_rainbow_show
             speed: 1
+    left_flips_full:
+        glass_wave_reveal_show:
+            action: stop
+        cabinet_mini_rainbow_show:
+            action: stop
+    right_flips_full:
+        glass_wave_reveal_show:
+            action: stop
+        cabinet_mini_rainbow_show:
+            action: stop
 
 light_player:
     mode_attract_started:
@@ -46,6 +56,32 @@ light_player:
         lamps: "990000"
     test_all_lights_out:
         lamps: "000000"
+    left_flips_full:
+        l_left_lane_block1: red
+        l_left_lane_block2: red
+        l_left_lane_block3: orange
+        l_left_lane_block4: orange
+        l_left_lane_block5: gold
+        l_left_lane_block6: gold
+        l_left_lane_block7: green
+        l_left_lane_block8: green
+        l_left_lane_block9: blue
+        l_left_lane_block10: blue
+        l_left_lane_block11: purple
+        l_left_lane_block12: purple
+    right_flips_full:
+        l_right_lane_block1: red
+        l_right_lane_block2: red
+        l_right_lane_block3: orange
+        l_right_lane_block4: orange
+        l_right_lane_block5: gold
+        l_right_lane_block6: gold
+        l_right_lane_block7: green
+        l_right_lane_block8: green
+        l_right_lane_block9: blue
+        l_right_lane_block10: blue
+        l_right_lane_block11: purple
+        l_right_lane_block12: purple
 slides:
     dspc_logo_slide:
         widgets:
