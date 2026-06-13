@@ -1,0 +1,14 @@
+#show_version=6
+##! show: short_left_sling_show
+
+    - time: "+10ms"
+      lights:
+          lamps: off
+          cabinet: off
+    - time: "+10ms"
+      lights:
+          l_left_sling1: white
+          l_left_sling2: white
+    - time: "+100ms"
+      lights:
+          apron: on

@@ -158,7 +158,7 @@ slide_player:
             action: play
     s_shooter_lane_inactive:
         shooter_lane_slide:
-            action: remove 
+            action: remove
 
 
 light_player:
@@ -174,6 +174,9 @@ light_player:
         lower: on
     base_set_stage2:
         rampgi: on
+        apron:
+            color: "ffffff"
+            priority: 100
 
 event_player:
     glowfly_shots_complete: reset_glowfly_targets
@@ -207,11 +210,11 @@ show_player:
             loops: -1
             show_tokens:
                 color: red
-        base_apron_show:
-            action: play
-            loops: -1
-            show_tokens:
-                color: white
+#        base_apron_show:
+#            action: play
+#            loops: -1
+#            show_tokens:
+#                color: white
         base_cab_show:
             action: play
             loops: -1
@@ -247,13 +250,13 @@ show_player:
         base_lights_out_show:
             action: play
             loops: 0
-            priority: 100
+            priority: 50
             speed: 2
     curve_right_shot_hit:
         base_lights_out_show:
             action: play
             loops: 0
-            priority: 100
+            priority: 50
             speed: 2
     ramp_left_entry_shot_hit:
         ramp_lit_show:
@@ -299,13 +302,15 @@ show_player:
             loops: 0
             speed: 2
     slingshot_l_hit:
-        left_sling_show:
+        short_left_sling_show:
             loops: 0
-            speed: 1.5
+            speed: 1
+            priority: 101
     slingshot_r_hit:
-        right_sling_show:
+        short_right_sling_show:
             loops: 0
-            speed: 1.5
+            speed: 1
+            priority: 101
 
 #ball save shows
     ball_save_ball_start_ball_save_timer_start:
@@ -333,12 +338,12 @@ coil_player:
 timed_switches:
     trap_left:
         switches: s_left_flipper
-        time: 3s
+        time: 2s
         events_when_active: left_trap_detected
         events_when_released: left_trap_released
     trap_right:
         switches: s_right_flipper
-        time: 3s
+        time: 2s
         events_when_active: right_trap_detected
         events_when_released: right_trap_released
 

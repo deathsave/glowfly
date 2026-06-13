@@ -14,7 +14,7 @@ show_player:
         attract_backbox_show:
             loops: -1
             priority: 3
-            speed: .5
+            speed: 1
     mode_attract_stopping:
         attract_loop_show:
             action: stop
