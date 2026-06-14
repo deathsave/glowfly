@@ -1,0 +1,10 @@
+#config_version=6
+##! mode: no_right_flip
+
+mode:
+    start_events: player_right_flips_remaining{value==0}
+    stop_events: player_right_flips_remaining{value!=0}
+    priority: 250
+
+event_player:
+    mode_no_right_flip_started: right_flipper_off

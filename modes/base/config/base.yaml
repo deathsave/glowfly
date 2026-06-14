@@ -521,7 +521,59 @@ light_player:
 event_player:
     glowfly_shots_complete: reset_glowfly_targets
 
+shows:
+    no_right_flips_light_show:
+        - time: "0"
+          lights:
+              l_right_lane1:
+                  color: red
+                  fade: 75ms
+                  priority: 250
+              l_right_lane2:
+                  color: "000000"
+                  priority: 250
+
+        - time: "100ms"
+          lights:
+              l_right_lane1:
+                  priority: 250
+                  color: "000000"
+              l_right_lane2:
+                  color: red
+                  fade: 75ms
+                  priority: 250
+    no_left_flips_light_show:
+        - time: "0"
+          lights:
+              l_left_lane1:
+                  color: red
+                  fade: 75ms
+              l_left_lane2: off
+        - time: "100ms"
+          lights:
+              l_left_lane1: off
+              l_left_lane2:
+                  color: red
+                  fade: 75ms
+
 show_player:
+    left_flipper_off:
+        no_left_flips_light_show:
+            action: play
+            loops: -1
+            speed: 1
+    right_flipper_off:
+        no_right_flips_light_show:
+            action: play
+            loops: -1
+            speed: 1
+            priority: 250
+    mode_no_left_flip_stopped:
+        no_left_flips_light_show:
+            action: stop
+    mode_no_right_flip_stopped:
+        no_right_flips_light_show:
+            action: stop 
     s_shooter_lane_active:
         launch_the_ball_show:
             action: play
@@ -1052,4 +1104,4 @@ variable_player:
     player_left_flips_remaining{value>12}:
         left_flips_remaining:
             int: 12
-            action: set 
+            action: set

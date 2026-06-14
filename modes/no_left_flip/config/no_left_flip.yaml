@@ -1,0 +1,10 @@
+#config_version=6
+##! mode: no_left_flip
+
+mode:
+    start_events: player_left_flips_remaining{value==0}
+    stop_events: player_left_flips_remaining{value!=0}
+    priority: 250
+
+event_player:
+    mode_no_left_flip_started: left_flipper_off

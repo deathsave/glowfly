@@ -1025,10 +1025,14 @@ flippers:
         main_coil: c_flipper_left_main
         hold_coil: c_flipper_left_hold
         activation_switch: s_left_flipper
+        enable_events: ball_started, mode_no_left_flip_stopped
+        disable_events: ball_will_end, left_flipper_off
     right_flipper:
         main_coil: c_flipper_right_main
         hold_coil: c_flipper_right_hold
         activation_switch: s_right_flipper
+        enable_events: ball_started, mode_no_right_flip_stopped
+        disable_events: ball_will_end, right_flipper_off
 
 displays:
     window:
@@ -1085,6 +1089,8 @@ modes:
     - base
 #    - bonus
     - high_score
+    - no_left_flip
+    - no_right_flip
 
 slides:
     welcome_slide:
