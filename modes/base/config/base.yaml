@@ -517,7 +517,7 @@ light_player:
         l_right_lane_block10: off
         l_right_lane_block11: off
         l_right_lane_block12: off
-        
+
 event_player:
     glowfly_shots_complete: reset_glowfly_targets
 
@@ -939,44 +939,78 @@ sound_player:
 variable_player:
     curve_right_shot_hit:
         score: 1000 * current_player.curve_x
+        right_flips_remaining: 2
     curve_left_shot_hit:
         score: 1000 * current_player.curve_x
+        left_flips_remaining: 2
     curve_left_core_shot_hit:
         score: 5000 * current_player.curve_x
         core_x: 1
+        right_flips_remaining: 2
     curve_right_core_shot_hit:
         score: 5000 * current_player.curve_x
         core_x: 1
+        left_flips_remaining: 2
     left_full_core_shot_hit:
         score: 10000 * (current_player.curve_x + current_player.core_x)
         curve_x: 1
+        left_flips_remaining:
+            int: 12
+            action: set
+        right_flips_remaining:
+            int: 12
+            action: set
     right_full_core_shot_hit:
         score: 10000 * (current_player.curve_x + current_player.core_x)
         curve_x: 1
+        left_flips_remaining:
+            int: 12
+            action: set
+        right_flips_remaining:
+            int: 12
+            action: set
     left_uturn_shot_hit:
         score: 2500 * current_player.ramp_x
         ramp_x: 1
+        left_flips_remaining: 2
+        right_flips_remaining: 2
     right_uturn_shot_hit:
         score: 2500 * current_player.ramp_x
         ramp_x: 1
+        left_flips_remaining: 2
+        right_flips_remaining: 2
     slingshot_l_hit:
         score: 125
     slingshot_r_hit:
         score: 125
     g_target_shot_hit:
         score: 500
+        left_flips_remaining: 1
+        right_flips_remaining: 1
     l_target_shot_hit:
         score: 500
+        left_flips_remaining: 1
+        right_flips_remaining: 1
     o_target_shot_hit:
         score: 500
+        left_flips_remaining: 1
+        right_flips_remaining: 1
     w_target_shot_hit:
         score: 500
+        left_flips_remaining: 1
+        right_flips_remaining: 1
     f_lane_shot_hit:
-        score: 2500
+        score: 2500 * current_player.qp_x
+        left_flips_remaining: 2
+        right_flips_remaining: 2
     l_lane_shot_hit:
-        score: 2500
+        score: 2500 * current_player.qp_x
+        left_flips_remaining: 2
+        right_flips_remaining: 2
     y_lane_shot_hit:
-        score: 2500
+        score: 2500 * current_player.qp_x
+        left_flips_remaining: 2
+        right_flips_remaining: 2
     glowfly_shots_complete:
         score: 150000 * current_player.qp_x
         ramp_x: 1
@@ -989,8 +1023,10 @@ variable_player:
         score: 1000
     s_left_inlane_active:
         score: 11
+        left_flips_remaining: 1
     s_right_inlane_active:
         score: 11
+        right_flips_remaining: 1
     s_left_outlane_active:
         score: 250
     s_right_outlane_active:
@@ -999,3 +1035,21 @@ variable_player:
         left_flips_remaining: -1
     s_right_flipper_active{current_player.right_flips_remaining > 0}:
         right_flips_remaining: -1
+    s_shooter_lane_inactive:
+        left_flips_remaining:
+            int: 12
+            action: set
+        right_flips_remaining:
+            int: 12
+            action: set
+        spark:
+            int: 20
+            action: set
+    player_right_flips_remaining{value>12}:
+        right_flips_remaining:
+            int: 12
+            action: set
+    player_left_flips_remaining{value>12}:
+        left_flips_remaining:
+            int: 12
+            action: set 

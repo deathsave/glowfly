@@ -109,7 +109,7 @@ lights:
         tags: lamps, blocks, a
     l_left_lane_block8:
         number: playfield-2-12
-        tags: lamps, blocks, lanes, b
+        tags: lamps, blocks, b
     l_left_lane_block9:
         number: playfield-2-13
         tags: lamps, blocks, a
@@ -1074,9 +1074,11 @@ player_vars:
     shot_x:
         initial_value: 1
     left_flips_remaining:
-        initial_value: 12
+        initial_value: 0
     right_flips_remaining:
-        initial_value: 12
+        initial_value: 0
+    spark:
+        initial_value: 0
 
 
 modes:
