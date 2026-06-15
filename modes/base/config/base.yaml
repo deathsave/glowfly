@@ -573,7 +573,7 @@ show_player:
             action: stop
     mode_no_right_flip_stopped:
         no_right_flips_light_show:
-            action: stop 
+            action: stop
     s_shooter_lane_active:
         launch_the_ball_show:
             action: play
@@ -715,7 +715,12 @@ show_player:
             loops: 0
 
 
-
+timers:
+    emergency_flips_refill:
+        start_value: 0
+        end_value: 5
+        start_running: true
+        restart_on_complete: true
 
 coil_player:
     mode_base_started:
@@ -1105,3 +1110,7 @@ variable_player:
         left_flips_remaining:
             int: 12
             action: set
+    timer_emergency_flips_refill_complete{current_player.right_flips_remaining < 5}:
+        right_flips_remaining: 1
+    timer_emergency_flips_refill_complete{current_player.left_flips_remaining < 5}:
+        left_flips_remaining: 1
