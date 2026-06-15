@@ -523,39 +523,104 @@ event_player:
 
 shows:
     no_right_flips_light_show:
-        - time: "0"
+        - time: "+10ms"
           lights:
-              l_right_lane1:
-                  color: red
-                  fade: 75ms
-                  priority: 250
-              l_right_lane2:
-                  color: "000000"
-                  priority: 250
-
-        - time: "100ms"
+              l_right_lane1: red
+              l_right_lane2: red
+        - time: "+200ms"
           lights:
-              l_right_lane1:
-                  priority: 250
-                  color: "000000"
-              l_right_lane2:
-                  color: red
-                  fade: 75ms
-                  priority: 250
+              l_right_lane1: off
+              l_right_lane2: off
+        - time: "+200ms"
+          lights:
+              l_right_lane1: red
+              l_right_lane2: red
+        - time: "+200ms"
+          lights:
+              l_right_lane1: off
+              l_right_lane2: off
+        - time: "+10ms"
+          lights:
+              l_right_lane1: red
+              l_right_lane2: red
+        - time: "+200ms"
+          lights:
+              l_right_lane1: off
+              l_right_lane2: off
+        - time: "+200ms"
+          lights:
+              l_right_lane1: red
+              l_right_lane2: red
+        - time: "+200ms"
+          lights:
+              l_right_lane1: off
+              l_right_lane2: off
+        - time: "+10ms"
+          lights:
+              l_right_lane1: red
+              l_right_lane2: red
+        - time: "+200ms"
+          lights:
+              l_right_lane1: off
+              l_right_lane2: off
+        - time: "+200ms"
+          lights:
+              l_right_lane1: red
+              l_right_lane2: red
+        - time: "+200ms"
+          lights:
+              l_right_lane1: off
+              l_right_lane2: off
     no_left_flips_light_show:
-        - time: "0"
+        - time: "+10ms"
           lights:
-              l_left_lane1:
-                  color: red
-                  fade: 75ms
-              l_left_lane2: off
-        - time: "100ms"
+              l_left_lane1: red
+              l_left_lane2: red
+        - time: "+200ms"
           lights:
               l_left_lane1: off
-              l_left_lane2:
-                  color: red
-                  fade: 75ms
-
+              l_left_lane2: off
+        - time: "+200ms"
+          lights:
+              l_left_lane1: red
+              l_left_lane2: red
+        - time: "+200ms"
+          lights:
+              l_left_lane1: off
+              l_left_lane2: off
+        - time: "+10ms"
+          lights:
+              l_left_lane1: red
+              l_left_lane2: red
+        - time: "+200ms"
+          lights:
+              l_left_lane1: off
+              l_left_lane2: off
+        - time: "+200ms"
+          lights:
+              l_left_lane1: red
+              l_left_lane2: red
+        - time: "+200ms"
+          lights:
+              l_left_lane1: off
+              l_left_lane2: off
+        - time: "+10ms"
+          lights:
+              l_left_lane1: red
+              l_left_lane2: red
+        - time: "+200ms"
+          lights:
+              l_left_lane1: off
+              l_left_lane2: off
+        - time: "+200ms"
+          lights:
+              l_left_lane1: red
+              l_left_lane2: red
+        - time: "+200ms"
+          lights:
+              l_left_lane1: off
+              l_left_lane2: off
+    
 show_player:
     left_flipper_off:
         no_left_flips_light_show:
