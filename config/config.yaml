@@ -1091,6 +1091,7 @@ modes:
     - high_score
     - no_left_flip
     - no_right_flip
+    - glow_and_decay
 
 slides:
     welcome_slide:

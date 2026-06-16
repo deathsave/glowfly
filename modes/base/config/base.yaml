@@ -522,6 +522,27 @@ event_player:
     glowfly_shots_complete: reset_glowfly_targets
 
 shows:
+    only_2_right_flips_remaining:
+        - time: "+10ms"
+          lights:
+              l_right_lane1: red
+              l_right_lane2: red
+        - time: "+200ms"
+          lights:
+              l_right_lane1: off
+              l_right_lane2: off
+        - time: "+200ms"
+          lights:
+              l_right_lane1: red
+              l_right_lane2: red
+        - time: "+200ms"
+          lights:
+              l_right_lane1: off
+              l_right_lane2: off
+        - time: "+200ms"
+          lights:
+              l_right_lane1: red
+              l_right_lane2: red 
     no_right_flips_light_show:
         - time: "+10ms"
           lights:
@@ -620,7 +641,7 @@ shows:
           lights:
               l_left_lane1: off
               l_left_lane2: off
-    
+
 show_player:
     left_flipper_off:
         no_left_flips_light_show:
@@ -1062,17 +1083,21 @@ variable_player:
     curve_right_shot_hit:
         score: 1000 * current_player.curve_x
         right_flips_remaining: 2
+        spark: 1
     curve_left_shot_hit:
         score: 1000 * current_player.curve_x
         left_flips_remaining: 2
+        spark: 1
     curve_left_core_shot_hit:
         score: 5000 * current_player.curve_x
         core_x: 1
         right_flips_remaining: 2
+        spark: 2
     curve_right_core_shot_hit:
         score: 5000 * current_player.curve_x
         core_x: 1
         left_flips_remaining: 2
+        spark: 2
     left_full_core_shot_hit:
         score: 10000 * (current_player.curve_x + current_player.core_x)
         curve_x: 1
@@ -1082,6 +1107,7 @@ variable_player:
         right_flips_remaining:
             int: 12
             action: set
+        spark: 3
     right_full_core_shot_hit:
         score: 10000 * (current_player.curve_x + current_player.core_x)
         curve_x: 1
@@ -1091,16 +1117,19 @@ variable_player:
         right_flips_remaining:
             int: 12
             action: set
+        spark: 3
     left_uturn_shot_hit:
         score: 2500 * current_player.ramp_x
         ramp_x: 1
         left_flips_remaining: 2
         right_flips_remaining: 2
+        spark: 1
     right_uturn_shot_hit:
         score: 2500 * current_player.ramp_x
         ramp_x: 1
         left_flips_remaining: 2
         right_flips_remaining: 2
+        spark: 1
     slingshot_l_hit:
         score: 125
     slingshot_r_hit:
@@ -1109,38 +1138,47 @@ variable_player:
         score: 500
         left_flips_remaining: 1
         right_flips_remaining: 1
+        spark: 1
     l_target_shot_hit:
         score: 500
         left_flips_remaining: 1
         right_flips_remaining: 1
+        spark: 1
     o_target_shot_hit:
         score: 500
         left_flips_remaining: 1
         right_flips_remaining: 1
+        spark: 1
     w_target_shot_hit:
         score: 500
         left_flips_remaining: 1
         right_flips_remaining: 1
+        spark: 1
     f_lane_shot_hit:
         score: 2500 * current_player.qp_x
         left_flips_remaining: 2
         right_flips_remaining: 2
+        spark: 3
     l_lane_shot_hit:
         score: 2500 * current_player.qp_x
         left_flips_remaining: 2
         right_flips_remaining: 2
+        spark: 3
     y_lane_shot_hit:
         score: 2500 * current_player.qp_x
         left_flips_remaining: 2
         right_flips_remaining: 2
+        spark: 3
     glowfly_shots_complete:
         score: 150000 * current_player.qp_x
         ramp_x: 1
         curve_x: 1
         core_x: 1
         qp_x: 1
+        spark: 10
     ricochet_shot_hit:
         score: 69
+        spark: -1
     qp_assist_shot_hit:
         score: 1000
     s_left_inlane_active:
@@ -1164,6 +1202,7 @@ variable_player:
         right_flips_remaining:
             int: 12
             action: set
+    mode_glow_and_decay_started:
         spark:
             int: 20
             action: set
@@ -1171,9 +1210,15 @@ variable_player:
         right_flips_remaining:
             int: 12
             action: set
+        spark: 1
     player_left_flips_remaining{value>12}:
         left_flips_remaining:
             int: 12
+            action: set
+        spark: 1
+    player_spark{value>20}:
+        spark:
+            int: 20
             action: set
     timer_emergency_flips_refill_complete{current_player.right_flips_remaining < 5}:
         right_flips_remaining: 1
