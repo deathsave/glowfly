@@ -1,0 +1,9 @@
+#show_version=6
+##! show: left_trap_warning_show
+
+    - time: "+300ms"
+      lights:
+          l_left_lane2: red
+    - time: "+1s"
+      lights:
+          l_left_lane1: red 

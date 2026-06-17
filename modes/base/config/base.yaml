@@ -96,7 +96,7 @@ state_machines:
               events: f_lane_shot_hit
             - source: hit
               target: lit
-              events: reset_glowfly_targets
+              events: reset_fly_lanes
     l_lane_status:
         starting_state: lit
         states:
@@ -113,7 +113,7 @@ state_machines:
               events: l_lane_shot_hit
             - source: hit
               target: lit
-              events: reset_glowfly_targets
+              events: reset_fly_lanes
     y_lane_status:
         starting_state: lit
         states:
@@ -130,7 +130,7 @@ state_machines:
               events: y_lane_shot_hit
             - source: hit
               target: lit
-              events: reset_glowfly_targets
+              events: reset_fly_lanes
 
 
 slides:
@@ -520,6 +520,7 @@ light_player:
 
 event_player:
     glowfly_shots_complete: reset_glowfly_targets
+    fly_lanes_complete: reset_fly_lanes
 
 shows:
     only_2_right_flips_remaining:
@@ -542,7 +543,7 @@ shows:
         - time: "+200ms"
           lights:
               l_right_lane1: red
-              l_right_lane2: red 
+              l_right_lane2: red
     no_right_flips_light_show:
         - time: "+10ms"
           lights:
@@ -699,6 +700,12 @@ show_player:
             show_tokens:
                 color: red
                 color2: "880000"
+    s_right_flipper_active:
+        right_trap_warning_show:
+            action: play
+    s_right_flipper_inactive:
+        right_trap_warning_show:
+            action: stop 
     right_trap_detected:
         right_trap_show:
             action: play
@@ -707,6 +714,12 @@ show_player:
             action: stop
     right_trap_released:
         right_trap_show:
+            action: stop
+    s_left_flipper_active:
+        left_trap_warning_show:
+            action: play
+    s_left_flipper_inactive:
+        left_trap_warning_show:
             action: stop
     left_trap_detected:
         left_trap_show:
@@ -954,15 +967,23 @@ sequence_shots:
 sequences:
     glowfly_shots_sequence:
         events:
-            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
-            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
-            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
-            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
-            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
-            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
-            - g_target_hit, l_target_hit, o_target_hit, w_target_hit, f_lane_hit, l_lane_hit, y_lane_hit
+            - g_target_hit, l_target_hit, o_target_hit, w_target_hit
+            - g_target_hit, l_target_hit, o_target_hit, w_target_hit
+            - g_target_hit, l_target_hit, o_target_hit, w_target_hit
+            - g_target_hit, l_target_hit, o_target_hit, w_target_hit
         events_when_complete: glowfly_shots_complete
         enable_events: reset_glowfly_targets, mode_base_started
+
+    fly_lanes_sequence:
+        events:
+            - f_lane_hit, l_lane_hit, y_lane_hit
+            - f_lane_hit, l_lane_hit, y_lane_hit
+            - f_lane_hit, l_lane_hit, y_lane_hit
+        events_when_complete: fly_lanes_complete
+        enable_events: mode_base_started, reset_fly_lanes
+
+
+
 
 
 
@@ -1134,26 +1155,44 @@ variable_player:
         score: 125
     slingshot_r_hit:
         score: 125
+#()_target_shot_hit is whether or not the target it "lit"
+#()_target_hit is only if the target was lit
     g_target_shot_hit:
+        score: 100
+        left_flips_remaining: 1
+        right_flips_remaining: 1
+    g_target_hit:
         score: 500
         left_flips_remaining: 1
         right_flips_remaining: 1
-        spark: 1
+        spark: 2
     l_target_shot_hit:
+        score: 100
+        left_flips_remaining: 1
+        right_flips_remaining: 1
+    l_target_hit:
         score: 500
         left_flips_remaining: 1
         right_flips_remaining: 1
-        spark: 1
+        spark: 2
     o_target_shot_hit:
+        score: 100
+        left_flips_remaining: 1
+        right_flips_remaining: 1
+    o_target_hit:
         score: 500
         left_flips_remaining: 1
         right_flips_remaining: 1
-        spark: 1
+        spark: 2
     w_target_shot_hit:
+        score: 100
+        left_flips_remaining: 1
+        right_flips_remaining: 1
+    w_target_hit:
         score: 500
         left_flips_remaining: 1
         right_flips_remaining: 1
-        spark: 1
+        spark: 2
     f_lane_shot_hit:
         score: 2500 * current_player.qp_x
         left_flips_remaining: 2
