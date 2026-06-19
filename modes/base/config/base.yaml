@@ -689,23 +689,25 @@ show_player:
             loops: -1
             show_tokens:
                 color: red
+#probably going to handle the apron and cab lights with spark/decay mechanic
+#once I'm sure I should delete these lines and the associated shows
 #        base_apron_show:
 #            action: play
 #            loops: -1
 #            show_tokens:
 #                color: white
-        base_cab_show:
-            action: play
-            loops: -1
-            show_tokens:
-                color: red
-                color2: "880000"
+#        base_cab_show:
+#            action: play
+#            loops: -1
+#            show_tokens:
+#                color: red
+#                color2: "880000"
     s_right_flipper_active:
         right_trap_warning_show:
             action: play
     s_right_flipper_inactive:
         right_trap_warning_show:
-            action: stop 
+            action: stop
     right_trap_detected:
         right_trap_show:
             action: play
