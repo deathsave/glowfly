@@ -106,79 +106,79 @@
                 anchor_x: center
                 anchor_y: center
                 x: center
-                y: top-100
+                y: top-50
               - type: Text
                 text: (machine|score1_label)
                 style: attract_mode_high_score_display_label
-                y: top-250
+                y: top-120
               - type: Text
                 text: (machine|score1_name)
                 style: attract_mode_high_score_display_name
-                y: top-250
+                y: top-120
               - type: Text
                 text: (machine|score1_value)
                 style: attract_mode_high_score_display_score
-                y: top-250
+                y: top-120
               - type: Text
                 text: (machine|score2_label)
                 style: attract_mode_high_score_display_label
-                y: top-330
+                y: top-190
               - type: Text
                 text: (machine|score2_name)
                 style: attract_mode_high_score_display_name
-                y: top-330
+                y: top-190
               - type: Text
                 text: (machine|score2_value)
                 style: attract_mode_high_score_display_score
-                y: top-330
+                y: top-190
               - type: Text
                 text: (machine|score3_label)
                 style: attract_mode_high_score_display_label
-                y: top-380
+                y: top-260
               - type: Text
                 text: (machine|score3_name)
                 style: attract_mode_high_score_display_name
-                y: top-380
+                y: top-260
               - type: Text
                 text: (machine|score3_value)
                 style: attract_mode_high_score_display_score
-                y: top-380
+                y: top-260
               - type: Text
                 text: (machine|score4_label)
                 style: attract_mode_high_score_display_label
-                y: top-430
+                y: top-330
               - type: Text
                 text: (machine|score4_name)
                 style: attract_mode_high_score_display_name
-                y: top-430
+                y: top-330
               - type: Text
                 text: (machine|score4_value)
                 style: attract_mode_high_score_display_score
-                y: top-430
+                y: top-330
               - type: Text
                 text: (machine|score5_label)
                 style: attract_mode_high_score_display_label
-                y: top-480
+                y: top-400
               - type: Text
                 text: (machine|score5_name)
                 style: attract_mode_high_score_display_name
-                y: top-480
+                y: top-400
               - type: Text
                 text: (machine|score5_value)
                 style: attract_mode_high_score_display_score
-                y: top-480
+                y: top-400
               - type: Text
                 text: (machine|score6_label)
                 style: attract_mode_high_score_display_label
-                y: top-530
+                y: top-470
               - type: Text
                 text: (machine|score6_name)
                 style: attract_mode_high_score_display_name
-                y: top-530
+                y: top-470
               - type: Text
                 text: (machine|score6_value)
                 style: attract_mode_high_score_display_score
-                y: top-530
+                y: top-470
               - type: Text
                 text: (machine|score7_label)
                 style: attract_mode_high_score_display_label
