@@ -1,0 +1,83 @@
+#show_version=6
+##! show: no_left_flips_light_show
+
+    - time: "+10ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+    - time: "+200ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+    - time: "+200ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+    - time: "+200ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+    - time: "+200ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+    - time: "+200ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+    - time: "+200ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+    - time: "+200ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+    - time: "+200ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+    - time: "+200ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+    - time: "+200ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+    - time: "+200ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+    - time: "+200ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+    - time: "+200ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+    - time: "+200ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+    - time: "+200ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+    - time: "+200ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+    - time: "+200ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+    - time: "+200ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+    - time: "+200ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off

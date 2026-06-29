@@ -47,14 +47,7 @@
                 style: attract_mode_final_score_display_score
                 y: bottom+50
                 x: right-250
-    - time: "+15"
-      slides:
-          dspc_logo_slide:
-              target: window
-    - time: "+10"
-      slides:
-          glowfly_title_slide:
-              target: window
+
     - time: "+10"
       slides:
           show_final_scores:
@@ -102,7 +95,7 @@
                 style: attract_mode_final_score_display_score
                 y: bottom+50
                 x: right-250
-    - time: "+10"
+    - time: "+5"
       slides:
           show_high_scores:
               widgets:
@@ -222,3 +215,14 @@
                 text: (machine|score9_value)
                 style: attract_mode_high_score_display_score
                 y: top-680
+    - time: "+15"
+      slides:
+          dspc_logo_slide:
+              target: window
+    - time: "+4"
+      events: start_PF_attract_show
+    - time: "+6"
+      slides:
+          glowfly_title_slide:
+              target: window
+      duration: -1

@@ -10,10 +10,7 @@ keyboard:
         event: #start game
     d:
         event: test_diverter_on
-    l:
-        event: left_flips_full
-    r:
-        event: right_flips_full
+
 
 hardware:
     platform: fast

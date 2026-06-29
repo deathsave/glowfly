@@ -5,7 +5,15 @@
       lights:
           lamps: off
           cabinet: off
-    - time: "+10ms"
+    - time: "+100ms"
+      lights:
+          l_right_sling1: white
+          l_right_sling2: white
+    - time: "+100ms"
+      lights:
+          l_right_sling1: off
+          l_right_sling2: off
+    - time: "+100ms"
       lights:
           l_right_sling1: white
           l_right_sling2: white

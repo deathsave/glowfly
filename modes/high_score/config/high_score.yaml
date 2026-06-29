@@ -46,14 +46,14 @@ slides:
       text: PLAYER (player_num)
       color: ffff00
       x: center
-      y: center
+      y: center+40
     - type: text
       style: big
       font_size: 24
       text: (award)
       color: f0f0f0
       x: center
-      y: center-20
+      y: center
     - type: text_input
       initial_char: A
       dynamic_x: false
@@ -62,7 +62,7 @@ slides:
       font_size: 24
       max_chars: 10
       x: center
-      y: center-70
+      y: center-50
       shift_left_event: s_left_flipper_active
       shift_right_event: s_right_flipper_active
       select_event: s_start_active
@@ -72,7 +72,7 @@ slides:
       text: '<       >'
       font_size: 24
       x: center
-      y: center-70
+      y: center-50
       color: ff0000
     - type: text
       text: ''
@@ -80,7 +80,7 @@ slides:
       font_size: 24
       style: big
       x: center
-      y: center-40
+      y: center-20
       color: ff00ff
       animations:
         show_slide:

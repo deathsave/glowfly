@@ -544,116 +544,20 @@ shows:
           lights:
               l_right_lane1: red
               l_right_lane2: red
-    no_right_flips_light_show:
-        - time: "+10ms"
-          lights:
-              l_right_lane1: red
-              l_right_lane2: red
-        - time: "+200ms"
-          lights:
-              l_right_lane1: off
-              l_right_lane2: off
-        - time: "+200ms"
-          lights:
-              l_right_lane1: red
-              l_right_lane2: red
-        - time: "+200ms"
-          lights:
-              l_right_lane1: off
-              l_right_lane2: off
-        - time: "+10ms"
-          lights:
-              l_right_lane1: red
-              l_right_lane2: red
-        - time: "+200ms"
-          lights:
-              l_right_lane1: off
-              l_right_lane2: off
-        - time: "+200ms"
-          lights:
-              l_right_lane1: red
-              l_right_lane2: red
-        - time: "+200ms"
-          lights:
-              l_right_lane1: off
-              l_right_lane2: off
-        - time: "+10ms"
-          lights:
-              l_right_lane1: red
-              l_right_lane2: red
-        - time: "+200ms"
-          lights:
-              l_right_lane1: off
-              l_right_lane2: off
-        - time: "+200ms"
-          lights:
-              l_right_lane1: red
-              l_right_lane2: red
-        - time: "+200ms"
-          lights:
-              l_right_lane1: off
-              l_right_lane2: off
-    no_left_flips_light_show:
-        - time: "+10ms"
-          lights:
-              l_left_lane1: red
-              l_left_lane2: red
-        - time: "+200ms"
-          lights:
-              l_left_lane1: off
-              l_left_lane2: off
-        - time: "+200ms"
-          lights:
-              l_left_lane1: red
-              l_left_lane2: red
-        - time: "+200ms"
-          lights:
-              l_left_lane1: off
-              l_left_lane2: off
-        - time: "+10ms"
-          lights:
-              l_left_lane1: red
-              l_left_lane2: red
-        - time: "+200ms"
-          lights:
-              l_left_lane1: off
-              l_left_lane2: off
-        - time: "+200ms"
-          lights:
-              l_left_lane1: red
-              l_left_lane2: red
-        - time: "+200ms"
-          lights:
-              l_left_lane1: off
-              l_left_lane2: off
-        - time: "+10ms"
-          lights:
-              l_left_lane1: red
-              l_left_lane2: red
-        - time: "+200ms"
-          lights:
-              l_left_lane1: off
-              l_left_lane2: off
-        - time: "+200ms"
-          lights:
-              l_left_lane1: red
-              l_left_lane2: red
-        - time: "+200ms"
-          lights:
-              l_left_lane1: off
-              l_left_lane2: off
+
+
 
 show_player:
     left_flipper_off:
         no_left_flips_light_show:
             action: play
             loops: -1
-            speed: 1
+            speed: .75
     right_flipper_off:
         no_right_flips_light_show:
             action: play
             loops: -1
-            speed: 1
+            speed: .75
             priority: 250
     mode_no_left_flip_stopped:
         no_left_flips_light_show:

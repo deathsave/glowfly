@@ -1,0 +1,1089 @@
+#show_version=6
+##! show: glowfly_attract_loop_show
+    - time: "+1"
+      lights:
+          lamps: off
+    - time: "+700ms"
+      lights:
+          g: red
+    - time: "+700ms"
+      lights:
+          l: orange
+    - time: "+700ms"
+      lights:
+          o: gold
+    - time: "+700ms"
+      lights:
+          w: green
+    - time: "+700ms"
+      lights:
+          l_f1: blue
+    - time: "+700ms"
+      lights:
+          l_l1: LightBlue
+    - time: "+700ms"
+      lights:
+          l_y1: purple
+    - time: "+2100ms"
+      lights:
+          g: off
+          l: off
+          o: off
+          w: off
+          l_f1: off
+          l_l1: off
+          l_y1: off
+    - time: "+2100ms"
+      lights:
+          lamps:
+              color: "ffffff"
+              fade: 4s
+          cabinet:
+              color: "ffffff"
+              fade: 4s
+    - time: "+4900ms"
+      lights:
+          lamps:
+              color: "000000"
+              fade: 1s
+          cabinet:
+              color: "000000"
+              fade: 1s
+    - time: "+700ms"
+      lights:
+          lamps:
+              color: "ffffff"
+              fade: 1s
+          cabinet:
+              color: "ffffff"
+              fade: 1s
+    - time: "+700ms"
+      lights:
+          lamps:
+              color: "000000"
+              fade: 1s
+          cabinet:
+              color: "000000"
+              fade: 1s
+    - time: "+2100ms"
+      lights:
+          l_l_cab20: "eeeeee"
+          l_r_cab20: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab19: "eeeeee"
+          l_r_cab19: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab18: "eeeeee"
+          l_r_cab18: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab17: "eeeeee"
+          l_r_cab17: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab16: "eeeeee"
+          l_r_cab16: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab15: "eeeeee"
+          l_r_cab15: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab14: "eeeeee"
+          l_r_cab14: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab13: "eeeeee"
+          l_r_cab13: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab12: "eeeeee"
+          l_r_cab12: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab11: "eeeeee"
+          l_r_cab11: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab10: "eeeeee"
+          l_r_cab10: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab9: "eeeeee"
+          l_r_cab9: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab8: "eeeeee"
+          l_r_cab8: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab7: "eeeeee"
+          l_r_cab7: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab6: "eeeeee"
+          l_r_cab6: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab5: "eeeeee"
+          l_r_cab5: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab4: "eeeeee"
+          l_r_cab4: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab3: "eeeeee"
+          l_r_cab3: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab2: "eeeeee"
+          l_r_cab2: "eeeeee"
+    - time: "+70ms"
+      lights:
+          l_l_cab1: "eeeeee"
+          l_r_cab1: "eeeeee"
+    - time: "+2800ms"
+      lights:
+          l_l_cab1: "000000"
+          l_r_cab1: "000000"
+    - time: "+700ms"
+      lights:
+          l_l_cab2: "000000"
+          l_r_cab2: "000000"
+    - time: "+700ms"
+      lights:
+          l_l_cab3: "000000"
+          l_r_cab3: "000000"
+    - time: "+350ms"
+      lights:
+          l_l_cab4: "000000"
+          l_r_cab4: "000000"
+    - time: "+350ms"
+      lights:
+          l_l_cab5: "000000"
+          l_r_cab5: "000000"
+    - time: "+350ms"
+      lights:
+          l_l_cab6: "000000"
+          l_r_cab6: "000000"
+    - time: "+280ms"
+      lights:
+          l_l_cab7: "000000"
+          l_r_cab7: "000000"
+    - time: "+280ms"
+      lights:
+          l_l_cab8: "000000"
+          l_r_cab8: "000000"
+    - time: "+280ms"
+      lights:
+          l_l_cab9: "000000"
+          l_r_cab9: "000000"
+    - time: "+210ms"
+      lights:
+          l_l_cab10: "000000"
+          l_r_cab10: "000000"
+    - time: "+210ms"
+      lights:
+          l_l_cab11: "000000"
+          l_r_cab11: "000000"
+    - time: "+140ms"
+      lights:
+          l_l_cab12: "000000"
+          l_r_cab12: "000000"
+    - time: "+140ms"
+      lights:
+          l_l_cab13: "000000"
+          l_r_cab13: "000000"
+    - time: "+70ms"
+      lights:
+          l_l_cab14: "000000"
+          l_r_cab14: "000000"
+    - time: "+70ms"
+      lights:
+          l_l_cab15: "000000"
+          l_r_cab15: "000000"
+    - time: "+70ms"
+      lights:
+          l_l_cab16: "000000"
+          l_r_cab16: "000000"
+    - time: "+70ms"
+      lights:
+          l_l_cab17: "000000"
+          l_r_cab17: "000000"
+    - time: "+70ms"
+      lights:
+          l_l_cab18: "000000"
+          l_r_cab18: "000000"
+    - time: "+70ms"
+      lights:
+          l_l_cab19: "000000"
+          l_r_cab19: "000000"
+    - time: "+490ms"
+      lights:
+          l_l_cab20: "000000"
+          l_r_cab20: "000000"
+    - time: "+490ms"
+      lights:
+          l_l_cab20: "ffffff"
+          l_r_cab20: "ffffff"
+    - time: "+490ms"
+      lights:
+          l_l_cab20: "000000"
+          l_r_cab20: "000000"
+    - time: "+490ms"
+      lights:
+          l_l_cab20: "ffffff"
+          l_r_cab20: "ffffff"
+    - time: "+490ms"
+      lights:
+          l_l_cab20: "000000"
+          l_r_cab20: "000000"
+    - time: "+490ms"
+      lights:
+          l_l_cab20: "ffffff"
+          l_r_cab20: "ffffff"
+    - time: "+1400ms"
+      coils:
+          c_trough_eject: pulse
+    - time: "+700ms"
+      lights:
+          l_l_cab19: "ffffff"
+          l_l_cab18: "ffffff"
+          l_r_cab19: "ffffff"
+          l_r_cab18: "ffffff"
+    - time: "+420ms"
+      lights:
+          l_l_cab17: "ffffff"
+          l_r_cab17: "ffffff"
+          l_l_cab16: "ffffff"
+          l_r_cab16: "ffffff"
+    - time: "+350ms"
+      lights:
+          l_l_cab15: "ffffff"
+          l_r_cab15: "ffffff"
+          l_l_cab14: "ffffff"
+          l_r_cab14: "ffffff"
+    - time: "+700ms"
+      coils:
+          c_flipper_right_main: pulse
+    - time: "+210ms"
+      shows:
+          ramp_l_attempt_show:
+              loops: 0
+              show_tokens:
+                  color: "ffffff"
+    - time: "+800ms"
+      shows:
+          ramp_l_complete_show:
+              loops: 0
+              show_tokens:
+                  color: "ffffff"
+      lights:
+          l_l_cab13: "ffffff"
+          l_r_cab13: "ffffff"
+          l_l_cab12: "ffffff"
+          l_r_cab12: "ffffff"
+    - time: "+700ms"
+      coils:
+          c_flipper_left_main: pulse
+    - time: "+140ms"
+      lights:
+          upper_right_block: "ffffff"
+    - time: "+280ms"
+      lights:
+          upper_right_block: "000000"
+          l_y1: "ffffff"
+    - time: "+210ms"
+      lights:
+          l_y1: "000000"
+          l_l1: "ffffff"
+    - time: "+210ms"
+      lights:
+          l_l1: "000000"
+          l_f1: "ffffff"
+    - time: "+280ms"
+      lights:
+          l_f1: "000000"
+          upper_left_block: "ffffff"
+    - time: "+280ms"
+      lights:
+          upper_left_block: "000000"
+          l_l_cab11: "ffffff"
+          l_r_cab11: "ffffff"
+          l_l_cab10: "ffffff"
+          l_r_cab10: "ffffff"
+    - time: "+560ms"
+      lights:
+          g: "ff00ff"
+      sounds:
+           glowfly_target1:
+               action: play
+               loops: 0
+    - time: "+140ms"
+      lights:
+          l_l_cab9: "ffffff"
+          l_r_cab9: "ffffff"
+    - time: "+560ms"
+      lights:
+          o: "ff00ff"
+      sounds:
+           glowfly_target1:
+               action: play
+               loops: 0
+    - time: "+140ms"
+      lights:
+          l_l_cab8: "ffffff"
+          l_r_cab8: "ffffff"
+    - time: "+560ms"
+      lights:
+          l: "ff00ff"
+      sounds:
+           glowfly_target1:
+               action: play
+               loops: 0
+    - time: "+140ms"
+      lights:
+          l_l_cab7: "ffffff"
+          l_r_cab7: "ffffff"
+    - time: "+560ms"
+      lights:
+          w: "ff00ff"
+      sounds:
+           glowfly_target1:
+               action: play
+               loops: 0
+    - time: "+140ms"
+      lights:
+          l_l_cab6: "ffffff"
+          l_r_cab6: "ffffff"
+    - time: "+140ms"
+      sounds:
+          glowfly_complete1:
+              action: play
+              loops: 0
+      lights:
+          g: "000000"
+          l: "000000"
+          o: "000000"
+          w: "000000"
+    - time: "+210ms"
+      lights:
+          g: "ff00ff"
+          l: "ff00ff"
+          o: "ff00ff"
+          w: "ff00ff"
+    - time: "+210ms"
+      lights:
+          g: "000000"
+          l: "000000"
+          o: "000000"
+          w: "000000"
+    - time: "+140ms"
+      lights:
+          g: "ff00ff"
+    - time: "+140ms"
+      lights:
+          l: "ff00ff"
+    - time: "+140ms"
+      lights:
+          o: "ff00ff"
+    - time: "+140ms"
+      lights:
+          w: "ff00ff"
+    - time: "+490ms"
+      lights:
+          g: "000000"
+          l: "000000"
+          o: "000000"
+          w: "000000"
+    - time: "+700ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: green
+          l_left_lane_block9: blue
+          l_left_lane_block10: blue
+          l_left_lane_block11: purple
+          l_left_lane_block12: purple
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: green
+          l_right_lane_block9: blue
+          l_right_lane_block10: blue
+          l_right_lane_block11: purple
+          l_right_lane_block12: purple
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: green
+          l_left_lane_block9: blue
+          l_left_lane_block10: blue
+          l_left_lane_block11: purple
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: green
+          l_right_lane_block9: blue
+          l_right_lane_block10: blue
+          l_right_lane_block11: purple
+          l_right_lane_block12: off
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: green
+          l_left_lane_block9: blue
+          l_left_lane_block10: blue
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: green
+          l_right_lane_block9: blue
+          l_right_lane_block10: blue
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: green
+          l_left_lane_block9: blue
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: green
+          l_right_lane_block9: blue
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: green
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: green
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: off
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: off
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: off
+          l_left_lane_block6: off
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: off
+          l_right_lane_block6: off
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: off
+          l_left_lane_block5: off
+          l_left_lane_block6: off
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: off
+          l_right_lane_block5: off
+          l_right_lane_block6: off
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: off
+          l_left_lane_block4: off
+          l_left_lane_block5: off
+          l_left_lane_block6: off
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: off
+          l_right_lane_block4: off
+          l_right_lane_block5: off
+          l_right_lane_block6: off
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: off
+          l_left_lane_block3: off
+          l_left_lane_block4: off
+          l_left_lane_block5: off
+          l_left_lane_block6: off
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: off
+          l_right_lane_block3: off
+          l_right_lane_block4: off
+          l_right_lane_block5: off
+          l_right_lane_block6: off
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+140ms"
+      lights:
+          l_left_lane_block1: off
+          l_left_lane_block2: off
+          l_left_lane_block3: off
+          l_left_lane_block4: off
+          l_left_lane_block5: off
+          l_left_lane_block6: off
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: off
+          l_right_lane_block2: off
+          l_right_lane_block3: off
+          l_right_lane_block4: off
+          l_right_lane_block5: off
+          l_right_lane_block6: off
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+350ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+          l_right_lane1: red
+          l_right_lane2: red
+    - time: "+350ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+          l_right_lane1: off
+          l_right_lane2: off
+    - time: "+350ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+          l_right_lane1: red
+          l_right_lane2: red
+    - time: "+350ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+          l_right_lane1: off
+          l_right_lane2: off
+    - time: "+350ms"
+      lights:
+          l_left_lane1: red
+          l_left_lane2: red
+          l_right_lane1: red
+          l_right_lane2: red
+    - time: "+350ms"
+      lights:
+          l_left_lane1: off
+          l_left_lane2: off
+          l_right_lane1: off
+          l_right_lane2: off
+    - time: "+700ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: off
+          l_left_lane_block3: off
+          l_left_lane_block4: off
+          l_left_lane_block5: off
+          l_left_lane_block6: off
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: off
+          l_right_lane_block3: off
+          l_right_lane_block4: off
+          l_right_lane_block5: off
+          l_right_lane_block6: off
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+70ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: off
+          l_left_lane_block4: off
+          l_left_lane_block5: off
+          l_left_lane_block6: off
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: off
+          l_right_lane_block4: off
+          l_right_lane_block5: off
+          l_right_lane_block6: off
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+70ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: off
+          l_left_lane_block5: off
+          l_left_lane_block6: off
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: off
+          l_right_lane_block5: off
+          l_right_lane_block6: off
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+70ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: off
+          l_left_lane_block6: off
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: off
+          l_right_lane_block6: off
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+70ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: off
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: off
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+70ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: off
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: off
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+70ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: off
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: off
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+70ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: green
+          l_left_lane_block9: off
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: green
+          l_right_lane_block9: off
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+70ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: green
+          l_left_lane_block9: blue
+          l_left_lane_block10: off
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: green
+          l_right_lane_block9: blue
+          l_right_lane_block10: off
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+70ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: green
+          l_left_lane_block9: blue
+          l_left_lane_block10: blue
+          l_left_lane_block11: off
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: green
+          l_right_lane_block9: blue
+          l_right_lane_block10: blue
+          l_right_lane_block11: off
+          l_right_lane_block12: off
+    - time: "+70ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: green
+          l_left_lane_block9: blue
+          l_left_lane_block10: blue
+          l_left_lane_block11: purple
+          l_left_lane_block12: off
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: green
+          l_right_lane_block9: blue
+          l_right_lane_block10: blue
+          l_right_lane_block11: purple
+          l_right_lane_block12: off
+    - time: "+70ms"
+      lights:
+          l_left_lane_block1: red
+          l_left_lane_block2: red
+          l_left_lane_block3: orange
+          l_left_lane_block4: orange
+          l_left_lane_block5: gold
+          l_left_lane_block6: gold
+          l_left_lane_block7: green
+          l_left_lane_block8: green
+          l_left_lane_block9: blue
+          l_left_lane_block10: blue
+          l_left_lane_block11: purple
+          l_left_lane_block12: purple
+          l_right_lane_block1: red
+          l_right_lane_block2: red
+          l_right_lane_block3: orange
+          l_right_lane_block4: orange
+          l_right_lane_block5: gold
+          l_right_lane_block6: gold
+          l_right_lane_block7: green
+          l_right_lane_block8: green
+          l_right_lane_block9: blue
+          l_right_lane_block10: blue
+          l_right_lane_block11: purple
+          l_right_lane_block12: purple
+    - time: "+2100ms"
+      events: end_attract_loop

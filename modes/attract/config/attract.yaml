@@ -3,18 +3,27 @@
 
 show_player:
     start_attract_shows:
-        glass_wave_reveal_show:
-            loops: 3
-            speed: 1
-            events_when_completed: start_rainbow_show
-            priority: 1
+#        glass_wave_reveal_show:
+#            loops: 3
+#            speed: 1
+#            events_when_completed: start_rainbow_show
+#            priority: 1
         attract_loop_show:
-            loops: -1
-            priority: 2
+            loops: 0
+            events_when_stopped: restart_attract_loop
         attract_backbox_show:
             loops: -1
             priority: 3
             speed: 1
+    end_attract_loop:
+        attract_loop_show:
+            action: stop
+    restart_attract_loop:
+        attract_loop_show:
+            loops: 0
+    start_PF_attract_show:
+        glowfly_attract_loop_show:
+            loops: 0
     mode_attract_stopping:
         attract_loop_show:
             action: stop
@@ -22,15 +31,15 @@ show_player:
             action: stop
         cabinet_mini_rainbow_show:
             action: stop
-    start_rainbow_show:
-        cabinet_mini_rainbow_show:
-            loops: 2
-            events_when_completed: start_wave_show
-    start_wave_show:
-        glass_wave_reveal_show:
-            loops: 3
-            events_when_completed: start_rainbow_show
-            speed: 1
+#    start_rainbow_show:
+#        cabinet_mini_rainbow_show:
+#            loops: 2
+#            events_when_completed: start_wave_show
+#    start_wave_show:
+#        glass_wave_reveal_show:
+#            loops: 3
+#            events_when_completed: start_rainbow_show
+#            speed: 1
     left_flips_full:
         glass_wave_reveal_show:
             action: stop
@@ -45,43 +54,7 @@ show_player:
 light_player:
     mode_attract_started:
         bbox: "ffffff"
-    test_all_lights_white:
-        lamps: "ffffff"
-    test_apron_cab_white:
-        cabinet: "ffffff"
-        apron: "ffffff"
-    test_all_lights_white_50:
-        lamps: "999999"
-    test_all_lights_red_50:
-        lamps: "990000"
-    test_all_lights_out:
-        lamps: "000000"
-    left_flips_full:
-        l_left_lane_block1: red
-        l_left_lane_block2: red
-        l_left_lane_block3: orange
-        l_left_lane_block4: orange
-        l_left_lane_block5: gold
-        l_left_lane_block6: gold
-        l_left_lane_block7: green
-        l_left_lane_block8: green
-        l_left_lane_block9: blue
-        l_left_lane_block10: blue
-        l_left_lane_block11: purple
-        l_left_lane_block12: purple
-    right_flips_full:
-        l_right_lane_block1: red
-        l_right_lane_block2: red
-        l_right_lane_block3: orange
-        l_right_lane_block4: orange
-        l_right_lane_block5: gold
-        l_right_lane_block6: gold
-        l_right_lane_block7: green
-        l_right_lane_block8: green
-        l_right_lane_block9: blue
-        l_right_lane_block10: blue
-        l_right_lane_block11: purple
-        l_right_lane_block12: purple
+    
 slides:
     dspc_logo_slide:
         widgets:
