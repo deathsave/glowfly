@@ -167,54 +167,7 @@
                 text: (machine|score5_value)
                 style: attract_mode_high_score_display_score
                 y: top-400
-              - type: Text
-                text: (machine|score6_label)
-                style: attract_mode_high_score_display_label
-                y: top-470
-              - type: Text
-                text: (machine|score6_name)
-                style: attract_mode_high_score_display_name
-                y: top-470
-              - type: Text
-                text: (machine|score6_value)
-                style: attract_mode_high_score_display_score
-                y: top-470
-              - type: Text
-                text: (machine|score7_label)
-                style: attract_mode_high_score_display_label
-                y: top-580
-              - type: Text
-                text: (machine|score7_name)
-                style: attract_mode_high_score_display_name
-                y: top-580
-              - type: Text
-                text: (machine|score7_value)
-                style: attract_mode_high_score_display_score
-                y: top-580
-              - type: Text
-                text: (machine|score8_label)
-                style: attract_mode_high_score_display_label
-                y: top-630
-              - type: Text
-                text: (machine|score8_name)
-                style: attract_mode_high_score_display_name
-                y: top-630
-              - type: Text
-                text: (machine|score8_value)
-                style: attract_mode_high_score_display_score
-                y: top-630
-              - type: Text
-                text: (machine|score9_label)
-                style: attract_mode_high_score_display_label
-                y: top-680
-              - type: Text
-                text: (machine|score9_name)
-                style: attract_mode_high_score_display_name
-                y: top-680
-              - type: Text
-                text: (machine|score9_value)
-                style: attract_mode_high_score_display_score
-                y: top-680
+              
     - time: "+15"
       slides:
           dspc_logo_slide:

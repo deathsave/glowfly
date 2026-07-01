@@ -74,50 +74,59 @@ lights:
     l_left_sling1:
         number: playfield-2-1
         tags: lamps, gi, slings, a
-    l_left_sling2:
+    l_ricochet1:
         number: playfield-2-2
+        tags: lamps, gi, ricochet, b
+    l_ricochet2:
+        number: playfield-2-3
+        tags: lamps, gi, ricochet, a
+    l_left_triangle:
+        number: playfield-2-4
+        tags: lamps, gi, outlanes, b
+    l_left_sling2:
+        number: playfield-2-5
         tags: lamps, gi, slings, b
     l_left_lane1:
-        number: playfield-2-3
+        number: playfield-2-6
         tags: lamps, gi, lane_indicator, a
     l_left_lane2:
-        number: playfield-2-4
+        number: playfield-2-7
         tags: lamps, gi, lane_indicator, b
     l_left_lane_block1:
-        number: playfield-2-5
+        number: playfield-2-8
         tags: lamps, blocks, a
     l_left_lane_block2:
-        number: playfield-2-6
+        number: playfield-2-9
         tags: lamps, blocks, b
     l_left_lane_block3:
-        number: playfield-2-7
+        number: playfield-2-10
         tags: lamps, blocks, a
     l_left_lane_block4:
-        number: playfield-2-8
+        number: playfield-2-11
         tags: lamps, blocks, b
     l_left_lane_block5:
-        number: playfield-2-9
+        number: playfield-2-12
         tags: lamps, blocks, a
     l_left_lane_block6:
-        number: playfield-2-10
+        number: playfield-2-13
         tags: lamps, blocks, b
     l_left_lane_block7:
-        number: playfield-2-11
+        number: playfield-2-14
         tags: lamps, blocks, a
     l_left_lane_block8:
-        number: playfield-2-12
+        number: playfield-2-15
         tags: lamps, blocks, b
     l_left_lane_block9:
-        number: playfield-2-13
+        number: playfield-2-16
         tags: lamps, blocks, a
     l_left_lane_block10:
-        number: playfield-2-14
+        number: playfield-2-17
         tags: lamps, blocks, b
     l_left_lane_block11:
-        number: playfield-2-15
+        number: playfield-2-18
         tags: lamps, blocks, a
     l_left_lane_block12:
-        number: playfield-2-16
+        number: playfield-2-19
         tags: lamps, blocks, b
 #right lower
     l_right_sling1:
@@ -397,65 +406,68 @@ lights:
         number: playfield-5-12
         tags: lamps, tragets, g
 #upper right wedge
-    l_upper_right_wedge1:
+    l_right_triangle:
         number: playfield-7-1
+        tags: lamps, gi, outlanes, a
+    l_upper_right_wedge1:
+        number: playfield-7-2
         tags: lamps, blocks, upper_right_block, b
     l_upper_right_wedge2:
-        number: playfield-7-2
+        number: playfield-7-3
         tags: lamps, blocks, upper_right_block, a
     l_upper_right_wedge3:
-        number: playfield-7-3
+        number: playfield-7-4
         tags: lamps, blocks, upper_right_block, b
     l_upper_right_wedge4:
-        number: playfield-7-4
+        number: playfield-7-5
         tags: lamps, blocks, upper_right_block, a
     l_upper_right_wedge5:
-        number: playfield-7-5
+        number: playfield-7-6
         tags: lamps, blocks, upper_right_block, b
     l_upper_right_wedge6:
-        number: playfield-7-6
+        number: playfield-7-7
         tags: lamps, blocks, upper_right_block, a
     l_upper_right_wedge7:
-        number: playfield-7-7
+        number: playfield-7-8
         tags: lamps, blocks, upper_right_block, b
     l_upper_right_wedge8:
-        number: playfield-7-8
+        number: playfield-7-9
         tags: lamps, blocks, upper_right_block, a
     l_upper_right_wedge9:
-        number: playfield-7-9
+        number: playfield-7-10
         tags: lamps, blocks, upper_right_block, b
     l_upper_right_wedge10:
-        number: playfield-7-10
+        number: playfield-7-11
         tags: lamps, blocks, upper_right_block, a
     l_upper_right_wedge11:
-        number: playfield-7-11
+        number: playfield-7-12
         tags: lamps, blocks, upper_right_block, b
     l_upper_right_wedge12:
-        number: playfield-7-12
+        number: playfield-7-13
         tags: lamps, blocks, upper_right_block, a
     l_upper_right_wedge13:
-        number: playfield-7-13
+        number: playfield-7-14
         tags: lamps, blocks, upper_right_block, b
     l_upper_right_wedge14:
-        number: playfield-7-14
+        number: playfield-7-15
         tags: lamps, blocks, upper_right_block, a
     l_upper_right_wedge15:
-        number: playfield-7-15
+        number: playfield-7-16
         tags: lamps, blocks, upper_right_block, b
     l_upper_right_wedge16:
-        number: playfield-7-16
+        number: playfield-7-17
         tags: lamps, blocks, upper_right_block, a
     l_upper_right_wedge17:
-        number: playfield-7-17
+        number: playfield-7-18
         tags: lamps, blocks, upper_right_block, b
     l_upper_right_wedge18:
-        number: playfield-7-18
+        number: playfield-7-19
         tags: lamps, blocks, upper_right_block, a
     l_upper_right_wedge19:
-        number: playfield-7-19
+        number: playfield-7-20
         tags: lamps, blocks, upper_right_block, b
     l_upper_right_wedge20:
-        number: playfield-7-20
+        number: playfield-7-21
         tags: lamps, blocks, upper_right_block, a
 
 #f-l-y lanes

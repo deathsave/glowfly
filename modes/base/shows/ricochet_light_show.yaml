@@ -1,0 +1,27 @@
+#show_version=6
+##! show: ricochet_light_show
+
+    - time: "+10ms"
+      lights:
+          lamps: off
+          cabinet: off
+    - time: "+10ms"
+      lights:
+          l_ricochet1: white
+          l_ricochet2: off
+    - time: "+200ms"
+      lights:
+          l_ricochet1: off
+          l_ricochet2: white
+    - time: "+200ms"
+      lights:
+          l_ricochet1: white
+          l_ricochet2: off
+    - time: "+200ms"
+      lights:
+          l_ricochet1: off
+          l_ricochet2: white
+    - time: "+200ms"
+      lights:
+          l_ricochet1: white
+          l_ricochet2: off

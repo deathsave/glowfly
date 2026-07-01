@@ -17,10 +17,6 @@ high_score:
         - HIGH SCORE 2
         - HIGH SCORE 3
         - HIGH SCORE 4
-        - HIGH SCORE 5
-        - HIGH SCORE 6
-        - HIGH SCORE 7
-        - HIGH SCORE 8
   # set the defaults
   defaults:
     score:
@@ -29,10 +25,7 @@ high_score:
       - KEITHELWIN: 600000
       - JACKDANGER: 500000
       - HWILLIAMS: 400000
-      - SAMSTERN: 300000
-      - SDANESI: 200000
-      - SRITCHIE: 100000
-      - 5PENNY: 50000
+
 slide_player:
   _overwrite: true
   high_score_enter_initials: high_score_enter_initials
