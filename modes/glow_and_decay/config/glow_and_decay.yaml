@@ -6,6 +6,7 @@ mode:
     stop_events: s_shooter_lane_active
     priority: 250
 
+
 timers:
     decay:
         start_value: 0
@@ -59,6 +60,9 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: on
+        apron: on
     player_spark{value==19}:
         l_l_cab1: off
         l_l_cab2: on
@@ -100,6 +104,9 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: on
+        apron: on
     player_spark{value==18}:
         l_l_cab1: off
         l_l_cab2: off
@@ -141,6 +148,9 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: on
+        apron: on
     player_spark{value==17}:
         l_l_cab1: off
         l_l_cab2: off
@@ -182,6 +192,9 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: on
+        apron: on
     player_spark{value==16}:
         l_l_cab1: off
         l_l_cab2: off
@@ -223,6 +236,9 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: on
+        apron: on
     player_spark{value==15}:
         l_l_cab1: off
         l_l_cab2: off
@@ -264,6 +280,9 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: on
+        apron: on
     player_spark{value==14}:
         l_l_cab1: off
         l_l_cab2: off
@@ -305,6 +324,9 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: on
+        apron: on
     player_spark{value==13}:
         l_l_cab1: off
         l_l_cab2: off
@@ -346,6 +368,9 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: on
+        apron: on
     player_spark{value==12}:
         l_l_cab1: off
         l_l_cab2: off
@@ -387,6 +412,9 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: on
+        apron: on
     player_spark{value==11}:
         l_l_cab1: off
         l_l_cab2: off
@@ -428,6 +456,9 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: on
+        apron: on 
     player_spark{value==10}:
         l_l_cab1: off
         l_l_cab2: off
@@ -469,6 +500,10 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: off
+        apron_outer: off
+        apron_mid: on
     player_spark{value==9}:
         l_l_cab1: off
         l_l_cab2: off
@@ -510,6 +545,10 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: off
+        apron_outer: off
+        apron_mid: on
     player_spark{value==8}:
         l_l_cab1: off
         l_l_cab2: off
@@ -551,6 +590,10 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: off
+        apron_outer: off
+        apron_mid: on
     player_spark{value==7}:
         l_l_cab1: off
         l_l_cab2: off
@@ -592,6 +635,10 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: off
+        apron_outer: off
+        apron_mid: on
     player_spark{value==6}:
         l_l_cab1: off
         l_l_cab2: off
@@ -633,6 +680,10 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: on
+        rampgi: off
+        apron_outer: off
+        apron_mid: on
     player_spark{value==5}:
         l_l_cab1: off
         l_l_cab2: off
@@ -674,6 +725,10 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: off
+        rampgi: off
+        apron_outer: off
+        apron_mid: off
     player_spark{value==4}:
         l_l_cab1: off
         l_l_cab2: off
@@ -715,6 +770,10 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: off
+        rampgi: off
+        apron_outer: off
+        apron_mid: off
     player_spark{value==3}:
         l_l_cab1: off
         l_l_cab2: off
@@ -756,6 +815,10 @@ light_player:
         l_r_cab18: on
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: off
+        rampgi: off
+        apron_outer: off
+        apron_mid: off
     player_spark{value==2}:
         l_l_cab1: off
         l_l_cab2: off
@@ -797,6 +860,10 @@ light_player:
         l_r_cab18: off
         l_r_cab19: on
         l_r_cab20: on
+        outlanes: off
+        rampgi: off
+        apron_outer: off
+        apron_mid: off
     player_spark{value==1}:
         l_l_cab1: off
         l_l_cab2: off
@@ -838,6 +905,10 @@ light_player:
         l_r_cab18: off
         l_r_cab19: off
         l_r_cab20: on
+        outlanes: off
+        rampgi: off
+        apron_outer: off
+        apron_mid: off
     player_spark{value==0}:
         l_l_cab1: off
         l_l_cab2: off
@@ -879,3 +950,7 @@ light_player:
         l_r_cab18: off
         l_r_cab19: off
         l_r_cab20: off
+        outlanes: off
+        rampgi: off
+        apron_outer: off
+        apron_mid: off

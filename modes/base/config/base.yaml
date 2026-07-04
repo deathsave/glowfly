@@ -176,11 +176,6 @@ light_player:
         lower: on
         outlanes: on
         ricochet: on
-    base_set_stage2:
-        rampgi: on
-        apron:
-            color: "ffffff"
-            priority: 100
     player_left_flips_remaining{value==12}:
         l_left_lane_block1: red
         l_left_lane_block2: red
@@ -582,11 +577,6 @@ show_player:
         launch_the_ball_show:
             action: stop
     base_set_stage2:
-        ramp_lit_show:
-            action: play
-            loops: -1
-            show_tokens:
-                color: red
         base_lanes_show:
             action: play
             loops: -1

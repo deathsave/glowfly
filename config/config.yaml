@@ -180,28 +180,28 @@ lights:
 #apron lights
     l_apron1:
         number: playfield-1-1
-        tags: lamps, apron, a
+        tags: lamps, apron, a, apron_outer
     l_apron2:
         number: playfield-1-2
-        tags: lamps, apron, b
+        tags: lamps, apron, b, apron_outer
     l_apron3:
         number: playfield-1-3
-        tags: lamps, apron, a
+        tags: lamps, apron, a, apron_outer
     l_apron4:
         number: playfield-1-4
-        tags: lamps, apron, b
+        tags: lamps, apron, b, apron_outer
     l_apron5:
         number: playfield-1-5
-        tags: lamps, apron, a
+        tags: lamps, apron, a, apron_mid
     l_apron6:
         number: playfield-1-6
-        tags: lamps, apron, b
+        tags: lamps, apron, b, apron_mid
     l_apron7:
         number: playfield-1-7
-        tags: lamps, apron, a
+        tags: lamps, apron, a, apron_mid
     l_apron8:
         number: playfield-1-8
-        tags: lamps, apron, b
+        tags: lamps, apron, b, apron_mid
     l_apron9:
         number: playfield-1-9
         tags: lamps, apron, a
@@ -252,28 +252,28 @@ lights:
         tags: lamps, apron, b
     l_apron25:
         number: playfield-1-25
-        tags: lamps, apron, a
+        tags: lamps, apron, a, apron_mid
     l_apron26:
         number: playfield-1-26
-        tags: lamps, apron, b
+        tags: lamps, apron, b, apron_mid
     l_apron27:
         number: playfield-1-27
-        tags: lamps, apron, a
+        tags: lamps, apron, a, apron_mid
     l_apron28:
         number: playfield-1-28
-        tags: lamps, apron, b
+        tags: lamps, apron, b, apron_mid
     l_apron29:
         number: playfield-1-29
-        tags: lamps, apron, a
+        tags: lamps, apron, a, apron_outer
     l_apron30:
         number: playfield-1-30
-        tags: lamps, apron, b
+        tags: lamps, apron, b, apron_outer
     l_apron31:
         number: playfield-1-31
-        tags: lamps, apron, a
+        tags: lamps, apron, a, apron_outer
     l_apron32:
         number: playfield-1-32
-        tags: lamps, apron, b
+        tags: lamps, apron, b, apron_outer
 #ball guide
     l_shooter_guide1:
         number: playfield-4-1
