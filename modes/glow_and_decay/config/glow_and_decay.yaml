@@ -63,6 +63,8 @@ light_player:
         outlanes: on
         rampgi: on
         apron: on
+        upper_left_block: on
+        upper_right_block: on
     player_spark{value==19}:
         l_l_cab1: off
         l_l_cab2: on
@@ -107,6 +109,8 @@ light_player:
         outlanes: on
         rampgi: on
         apron: on
+        upper_left_block: on
+        upper_right_block: on
     player_spark{value==18}:
         l_l_cab1: off
         l_l_cab2: off
@@ -151,6 +155,8 @@ light_player:
         outlanes: on
         rampgi: on
         apron: on
+        upper_left_block: on
+        upper_right_block: on
     player_spark{value==17}:
         l_l_cab1: off
         l_l_cab2: off
@@ -195,6 +201,8 @@ light_player:
         outlanes: on
         rampgi: on
         apron: on
+        upper_left_block: on
+        upper_right_block: on
     player_spark{value==16}:
         l_l_cab1: off
         l_l_cab2: off
@@ -239,6 +247,8 @@ light_player:
         outlanes: on
         rampgi: on
         apron: on
+        upper_left_block: on
+        upper_right_block: on
     player_spark{value==15}:
         l_l_cab1: off
         l_l_cab2: off
@@ -283,6 +293,8 @@ light_player:
         outlanes: on
         rampgi: on
         apron: on
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==14}:
         l_l_cab1: off
         l_l_cab2: off
@@ -327,6 +339,8 @@ light_player:
         outlanes: on
         rampgi: on
         apron: on
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==13}:
         l_l_cab1: off
         l_l_cab2: off
@@ -371,6 +385,8 @@ light_player:
         outlanes: on
         rampgi: on
         apron: on
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==12}:
         l_l_cab1: off
         l_l_cab2: off
@@ -415,6 +431,8 @@ light_player:
         outlanes: on
         rampgi: on
         apron: on
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==11}:
         l_l_cab1: off
         l_l_cab2: off
@@ -458,7 +476,9 @@ light_player:
         l_r_cab20: on
         outlanes: on
         rampgi: on
-        apron: on 
+        apron: on
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==10}:
         l_l_cab1: off
         l_l_cab2: off
@@ -504,6 +524,8 @@ light_player:
         rampgi: off
         apron_outer: off
         apron_mid: on
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==9}:
         l_l_cab1: off
         l_l_cab2: off
@@ -549,6 +571,8 @@ light_player:
         rampgi: off
         apron_outer: off
         apron_mid: on
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==8}:
         l_l_cab1: off
         l_l_cab2: off
@@ -594,6 +618,8 @@ light_player:
         rampgi: off
         apron_outer: off
         apron_mid: on
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==7}:
         l_l_cab1: off
         l_l_cab2: off
@@ -639,6 +665,8 @@ light_player:
         rampgi: off
         apron_outer: off
         apron_mid: on
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==6}:
         l_l_cab1: off
         l_l_cab2: off
@@ -684,6 +712,8 @@ light_player:
         rampgi: off
         apron_outer: off
         apron_mid: on
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==5}:
         l_l_cab1: off
         l_l_cab2: off
@@ -729,6 +759,8 @@ light_player:
         rampgi: off
         apron_outer: off
         apron_mid: off
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==4}:
         l_l_cab1: off
         l_l_cab2: off
@@ -774,6 +806,8 @@ light_player:
         rampgi: off
         apron_outer: off
         apron_mid: off
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==3}:
         l_l_cab1: off
         l_l_cab2: off
@@ -819,6 +853,8 @@ light_player:
         rampgi: off
         apron_outer: off
         apron_mid: off
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==2}:
         l_l_cab1: off
         l_l_cab2: off
@@ -864,6 +900,8 @@ light_player:
         rampgi: off
         apron_outer: off
         apron_mid: off
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==1}:
         l_l_cab1: off
         l_l_cab2: off
@@ -909,6 +947,8 @@ light_player:
         rampgi: off
         apron_outer: off
         apron_mid: off
+        upper_left_block: off
+        upper_right_block: off
     player_spark{value==0}:
         l_l_cab1: off
         l_l_cab2: off
@@ -954,3 +994,5 @@ light_player:
         rampgi: off
         apron_outer: off
         apron_mid: off
+        upper_left_block: off
+        upper_right_block: off

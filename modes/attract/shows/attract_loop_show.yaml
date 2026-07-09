@@ -105,69 +105,69 @@
                 bold: true
                 anchor_x: center
                 anchor_y: center
-                x: center
-                y: top-50
+                x: left+20%
+                y: center
               - type: Text
                 text: (machine|score1_label)
                 style: attract_mode_high_score_display_label
-                y: top-120
+                y: top-60
               - type: Text
                 text: (machine|score1_name)
                 style: attract_mode_high_score_display_name
-                y: top-120
+                y: top-60
               - type: Text
                 text: (machine|score1_value)
                 style: attract_mode_high_score_display_score
-                y: top-120
+                y: top-60
               - type: Text
                 text: (machine|score2_label)
                 style: attract_mode_high_score_display_label
-                y: top-190
+                y: top-130
               - type: Text
                 text: (machine|score2_name)
                 style: attract_mode_high_score_display_name
-                y: top-190
+                y: top-130
               - type: Text
                 text: (machine|score2_value)
                 style: attract_mode_high_score_display_score
-                y: top-190
+                y: top-130
               - type: Text
                 text: (machine|score3_label)
                 style: attract_mode_high_score_display_label
-                y: top-260
+                y: top-200
               - type: Text
                 text: (machine|score3_name)
                 style: attract_mode_high_score_display_name
-                y: top-260
+                y: top-200
               - type: Text
                 text: (machine|score3_value)
                 style: attract_mode_high_score_display_score
-                y: top-260
+                y: top-200
               - type: Text
                 text: (machine|score4_label)
                 style: attract_mode_high_score_display_label
-                y: top-330
+                y: top-270
               - type: Text
                 text: (machine|score4_name)
                 style: attract_mode_high_score_display_name
-                y: top-330
+                y: top-270
               - type: Text
                 text: (machine|score4_value)
                 style: attract_mode_high_score_display_score
-                y: top-330
+                y: top-270
               - type: Text
                 text: (machine|score5_label)
                 style: attract_mode_high_score_display_label
-                y: top-400
+                y: top-340
               - type: Text
                 text: (machine|score5_name)
                 style: attract_mode_high_score_display_name
-                y: top-400
+                y: top-340
               - type: Text
                 text: (machine|score5_value)
                 style: attract_mode_high_score_display_score
-                y: top-400
-              
+                y: top-340
+
     - time: "+15"
       slides:
           dspc_logo_slide:

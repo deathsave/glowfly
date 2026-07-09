@@ -170,10 +170,6 @@ light_player:
         lamps: off
         cabinet: off
     base_set_stage1:
-        qp: off
-        ramp: off
-        mid: on
-        lower: on
         outlanes: on
         ricochet: on
     player_left_flips_remaining{value==12}:
@@ -690,20 +686,22 @@ show_player:
         right_approach_show:
             loops: 0
             speed: 2
+            priority: 251
     left_approach_shot_hit:
         left_approach_show:
             loops: 0
             speed: 2
+            priority: 251
     slingshot_l_hit:
         short_left_sling_show:
             loops: 0
             speed: 1
-            priority: 101
+            priority: 251
     slingshot_r_hit:
         short_right_sling_show:
             loops: 0
             speed: 1
-            priority: 101
+            priority: 251
 
 #ball save shows
     ball_save_ball_start_ball_save_timer_start:
@@ -1003,6 +1001,16 @@ sound_player:
 
 
 variable_player:
+    left_qp_full_hit:
+        score: 1000 * current_player.qp_x
+        qp_x: 1
+        left_flips_remaining: 1
+        right_flips_remaining: 2
+    right_qp_full_hit:
+        score: 1000 * current_player.qp_x
+        qp_x: 1
+        left_flips_remaining: 2
+        right_flips_remaining: 1
     curve_right_shot_hit:
         score: 1000 * current_player.curve_x
         right_flips_remaining: 2

@@ -277,22 +277,22 @@ lights:
 #ball guide
     l_shooter_guide1:
         number: playfield-4-1
-        tags: lamps, blocks, lanes, a
+        tags: lamps, blocks, lanes, a, shooter_guide
     l_shooter_guide2:
         number: playfield-4-2
-        tags: lamps, blocks, lanes, b
+        tags: lamps, blocks, lanes, b, shooter_guide
     l_shooter_guide3:
         number: playfield-4-3
-        tags: lamps, blocks, lanes, a
+        tags: lamps, blocks, lanes, a, shooter_guide
     l_shooter_guide4:
         number: playfield-4-4
-        tags: lamps, blocks, lanes, b
+        tags: lamps, blocks, lanes, b, shooter_guide
     l_shooter_guide5:
         number: playfield-4-5
-        tags: lamps, blocks, lanes, a
+        tags: lamps, blocks, lanes, a, shooter_guide
     l_shooter_guide6:
         number: playfield-4-6
-        tags: lamps, blocks, lanes, b
+        tags: lamps, blocks, lanes, b, shooter_guide
 
 #upper curve
     l_upper_curve_core1:
@@ -472,13 +472,13 @@ lights:
 
 #f-l-y lanes
     l_f1:
-        number: playfield-7-23
+        number: playfield-7-24
         tags: lamps, fly_lanes, lane_f
     l_l1:
-        number: playfield-7-24
+        number: playfield-7-25
         tags: lamps, fly_lanes, lane_l
     l_y1:
-        number: playfield-7-25
+        number: playfield-7-26
         tags: lamps, fly_lanes, lane_y
 #ramp
     l_ramp1:
@@ -1235,18 +1235,18 @@ widget_styles:
         font_size: 40
         anchor_x: right
         anchor_y: top
-        x: center-110
+        x: center+100
         bold: true
     attract_mode_high_score_display_name:
         font_size: 40
         anchor_x: right
         anchor_y: top
-        x: center+150
+        x: center+400
     attract_mode_high_score_display_score:
         font_size: 40
         anchor_x: left
         anchor_y: top
-        x: center+240
+        x: center+520
         number_grouping: true
         min_digits: 1
     attract_mode_final_score_display_player_number:
