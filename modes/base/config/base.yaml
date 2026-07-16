@@ -153,6 +153,7 @@ slides:
               font_size: 42
               color: white
 
+
 slide_player:
     mode_base_started: base_score_slide
     s_shooter_lane_active:
@@ -1159,12 +1160,10 @@ variable_player:
         right_flips_remaining:
             int: 12
             action: set
-        spark: 1
     player_left_flips_remaining{value>12}:
         left_flips_remaining:
             int: 12
             action: set
-        spark: 1
     player_spark{value>20}:
         spark:
             int: 20
