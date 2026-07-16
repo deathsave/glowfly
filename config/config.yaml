@@ -1225,10 +1225,10 @@ slides:
               font_name: pixelmix
               font_size: 42
               color: white
-    p3_base_score_slide:
+    p4_base_score_slide:
         widgets:
             - type: text
-              text: (player3|score)
+              text: (player4|score)
               number_grouping: true
               min_digits: 2
               font_size: 240
