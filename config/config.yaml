@@ -794,16 +794,16 @@ switches:
         number: cabinet_board-23
         tags: right_flipper
     s_trough_jam:
-        number: 1616-0
+        number: 1616-4
         type: NC
     s_trough1:
-        number: 1616-1
+        number: 1616-3
         type: NC
     s_trough2:
         number: 1616-2
         type: NC
     s_trough3:
-        number: 1616-3
+        number: 1616-1
         type: NC
     s_shooter_lane:
         number: 1616-5

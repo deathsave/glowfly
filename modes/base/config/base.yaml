@@ -18,15 +18,89 @@ state_machines:
             lit:
                 label: Start state
                 events_when_started: g_target_lit
-            hit:
+            hit_l1:
                 show_when_active:
                     show: g_target_light_show
+                    show_tokens:
+                        target_color: red
+                events_when_started: g_target_hit
+            hit_l2:
+                show_when_active:
+                    show: g_target_light_show
+                    show_tokens:
+                        target_color: orange
+                events_when_started: g_target_hit
+            hit_l3:
+                show_when_active:
+                    show: g_target_light_show
+                    show_tokens:
+                        target_color: gold
+                events_when_started: g_target_hit
+            hit_l4:
+                show_when_active:
+                    show: g_target_light_show
+                    show_tokens:
+                        target_color: green
+                events_when_started: g_target_hit
+            hit_l5:
+                show_when_active:
+                    show: g_target_light_show
+                    show_tokens:
+                        target_color: blue
+                events_when_started: g_target_hit
+            hit_l6:
+                show_when_active:
+                    show: g_target_light_show
+                    show_tokens:
+                        target_color: LightBlue
+                events_when_started: g_target_hit
+            hit_l7:
+                show_when_active:
+                    show: g_target_light_show
+                    show_tokens:
+                        target_color: purple
                 events_when_started: g_target_hit
         transitions:
             - source: lit
-              target: hit
-              events: g_target_shot_hit
-            - source: hit
+              target: hit_l1
+              events: g_target_shot_hit{current_player.target_x==1}
+            - source: hit_l1
+              target: lit
+              events: reset_glowfly_targets
+            - source: lit
+              target: hit_l2
+              events: g_target_shot_hit{current_player.target_x==2}
+            - source: hit_l2
+              target: lit
+              events: reset_glowfly_targets
+            - source: lit
+              target: hit_l3
+              events: g_target_shot_hit{current_player.target_x==3}
+            - source: hit_l3
+              target: lit
+              events: reset_glowfly_targets
+            - source: lit
+              target: hit_l4
+              events: g_target_shot_hit{current_player.target_x==4}
+            - source: hit_l4
+              target: lit
+              events: reset_glowfly_targets
+            - source: lit
+              target: hit_l5
+              events: g_target_shot_hit{current_player.target_x==5}
+            - source: hit_l5
+              target: lit
+              events: reset_glowfly_targets
+            - source: lit
+              target: hit_l6
+              events: g_target_shot_hit{current_player.target_x==6}
+            - source: hit_l6
+              target: lit
+              events: reset_glowfly_targets
+            - source: lit
+              target: hit_l7
+              events: g_target_shot_hit{current_player.target_x > 6}
+            - source: hit_l7
               target: lit
               events: reset_glowfly_targets
     l_target_status:
@@ -35,17 +109,92 @@ state_machines:
             lit:
                 label: Start state
                 events_when_started: l_target_lit
-            hit:
+            hit_l1:
                 show_when_active:
                     show: l_target_light_show
+                    show_tokens:
+                        target_color: red
+                events_when_started: l_target_hit
+            hit_l2:
+                show_when_active:
+                    show: l_target_light_show
+                    show_tokens:
+                        target_color: orange
+                events_when_started: l_target_hit
+            hit_l3:
+                show_when_active:
+                    show: l_target_light_show
+                    show_tokens:
+                        target_color: gold
+                events_when_started: l_target_hit
+            hit_l4:
+                show_when_active:
+                    show: l_target_light_show
+                    show_tokens:
+                        target_color: green
+                events_when_started: l_target_hit
+            hit_l5:
+                show_when_active:
+                    show: l_target_light_show
+                    show_tokens:
+                        target_color: blue
+                events_when_started: l_target_hit
+            hit_l6:
+                show_when_active:
+                    show: l_target_light_show
+                    show_tokens:
+                        target_color: LightBlue
+                events_when_started: l_target_hit
+            hit_l7:
+                show_when_active:
+                    show: l_target_light_show
+                    show_tokens:
+                        target_color: purple
                 events_when_started: l_target_hit
         transitions:
             - source: lit
-              target: hit
-              events: l_target_shot_hit
-            - source: hit
+              target: hit_l1
+              events: l_target_shot_hit{current_player.target_x==1}
+            - source: hit_l1
               target: lit
               events: reset_glowfly_targets
+            - source: lit
+              target: hit_l2
+              events: l_target_shot_hit{current_player.target_x==2}
+            - source: hit_l2
+              target: lit
+              events: reset_glowfly_targets
+            - source: lit
+              target: hit_l3
+              events: l_target_shot_hit{current_player.target_x==3}
+            - source: hit_l3
+              target: lit
+              events: reset_glowfly_targets
+            - source: lit
+              target: hit_l4
+              events: l_target_shot_hit{current_player.target_x==4}
+            - source: hit_l4
+              target: lit
+              events: reset_glowfly_targets
+            - source: lit
+              target: hit_l5
+              events: l_target_shot_hit{current_player.target_x==5}
+            - source: hit_l5
+              target: lit
+              events: reset_glowfly_targets
+            - source: lit
+              target: hit_l6
+              events: l_target_shot_hit{current_player.target_x==6}
+            - source: hit_l6
+              target: lit
+              events: reset_glowfly_targets
+            - source: lit
+              target: hit_l7
+              events: l_target_shot_hit{current_player.target_x > 6}
+            - source: hit_l7
+              target: lit
+              events: reset_glowfly_targets
+
     o_target_status:
         starting_state: lit
         states:
@@ -515,6 +664,7 @@ light_player:
 event_player:
     glowfly_shots_complete: reset_glowfly_targets
     fly_lanes_complete: reset_fly_lanes
+
 
 shows:
     only_2_right_flips_remaining:
@@ -1073,7 +1223,7 @@ variable_player:
         left_flips_remaining: 1
         right_flips_remaining: 1
     g_target_hit:
-        score: 500
+        score: 250 * current_player.target_x
         left_flips_remaining: 1
         right_flips_remaining: 1
         spark: 2
@@ -1082,7 +1232,7 @@ variable_player:
         left_flips_remaining: 1
         right_flips_remaining: 1
     l_target_hit:
-        score: 500
+        score: 250 * current_player.target_x
         left_flips_remaining: 1
         right_flips_remaining: 1
         spark: 2
@@ -1122,6 +1272,7 @@ variable_player:
     glowfly_shots_complete:
         score: 150000 * current_player.qp_x
         ramp_x: 1
+        target_x: 1
         curve_x: 1
         core_x: 1
         qp_x: 1
