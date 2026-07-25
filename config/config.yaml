@@ -917,12 +917,12 @@ coils:
         number: 1616-6
         default_pulse_ms: 20
     c_sling_left:
-        number: 1616-5
+        number: 1616-4
         default_pulse_ms: 10
         platform_settings:
             recycle_ms: 100
     c_sling_right:
-        number: 1616-4
+        number: 1616-5
         default_pulse_ms: 10
         platform_settings:
             recycle_ms: 100
