@@ -927,9 +927,9 @@ coils:
         platform_settings:
             recycle_ms: 100
     c_gate:
-        number: 1616-8
-        default_pulse_ms: 15
-        default_hold_power: .625
+        number: 1616-10
+        default_pulse_ms: 10
+        default_hold_power: .35
     c_lock_launcher:
         number: 1616-9
         default_pulse_ms: 25
