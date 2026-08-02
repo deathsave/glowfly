@@ -3,60 +3,60 @@
     - time: "+.33"
       lights:
           w:
-              color: "ff00ff"
+              color: (target_color)
               fade: 67ms
     - time: "+.34"
       lights:
           w:
-              color: "dd00dd"
+              color: off
               fade: 67ms
     - time: "+.33"
       lights:
           w:
-              color: "ff00ff"
+              color: (target_color)
               fade: 67ms
     - time: "+.34"
       lights:
           w:
-              color: "dd00dd"
+              color: off
               fade: 67ms
     - time: "+.33"
       lights:
           w:
-              color: "ff00ff"
+              color: (target_color)
               fade: 67ms
     - time: "+.34"
       lights:
           w:
-              color: "dd00dd"
+              color: off
               fade: 67ms
     - time: "+.33"
       lights:
           w:
-              color: "ff00ff"
+              color: (target_color)
               fade: 67ms
     - time: "+.34"
       lights:
           w:
-              color: "dd00dd"
+              color: off
               fade: 67ms
     - time: "+.33"
       lights:
           w:
-              color: "ff00ff"
+              color: (target_color)
               fade: 67ms
     - time: "+.34"
       lights:
           w:
-              color: "dd00dd"
+              color: off
               fade: 67ms
     - time: "+.33"
       lights:
           w:
-              color: "ff00ff"
+              color: (target_color)
               fade: 67ms
     - time: "+.34"
       lights:
           w:
-              color: "dd00dd"
+              color: off
               fade: 67ms
