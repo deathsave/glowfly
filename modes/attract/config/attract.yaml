@@ -54,7 +54,15 @@ show_player:
 light_player:
     mode_attract_started:
         bbox: "ffffff"
-    
+
+coil_player:
+    glow_coils_on:
+        glow_coil: on
+    glow_coils_off:
+        glow_coil: off
+      
+
+
 slides:
     dspc_logo_slide:
         widgets:

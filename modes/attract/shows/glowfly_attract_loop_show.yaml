@@ -248,6 +248,7 @@
     - time: "+1400ms"
       coils:
           c_trough_eject: pulse
+      events: glow_coils_on
     - time: "+700ms"
       lights:
           l_l_cab19: "ffffff"
@@ -318,6 +319,7 @@
     - time: "+560ms"
       lights:
           g: "ff00ff"
+      events: glow_coils_off
       sounds:
            glowfly_target1:
                action: play
