@@ -40,10 +40,10 @@ fast:
         boards:
             neuron:
                 model: FP-EXP-2000
-                led_fade_time: 96ms
+                led_fade_time: 0
             playfield:
                 model: FP-EXP-0081
-                led_fade_time: 96ms
+                led_fade_time: 0
         port: /dev/ttyACM1
         baud: 921600
         debug: False
