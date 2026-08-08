@@ -5,6 +5,7 @@
       lights:
           lamps: off
           cabinet: off
+          upper_right_block: LightBlue
     - time: "+67ms"
       lights:
           lamps: on

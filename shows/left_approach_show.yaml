@@ -1,37 +1,40 @@
 #show_version=6
 ##! show: left_approach_show
 
-    - time: "+20ms"
+    - time: "+10ms"
       lights:
           lamps: off
           cabinet: off
-    - time: "+20ms"
-      lights:
-          upper_left_block: on
-    - time: "+30ms"
+          upper_left_block: LightBlue
+    - time: "+67ms"
       lights:
           lamps: on
           cabinet: on
-    - time: "+30ms"
+    - time: "+67ms"
       lights:
           lamps: off
           cabinet: off
-    - time: "+20ms"
-      lights:
-          upper_left_block: on
-    - time: "+100ms"
-      lights:
-          lamps: off
-          cabinet: off
-    - time: "+300ms"
-      lights:
-          lamps: off
-          cabinet: off
-    - time: "+30ms"
+          upper_left_block: LightBlue
+    - time: "+134ms"
       lights:
           lamps: on
           cabinet: on
-    - time: "+30ms"
+    - time: "+67ms"
       lights:
           lamps: off
           cabinet: off
+          upper_left_block: LightBlue
+    - time: "+134ms"
+      lights:
+          lamps: on
+          cabinet: on
+    - time: "+67ms"
+      lights:
+          lamps: off
+          cabinet: off
+          upper_left_block: LightBlue
+    - time: "+67ms"
+      lights:
+          lamps: on
+          cabinet: on
+      events: relight_left_approach

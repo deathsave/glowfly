@@ -17,6 +17,10 @@ timers:
 variable_player:
     timer_decay_complete{current_player.spark > 0}:
         spark: -1
+    mode_glow_and_decay_started:
+        spark:
+            int: 20
+            action: set
 
 light_player:
     player_spark{value==20}:
